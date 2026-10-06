@@ -435,7 +435,11 @@ function vSes(){
 function corregir(q, r){
   if(q.tipo === "test") return r === 0;
   if(q.tipo === "vf") return r === q.v;
-  if(q.tipo === "hueco") return q.r.some(x => (/[A-Z]/.test(x) || x.length <= 3) ? norm(r) === norm(x) : sinAcentos(r) === sinAcentos(x));
+  if(q.tipo === "hueco") return q.r.some(x => {
+    if(q.cs) return norm(r) === norm(x);                                   // símbolos de unidades: importan mayúsculas
+    if(/^\d+$/.test(x)) return (String(r).match(/\d+/g) || []).join("") === x;   // fechas: «753 a.C.» vale como 753
+    return sinAcentos(r) === sinAcentos(x);
+  });
   if(q.tipo === "problema"){
     let txt = String(r).replace(/\s/g, "");
     if(/^-?\d{1,3}(\.\d{3})+$/.test(txt.replace(/[^\d.,-]/g, "")) && Math.abs(q.r) >= 1000) txt = txt.replace(/\./g, "");   // 3.000 = tres mil

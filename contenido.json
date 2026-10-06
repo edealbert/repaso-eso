@@ -15,6 +15,13 @@
 "lang": "ca",
 "color": "#c2410c",
 "icono": "📖"
+},
+{
+"id": "gh",
+"nombre": "Geografía e Historia",
+"lang": "es",
+"color": "#9a6b1f",
+"icono": "🏛️"
 }
 ],
 "temas": [
@@ -40,6 +47,13 @@
 "numero": "2",
 "titulo": "Capítol 2 · pàgines 27-40",
 "resumen": "Arriben a Londres: la casa de l'«amic», la nit al mercat i la botiga d'instruments."
+},
+{
+"id": "gh-roma",
+"asig": "gh",
+"numero": "1",
+"titulo": "La civilización romana",
+"resumen": "Orígenes, Monarquía, República e Imperio, el ejército, las ciudades y el arte romano."
 }
 ],
 "ejercicios": [
@@ -357,7 +371,8 @@
 ],
 "e": "S'escriu «kg», en minúscula i sense punt.",
 "id": "FQ1-029",
-"t": "fq-u1"
+"t": "fq-u1",
+"cs": true
 },
 {
 "tipo": "hueco",
@@ -397,7 +412,8 @@
 ],
 "e": "Ve d'un nom propi (Coulomb), per això va en majúscula.",
 "id": "FQ1-033",
-"t": "fq-u1"
+"t": "fq-u1",
+"cs": true
 },
 {
 "tipo": "hueco",
@@ -437,7 +453,8 @@
 ],
 "e": "En majúscula, perquè ve del nom d'Isaac Newton.",
 "id": "FQ1-037",
-"t": "fq-u1"
+"t": "fq-u1",
+"cs": true
 },
 {
 "tipo": "problema",
@@ -1569,6 +1586,743 @@
 "e": "«Amb una harmònica no es menja!», es queixava el senyor F.",
 "id": "VAL2-042",
 "t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "¿Junto a qué río surgió Roma?",
+"o": [
+"El Tíber",
+"El Po",
+"El Nilo",
+"El Danubio"
+],
+"e": "Los latinos levantaron poblados a orillas del Tíber, en las Siete Colinas.",
+"id": "GH1-001",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué pueblo vivía en el centro de la península itálica y fundó Roma?",
+"o": [
+"Los latinos",
+"Los etruscos",
+"Los griegos",
+"Los cartagineses"
+],
+"e": "Los etruscos estaban en el norte y los griegos en las colonias del sur.",
+"id": "GH1-002",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Por qué era tan importante el río Tíber para Roma?",
+"o": [
+"Era navegable y la comunicaba con la costa y el interior",
+"Era la frontera con Grecia",
+"Tenía oro en el fondo",
+"Protegía Roma de los volcanes"
+],
+"e": "Fue fundamental para la defensa, el aprovisionamiento y el comercio.",
+"id": "GH1-003",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "Según la leyenda, ¿quiénes fundaron Roma?",
+"o": [
+"Rómulo y Remo",
+"Julio César y Augusto",
+"Aníbal y Teodosio",
+"Tarquino y Octavio"
+],
+"e": "Eran gemelos y fueron amamantados por una loba.",
+"id": "GH1-004",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿En qué orden se suceden las etapas de la historia de Roma?",
+"o": [
+"Monarquía, República, Imperio",
+"República, Monarquía, Imperio",
+"Imperio, República, Monarquía",
+"Monarquía, Imperio, República"
+],
+"e": "Monarquía (s. VIII-VI a.C.), República (s. VI-I a.C.) e Imperio (27 a.C.-476 d.C.).",
+"id": "GH1-005",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué era el Senado?",
+"o": [
+"Una asamblea donde estaban representadas las familias más nobles (patricios)",
+"El ejército de Roma",
+"El templo principal",
+"Un tribunal de esclavos"
+],
+"e": "Durante la monarquía ayudaba al rey; en la República aconsejaba a los magistrados.",
+"id": "GH1-006",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cómo terminó la monarquía romana?",
+"o": [
+"Con una rebelión que expulsó al último rey, Tarquino el Soberbio",
+"Con la muerte de Rómulo",
+"Con la invasión de los bárbaros",
+"Con el asesinato de Julio César"
+],
+"e": "Ocurrió en el año 509 a.C. Tarquino era de origen etrusco.",
+"id": "GH1-007",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "En la República, ¿quiénes gobernaban en nombre del Senado y del pueblo?",
+"o": [
+"Los magistrados, elegidos en los comicios",
+"El rey",
+"El emperador",
+"Los gladiadores"
+],
+"e": "Los ciudadanos se reunían en asambleas o comicios y elegían a los magistrados.",
+"id": "GH1-008",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Por qué las conquistas crearon desigualdades en la República?",
+"o": [
+"Las riquezas quedaron en manos de unos pocos y había muchos esclavos",
+"Todos los romanos se hicieron ricos",
+"Se prohibió el comercio",
+"Los campesinos se quedaron con las tierras"
+],
+"e": "Los campesinos empeoraron y la población libre no encontraba trabajo.",
+"id": "GH1-009",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué título recibió Julio César en el 45 a.C.?",
+"o": [
+"Dictador perpetuo",
+"Emperador",
+"Augusto",
+"Rey"
+],
+"e": "Asumió los máximos poderes, pero fue asesinado en el 44 a.C.",
+"id": "GH1-010",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Quién fue el primer emperador de Roma?",
+"o": [
+"Octavio Augusto",
+"Julio César",
+"Rómulo",
+"Teodosio"
+],
+"e": "Era sobrino de César y en el 27 a.C. recibió el título de Augusto.",
+"id": "GH1-011",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué significa el título de «Augusto»?",
+"o": [
+"Elegido por los dioses",
+"Hijo del rey",
+"Jefe del ejército",
+"Padre de Roma"
+],
+"e": "Se lo concedieron en el 27 a.C.",
+"id": "GH1-012",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué poderes tenía el emperador?",
+"o": [
+"Todos: presidía el Senado, mandaba el ejército, dictaba leyes y era la máxima autoridad religiosa",
+"Solo el religioso",
+"Solo el militar",
+"Ninguno: mandaba el Senado"
+],
+"e": "El Senado siguió existiendo, pero solo ratificaba sus decisiones.",
+"id": "GH1-013",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué fue la Pax Romana?",
+"o": [
+"Un largo periodo de paz y esplendor en los siglos I y II d.C.",
+"Un tratado con Cartago",
+"El final de la monarquía",
+"Una guerra civil"
+],
+"e": "La paz se mantuvo gracias a un ejército disciplinado y una economía próspera.",
+"id": "GH1-014",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué es la romanización?",
+"o": [
+"La asimilación de la cultura y la forma de vida romanas por otros pueblos",
+"La conquista de Roma por los bárbaros",
+"La construcción del foro",
+"La división del Imperio"
+],
+"e": "Roma fundaba ciudades, construía calzadas y extendía el latín y el derecho romano.",
+"id": "GH1-015",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué lengua extendió Roma por su imperio?",
+"o": [
+"El latín",
+"El griego",
+"El etrusco",
+"El castellano"
+],
+"e": "Junto con las mismas leyes para todos: el derecho romano.",
+"id": "GH1-016",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué derechos tenían los no ciudadanos?",
+"o": [
+"Carecían de derechos",
+"Los mismos que los ciudadanos",
+"Solo podían votar",
+"Solo podían casarse"
+],
+"e": "Los ciudadanos podían participar en política, ir a juicio, casarse…",
+"id": "GH1-017",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cuál de estas NO fue una causa de la caída del Imperio romano?",
+"o": [
+"El descubrimiento de América",
+"La crisis económica",
+"Las invasiones de los bárbaros",
+"Los altos impuestos"
+],
+"e": "Las causas fueron la crisis económica, la religiosa, los impuestos, la desorganización política y militar y las invasiones.",
+"id": "GH1-018",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Por qué el cristianismo provocó una crisis religiosa?",
+"o": [
+"Predicaba valores contrarios a la esclavitud y a la divinización del emperador",
+"Prohibía comer pan",
+"Obligaba a ir a la guerra",
+"Defendía a los bárbaros"
+],
+"e": "Chocaba con dos bases del Imperio: los esclavos y el emperador como dios.",
+"id": "GH1-019",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué hizo el emperador Teodosio en el 395 d.C.?",
+"o": [
+"Dividió el Imperio en dos: Oriente y Occidente",
+"Fundó Constantinopla",
+"Conquistó Cartago",
+"Expulsó a los germanos"
+],
+"e": "Lo hizo para facilitar su defensa.",
+"id": "GH1-020",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cuál era la capital del Imperio romano de Oriente?",
+"o": [
+"Constantinopla (actual Estambul)",
+"Roma",
+"Atenas",
+"Cartago"
+],
+"e": "El de Occidente tenía su capital en Roma.",
+"id": "GH1-021",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Quién fue el último emperador romano de Occidente?",
+"o": [
+"Rómulo Augústulo",
+"Octavio Augusto",
+"Teodosio",
+"Tarquino el Soberbio"
+],
+"e": "Los germanos lo depusieron en el 476 d.C.",
+"id": "GH1-022",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Contra quién lucharon los romanos en las Guerras Púnicas?",
+"o": [
+"Contra los cartagineses",
+"Contra los griegos",
+"Contra los germanos",
+"Contra los etruscos"
+],
+"e": "Cartago, en el norte de África, era el estado más fuerte del Mediterráneo occidental.",
+"id": "GH1-023",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué general cartaginés estuvo a punto de conquistar Roma?",
+"o": [
+"Aníbal",
+"Julio César",
+"Augusto",
+"Teodosio"
+],
+"e": "Fue en la Segunda Guerra Púnica; al final las legiones romanas le vencieron.",
+"id": "GH1-024",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cuántos hombres tenía aproximadamente una legión?",
+"o": [
+"Unos 5.000",
+"Unos 500",
+"Unos 50.000",
+"Unos 100"
+],
+"e": "La legión era la unidad básica del ejército a partir del siglo I a.C.",
+"id": "GH1-025",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Para qué se dividió el Imperio en provincias?",
+"o": [
+"Para facilitar su gobierno",
+"Para separar a los esclavos",
+"Para hacer juegos",
+"Para dividir la herencia del emperador"
+],
+"e": "Cada provincia tenía un gobernador.",
+"id": "GH1-026",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cómo se llamaba la calle principal que iba de norte a sur?",
+"o": [
+"Cardo",
+"Decumano",
+"Foro",
+"Calzada"
+],
+"e": "El decumano iba de este a oeste.",
+"id": "GH1-027",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué había en el cruce del cardo y el decumano?",
+"o": [
+"El foro",
+"El circo",
+"El anfiteatro",
+"Las termas"
+],
+"e": "Era una plaza porticada donde se hacía la vida política, cultural y social.",
+"id": "GH1-028",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué era el capitolio?",
+"o": [
+"El templo principal de la ciudad",
+"El edificio del Senado",
+"Un mercado",
+"Un baño público"
+],
+"e": "Estaba en el foro, junto a la basílica y la curia.",
+"id": "GH1-029",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué eran las cloacas?",
+"o": [
+"El sistema de alcantarillado",
+"Unas fuentes",
+"Los baños",
+"Las murallas"
+],
+"e": "Las ciudades también tenían acueductos y fuentes públicas.",
+"id": "GH1-030",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué tomaron los romanos de los etruscos?",
+"o": [
+"El arco de medio punto y la bóveda de cañón",
+"Los órdenes dórico y jónico",
+"El mosaico",
+"El teatro"
+],
+"e": "De los griegos tomaron los órdenes clásicos.",
+"id": "GH1-031",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué órdenes arquitectónicos añadieron los romanos a los griegos?",
+"o": [
+"El toscano y el compuesto",
+"El dórico y el jónico",
+"El corintio y el gótico",
+"El románico y el barroco"
+],
+"e": "Los griegos ya tenían dórico, jónico y corintio.",
+"id": "GH1-032",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué materiales hacían tan sólida la arquitectura romana?",
+"o": [
+"El cemento y el hormigón",
+"La madera y la paja",
+"El hierro y el cristal",
+"El adobe"
+],
+"e": "Era una arquitectura práctica y monumental.",
+"id": "GH1-033",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿En qué edificio se celebraban los combates de gladiadores?",
+"o": [
+"En el anfiteatro",
+"En el circo",
+"En el teatro",
+"En las termas"
+],
+"e": "El anfiteatro tenía planta ovalada.",
+"id": "GH1-034",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Para qué servía el circo?",
+"o": [
+"Para las carreras de carros",
+"Para los combates de gladiadores",
+"Para las obras de teatro",
+"Para bañarse"
+],
+"e": "Las comedias y tragedias se hacían en el teatro.",
+"id": "GH1-035",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué se hacía en las termas?",
+"o": [
+"Baños de vapor, de agua caliente o fría, y masajes",
+"Carreras de carros",
+"Votaciones",
+"Juicios"
+],
+"e": "Hombres y mujeres iban por separado.",
+"id": "GH1-036",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué caracteriza a los retratos romanos?",
+"o": [
+"Su realismo y fidelidad a los rasgos de la persona",
+"Que eran figuras idealizadas",
+"Que eran de madera",
+"Que no tenían cara"
+],
+"e": "Hacían sobre todo bustos y esculturas ecuestres.",
+"id": "GH1-037",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Qué es una escultura ecuestre?",
+"o": [
+"La que representa a un personaje a caballo",
+"Un busto",
+"Un relieve en una columna",
+"Una estatua de un dios"
+],
+"e": "Mostraban, por ejemplo, a los emperadores montados a caballo.",
+"id": "GH1-038",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿Cómo se llaman las piecitas con las que se hacían los mosaicos?",
+"o": [
+"Teselas",
+"Ladrillos",
+"Sillares",
+"Azulejos"
+],
+"e": "Decoraban paredes, techos y suelos.",
+"id": "GH1-039",
+"t": "gh-roma"
+},
+{
+"tipo": "test",
+"p": "¿De dónde proceden muchas de las pinturas romanas que conservamos?",
+"o": [
+"De Pompeya y Herculano",
+"De Cartago",
+"De Constantinopla",
+"De Atenas"
+],
+"e": "Representaban mármoles, arquitecturas, plantas o escenas mitológicas y cotidianas.",
+"id": "GH1-040",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "En el primer milenio a.C., los etruscos vivían en el norte de la península itálica.",
+"v": true,
+"e": "Los latinos estaban en el centro y los griegos en el sur.",
+"id": "GH1-041",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "El primer rey de Roma fue Julio César.",
+"v": false,
+"e": "Fue Rómulo, aunque se piensa que los primeros reyes quizá nunca existieron.",
+"id": "GH1-042",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Durante la República, el Senado perdió importancia.",
+"v": false,
+"e": "Aumentó su importancia: aconsejaba a los magistrados y decidía la política exterior.",
+"id": "GH1-043",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Julio César fue asesinado por un grupo de partidarios de la República.",
+"v": true,
+"e": "Ocurrió en el 44 a.C. y empezó otra guerra civil.",
+"id": "GH1-044",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Durante el Imperio, los emperadores elegían a su sucesor y se crearon dinastías.",
+"v": true,
+"e": "Ejercían el cargo toda la vida y designaban sucesor.",
+"id": "GH1-045",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "En el Imperio, las mujeres tenían los mismos derechos que los hombres.",
+"v": false,
+"e": "Seguían careciendo de la mayoría de sus derechos.",
+"id": "GH1-046",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "El Imperio romano de Oriente cayó en el 476 d.C.",
+"v": false,
+"e": "El que cayó en el 476 fue el de Occidente; el de Oriente duró hasta 1453.",
+"id": "GH1-047",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Tras vencer a Cartago, Roma dominó las dos orillas del Mediterráneo.",
+"v": true,
+"e": "También incorporó Hispania y Grecia.",
+"id": "GH1-048",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Las calles de las ciudades romanas eran anchas y silenciosas.",
+"v": false,
+"e": "Estaban pavimentadas, pero eran estrechas y ruidosas.",
+"id": "GH1-049",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Los romanos daban más importancia a lo técnico y funcional que a lo estético.",
+"v": true,
+"e": "Fueron grandes ingenieros.",
+"id": "GH1-050",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "La escultura romana se hacía principalmente en mármol y bronce.",
+"v": true,
+"e": "Se colocaban en caminos, edificios públicos y casas ricas.",
+"id": "GH1-051",
+"t": "gh-roma"
+},
+{
+"tipo": "vf",
+"p": "Los mosaicos solo se ponían en los suelos.",
+"v": false,
+"e": "También decoraban paredes y techos.",
+"id": "GH1-052",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Según la tradición, Roma se fundó en el año ___ a.C.",
+"r": [
+"753"
+],
+"e": "Es el siglo VIII a.C.",
+"id": "GH1-053",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "La monarquía terminó en el año ___ a.C.",
+"r": [
+"509"
+],
+"e": "Con la expulsión de Tarquino el Soberbio.",
+"id": "GH1-054",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Octavio recibió el título de Augusto en el año ___ a.C.",
+"r": [
+"27"
+],
+"e": "Con él comienza el Imperio.",
+"id": "GH1-055",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "El Imperio romano de Occidente terminó en el año ___ d.C.",
+"r": [
+"476"
+],
+"e": "Los germanos depusieron a Rómulo Augústulo.",
+"id": "GH1-056",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "El Imperio romano de Oriente duró hasta el año ___.",
+"r": [
+"1453"
+],
+"e": "Resistió las invasiones casi mil años más.",
+"id": "GH1-057",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "La zona donde surgió Roma se conocía como las Siete ___.",
+"r": [
+"Colinas"
+],
+"e": "Allí los latinos levantaron varios poblados.",
+"id": "GH1-058",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Las familias más nobles de Roma se llamaban ___.",
+"r": [
+"patricios"
+],
+"e": "Estaban representadas en el Senado.",
+"id": "GH1-059",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Las asambleas de ciudadanos en la República se llamaban ___.",
+"r": [
+"comicios"
+],
+"e": "En ellas se elegía a los magistrados.",
+"id": "GH1-060",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Las leyes comunes de todo el Imperio formaban el ___ romano.",
+"r": [
+"derecho"
+],
+"e": "Fue una de las claves de la romanización.",
+"id": "GH1-061",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Las guerras entre Roma y Cartago se llaman guerras ___.",
+"r": [
+"púnicas",
+"punicas"
+],
+"e": "Fueron tres, en los siglos III y II a.C.",
+"id": "GH1-062",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "La calle principal que iba de este a oeste se llamaba ___.",
+"r": [
+"decumano"
+],
+"e": "La de norte a sur era el cardo.",
+"id": "GH1-063",
+"t": "gh-roma"
+},
+{
+"tipo": "hueco",
+"p": "Los romanos construyeron ___ para comunicar sus ciudades.",
+"r": [
+"calzadas"
+],
+"e": "Eran caminos empedrados.",
+"id": "GH1-064",
+"t": "gh-roma"
 }
 ],
 "tarjetas": [
@@ -2003,6 +2757,180 @@
 "t": "val-llibre2",
 "f": "Qui és… L'amo de la botiga d'instruments?",
 "b": "Home despentinat que els paga amb una harmònica."
+},
+{
+"id": "GH1-T01",
+"t": "gh-roma",
+"f": "Patricios",
+"b": "Las familias más nobles de Roma, representadas en el Senado."
+},
+{
+"id": "GH1-T02",
+"t": "gh-roma",
+"f": "Senado",
+"b": "Asamblea de patricios. Aconsejaba al rey, después a los magistrados, y en el Imperio solo ratificaba al emperador."
+},
+{
+"id": "GH1-T03",
+"t": "gh-roma",
+"f": "Comicios",
+"b": "Asambleas de ciudadanos que elegían a los magistrados en la República."
+},
+{
+"id": "GH1-T04",
+"t": "gh-roma",
+"f": "Magistrados",
+"b": "Gobernaban en la República en nombre del Senado y del pueblo de Roma."
+},
+{
+"id": "GH1-T05",
+"t": "gh-roma",
+"f": "Dictador perpetuo",
+"b": "Título de Julio César en el 45 a.C.: tenía los máximos poderes."
+},
+{
+"id": "GH1-T06",
+"t": "gh-roma",
+"f": "Augusto",
+"b": "«Elegido por los dioses». Título de Octavio en el 27 a.C.; primer emperador."
+},
+{
+"id": "GH1-T07",
+"t": "gh-roma",
+"f": "Pax Romana",
+"b": "Siglos I y II d.C.: paz y máximo esplendor del Imperio."
+},
+{
+"id": "GH1-T08",
+"t": "gh-roma",
+"f": "Romanización",
+"b": "Asimilación de la cultura romana (latín, derecho, ciudades…) por otros pueblos."
+},
+{
+"id": "GH1-T09",
+"t": "gh-roma",
+"f": "Ciudadanos y no ciudadanos",
+"b": "Los ciudadanos tenían todos los derechos; los no ciudadanos, ninguno."
+},
+{
+"id": "GH1-T10",
+"t": "gh-roma",
+"f": "Causas de la caída del Imperio",
+"b": "Crisis económica, crisis religiosa (cristianismo), altos impuestos, desorganización política y militar e invasiones bárbaras."
+},
+{
+"id": "GH1-T11",
+"t": "gh-roma",
+"f": "395 d.C.",
+"b": "Teodosio divide el Imperio: Oriente (Constantinopla) y Occidente (Roma)."
+},
+{
+"id": "GH1-T12",
+"t": "gh-roma",
+"f": "476 d.C.",
+"b": "Fin del Imperio de Occidente: los germanos deponen a Rómulo Augústulo."
+},
+{
+"id": "GH1-T13",
+"t": "gh-roma",
+"f": "Guerras Púnicas",
+"b": "Tres guerras contra Cartago (s. III-II a.C.). En la segunda, Aníbal casi conquista Roma."
+},
+{
+"id": "GH1-T14",
+"t": "gh-roma",
+"f": "Legión",
+"b": "Unidad básica del ejército romano: unos 5.000 hombres."
+},
+{
+"id": "GH1-T15",
+"t": "gh-roma",
+"f": "Provincia",
+"b": "Territorio del Imperio gobernado por un gobernador."
+},
+{
+"id": "GH1-T16",
+"t": "gh-roma",
+"f": "Cardo y decumano",
+"b": "Calles principales: el cardo va de norte a sur y el decumano de este a oeste."
+},
+{
+"id": "GH1-T17",
+"t": "gh-roma",
+"f": "Foro",
+"b": "Plaza porticada en el centro de la ciudad: vida política, social y cultural."
+},
+{
+"id": "GH1-T18",
+"t": "gh-roma",
+"f": "Basílica, curia y capitolio",
+"b": "Edificios del foro; el capitolio es el templo principal."
+},
+{
+"id": "GH1-T19",
+"t": "gh-roma",
+"f": "Acueducto",
+"b": "Construcción para llevar agua a la ciudad."
+},
+{
+"id": "GH1-T20",
+"t": "gh-roma",
+"f": "Cloacas",
+"b": "Sistema de alcantarillado."
+},
+{
+"id": "GH1-T21",
+"t": "gh-roma",
+"f": "Termas",
+"b": "Baños públicos de vapor, agua caliente y fría, y masajes."
+},
+{
+"id": "GH1-T22",
+"t": "gh-roma",
+"f": "Anfiteatro",
+"b": "Edificio de planta ovalada para combates de gladiadores."
+},
+{
+"id": "GH1-T23",
+"t": "gh-roma",
+"f": "Circo",
+"b": "Edificio para las carreras de carros."
+},
+{
+"id": "GH1-T24",
+"t": "gh-roma",
+"f": "Teatro",
+"b": "Edificio para representar comedias y tragedias."
+},
+{
+"id": "GH1-T25",
+"t": "gh-roma",
+"f": "Herencia etrusca en el arte",
+"b": "Arco de medio punto y bóveda de cañón."
+},
+{
+"id": "GH1-T26",
+"t": "gh-roma",
+"f": "Órdenes arquitectónicos",
+"b": "De los griegos: dórico, jónico y corintio. Los romanos añadieron el toscano y el compuesto."
+},
+{
+"id": "GH1-T27",
+"t": "gh-roma",
+"f": "Busto",
+"b": "Escultura de la cabeza y parte del pecho."
+},
+{
+"id": "GH1-T28",
+"t": "gh-roma",
+"f": "Escultura ecuestre",
+"b": "Escultura de un personaje a caballo."
+},
+{
+"id": "GH1-T29",
+"t": "gh-roma",
+"f": "Teselas",
+"b": "Piecitas con las que se hacen los mosaicos."
 }
 ],
 "texto": {
@@ -2155,6 +3083,111 @@
 },
 {
 "x": "Al final del dia, l'amo els paga amb una harmònica. El senyor F. està furiós, però el Ben li diu que la tocarà ell. Just llavors el despertador marca les set: un homenet ix per la finestreta cridant. La Clàudia s'ha de quedar amb la intriga fins al dimarts següent, quan el senyor F. li prepararà un pastís de formatge."
+}
+],
+"gh-roma": [
+{
+"h": 1,
+"x": "La civilización romana"
+},
+{
+"h": 1,
+"x": "1. Orígenes de Roma"
+},
+{
+"x": "La ciudad de Roma, en la península itálica, fue la cuna de la antigua civilización romana. En el primer milenio antes de Cristo vivían en la península distintos pueblos: los etruscos en el norte, los latinos en el centro y los griegos, que habían fundado colonias en el sur."
+},
+{
+"x": "En el siglo séptimo antes de Cristo, el pueblo latino levantó varios poblados a orillas del río Tíber, en una zona conocida como las Siete Colinas. De la unión de estos poblados surgió la ciudad de Roma. El Tíber era navegable y fue fundamental para la defensa, el aprovisionamiento y el comercio, porque comunicaba la ciudad con la costa y con el interior. Además, Roma estaba en el cruce de las rutas entre el norte y el sur del mar Tirreno."
+},
+{
+"x": "A partir del siglo sexto antes de Cristo, Roma se lanzó a la conquista de otros territorios: primero la península itálica y después zonas de Europa, Asia y África. Según la leyenda más famosa, la ciudad fue fundada por Rómulo y Remo, dos gemelos amamantados por una loba."
+},
+{
+"h": 1,
+"x": "2. Etapas de la historia de Roma"
+},
+{
+"x": "A partir de la fundación de Roma, en el año 753 antes de Cristo, la historia romana se divide en tres periodos: Monarquía, República e Imperio."
+},
+{
+"h": 1,
+"x": "La Monarquía"
+},
+{
+"x": "Va desde el siglo octavo hasta el siglo sexto antes de Cristo. Los poblados independientes se unieron en un único estado. El primer rey fue Rómulo, aunque se piensa que los primeros reyes quizá nunca existieron. El rey estaba asistido por el Senado, una asamblea en la que estaban representadas las familias más nobles, los patricios. La monarquía terminó en el año 509 antes de Cristo, con una rebelión que expulsó al último rey, Tarquino el Soberbio, de origen etrusco."
+},
+{
+"h": 1,
+"x": "La República"
+},
+{
+"x": "Va desde el siglo sexto hasta el siglo primero antes de Cristo. Los ciudadanos se reunían en asambleas o comicios y elegían a los magistrados, que gobernaban en nombre del Senado y del pueblo de Roma. El Senado aumentó su importancia: aconsejaba a los magistrados y decidía la política exterior."
+},
+{
+"x": "Las conquistas trajeron un gran desarrollo económico, pero las riquezas quedaron en manos de unos pocos. Los ricos compraron tierras en las regiones conquistadas, los campesinos empeoraron y, como había muchos esclavos, la población libre no encontraba trabajo. Además, el Senado controlaba mal a los gobernadores de las provincias y se extendió la corrupción."
+},
+{
+"x": "En el siglo primero antes de Cristo empezaron las guerras civiles. Julio César venció a sus rivales y en el año 45 antes de Cristo fue proclamado dictador perpetuo, pero un grupo de partidarios de la República lo asesinó en el 44. Su sobrino Octavio se hizo con el poder y en el año 27 antes de Cristo recibió el título de Augusto, que significa elegido por los dioses."
+},
+{
+"h": 1,
+"x": "El Imperio"
+},
+{
+"x": "Va desde el año 27 antes de Cristo hasta el 476 después de Cristo. Fue la época de mayor importancia y extensión de Roma. Augusto eliminó a sus enemigos y trajo la paz. Como emperador tenía todos los poderes: presidía el Senado, era jefe supremo del ejército y máxima autoridad religiosa, dirigía la política exterior, dictaba leyes y decidía los tributos. El Senado solo ratificaba sus decisiones. Los emperadores gobernaban toda la vida y elegían a su sucesor, por lo que se formaron dinastías."
+},
+{
+"x": "En los siglos primero y segundo después de Cristo, la llamada Pax Romana, Roma alcanzó su máximo esplendor gracias a un ejército disciplinado y una economía próspera. Se intensificó la romanización: otros pueblos adoptaron la cultura y la forma de vida romanas. Roma fundó ciudades, construyó calzadas, extendió el latín y aplicó en todo el Imperio el derecho romano."
+},
+{
+"x": "La población se dividía en ciudadanos, que tenían todos los derechos, y no ciudadanos, que carecían de ellos. Al principio solo eran ciudadanos los habitantes de Roma; después, también los de la península itálica y de algunas ciudades de otras provincias. Las mujeres seguían sin la mayoría de sus derechos."
+},
+{
+"h": 1,
+"x": "El final del Imperio"
+},
+{
+"x": "A partir del siglo tercero después de Cristo, varios problemas debilitaron el Imperio: la crisis económica, porque faltaba mano de obra para el campo; la crisis religiosa, por la difusión del cristianismo, contrario a la esclavitud y a la divinización del emperador; los altos impuestos para pagar a funcionarios y soldados; la desorganización política y militar, con emperadores asesinados y ejércitos que obedecían a su general; y las invasiones de los pueblos bárbaros, como germanos, hunos y godos."
+},
+{
+"x": "En el año 395 después de Cristo, el emperador Teodosio dividió el Imperio en dos: el de Oriente, con capital en Constantinopla, la actual Estambul, y el de Occidente, con capital en Roma. En el 476, los germanos depusieron al último emperador de Occidente, Rómulo Augústulo. El Imperio de Oriente resistió hasta el año 1453."
+},
+{
+"h": 1,
+"x": "3. Guerras y expansión. El ejército romano"
+},
+{
+"x": "Al principio de la República, Roma conquistó toda la península itálica. En los siglos tercero y segundo antes de Cristo se enfrentó a Cartago, en el norte de África, en tres guerras: las Guerras Púnicas. En la segunda, el general Aníbal estuvo a punto de conquistar Roma, pero las legiones romanas lo vencieron. Roma dominó entonces las dos orillas del Mediterráneo e incorporó Hispania y Grecia."
+},
+{
+"x": "Desde el siglo primero antes de Cristo el ejército se hizo profesional, con la legión, de unos cinco mil hombres, como unidad básica. El Imperio se dividió en provincias, cada una con un gobernador. Tras conquistar un territorio, empezaba la romanización."
+},
+{
+"h": 1,
+"x": "4. Las ciudades romanas"
+},
+{
+"x": "Las ciudades tenían planta rectangular y calles paralelas organizadas a partir de dos ejes: el cardo, de norte a sur, y el decumano, de este a oeste. En su cruce estaba el foro, una plaza porticada donde se desarrollaba la vida política, cultural y social, con la basílica, la curia y el capitolio, el templo principal. Alrededor había mercados y tiendas."
+},
+{
+"x": "Las ciudades tenían acueductos, fuentes públicas y cloacas, un sistema de alcantarillado. Los ciudadanos ricos pagaban teatros, anfiteatros, circos y termas. Las calles estaban pavimentadas, con aceras y pasos de peatones, pero eran estrechas y ruidosas."
+},
+{
+"h": 1,
+"x": "5. El arte romano"
+},
+{
+"x": "De los etruscos tomaron el arco de medio punto y la bóveda de cañón; de los griegos, los órdenes dórico, jónico y corintio, a los que añadieron el toscano y el compuesto. Fueron grandes ingenieros y dieron más importancia a lo técnico y funcional que a lo estético. Su arte estaba al servicio del Estado y de la ciudad."
+},
+{
+"x": "Su arquitectura era práctica, monumental y sólida gracias al cemento y al hormigón. En las termas se tomaban baños de vapor, de agua caliente o fría y se recibían masajes; en el anfiteatro, de planta ovalada, había combates de gladiadores; en el teatro se representaban comedias y tragedias; y en el circo se hacían carreras de carros."
+},
+{
+"x": "La escultura se hacía en mármol y bronce. Copiaron modelos griegos, pero sobre todo hicieron retratos realistas: bustos y esculturas ecuestres, de personajes a caballo. Los relieves de arcos de triunfo y columnas mostraban victorias militares y escenas religiosas y cotidianas."
+},
+{
+"x": "Las paredes se decoraban con pinturas, muchas conservadas en Pompeya y Herculano, que imitaban mármoles o mostraban arquitecturas, plantas y escenas religiosas, mitológicas o cotidianas. Los mosaicos, hechos con pequeñas piezas llamadas teselas, decoraban paredes, techos y suelos."
 }
 ]
 }
