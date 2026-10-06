@@ -32,6 +32,14 @@
 "numero": "1",
 "titulo": "Capítol 1 · pàgines 7-25",
 "resumen": "La Clàudia troba el moneder del senyor F. i descobreix la seua història amb el Ben."
+},
+{
+"id": "val-llibre2",
+"asig": "val",
+"libro": "Els dimarts del senyor F.",
+"numero": "2",
+"titulo": "Capítol 2 · pàgines 27-40",
+"resumen": "Arriben a Londres: la casa de l'«amic», la nit al mercat i la botiga d'instruments."
 }
 ],
 "ejercicios": [
@@ -1079,6 +1087,488 @@
 "e": "Diu que li costa molt.",
 "id": "VAL1-046",
 "t": "val-llibre1"
+},
+{
+"tipo": "test",
+"p": "Per què la Clàudia no va poder tornar a casa del senyor F. abans de dimarts?",
+"o": [
+"Tenia moltes coses a fer i el pare li va dir que havien quedat el dimarts",
+"El senyor F. estava malalt",
+"Estava castigada",
+"El senyor F. se n'havia anat de viatge"
+],
+"e": "Anglès, hoquei, comprar vambes, mercat, cine… i el pare li deia que havia de tindre paciència.",
+"id": "VAL2-001",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Quin esport practica la Clàudia els dijous?",
+"o": [
+"Hoquei",
+"Bàsquet",
+"Futbol",
+"Natació"
+],
+"e": "Els dijous tenia entrenament d'hoquei.",
+"id": "VAL2-002",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Per a què va anar el divendres amb el pare?",
+"o": [
+"A comprar-se unes vambes",
+"Al metge",
+"A la biblioteca",
+"Al mercat"
+],
+"e": "Els pares es queixaven que les destrossava.",
+"id": "VAL2-003",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què hi havia per berenar aquest dimarts?",
+"o": [
+"Un pastís allargat amb sucre i llimona i suc de taronja",
+"Galetes de pistatxo",
+"Pastís de formatge",
+"Xocolate amb xurros"
+],
+"e": "Era un pastís de pa de pessic amb dibuixos de xocolate.",
+"id": "VAL2-004",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Quin objecte curiós hi havia al costat de la gerra?",
+"o": [
+"Un rellotge despertador amb campanetes i una finestreta",
+"Un teatret de paper",
+"Una ràdio antiga",
+"Una bola de vidre"
+],
+"e": "Un despertador antic envoltat de campanetes de diferents mides.",
+"id": "VAL2-005",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Per a qui havia fet el Ben aquell despertador?",
+"o": [
+"Per al seu fill, el Joaquim",
+"Per al senyor F.",
+"Per a la Clàudia",
+"Per a la seua mare"
+],
+"e": "Quan el Joaquim es va fer gran, el van regalar al senyor F. i la seua dona.",
+"id": "VAL2-006",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Fins a quina hora es pot quedar la Clàudia?",
+"o": [
+"Fins a les set",
+"Fins a les sis",
+"Fins a les huit",
+"Fins a les nou"
+],
+"e": "Deures en tenia, però eren fàcils.",
+"id": "VAL2-007",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "On era la casa de l'amic del Ben a Londres?",
+"o": [
+"En un suburbi lluny del centre",
+"Al costat del Covent Garden",
+"Davant del conservatori",
+"Al port"
+],
+"e": "La parada de metro estava a vint minuts a peu.",
+"id": "VAL2-008",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Com anaven en metro el senyor F. i el Ben?",
+"o": [
+"Colant-se sense pagar",
+"Amb un bitllet que els van regalar",
+"Amb diners que havien guanyat",
+"Mai no l'agafaven"
+],
+"e": "En els autobusos era més difícil colar-se.",
+"id": "VAL2-009",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Qui va obrir la porta de la casa de Londres?",
+"o": [
+"Una nena",
+"L'amic del Ben",
+"Un policia",
+"Una àvia"
+],
+"e": "Va mirar-los amb uns ulls molt oberts.",
+"id": "VAL2-010",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "A qui s'assembla, segons el senyor F., el pare de la nena?",
+"o": [
+"Als ogres dels contes que li contava el seu padrí",
+"A un rei",
+"Al seu propi pare",
+"A un mariner"
+],
+"e": "Era alt i forçut, amb uns bigotassos i uns braços enormes.",
+"id": "VAL2-011",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què va descobrir el senyor F. sobre l'«amic» del Ben?",
+"o": [
+"Que no el coneixia de res: era un conegut d'uns coneguts",
+"Que era el seu oncle",
+"Que s'havia mort",
+"Que s'havia mudat a Nova York"
+],
+"e": "El Ben l'havia trobat en una estació on havia passat una nit.",
+"id": "VAL2-012",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què li va saber més greu al senyor F.?",
+"o": [
+"Que el Ben no li haguera dit la veritat",
+"Haver-se quedat sense aixopluc",
+"Haver de dormir al carrer",
+"Que plouera"
+],
+"e": "El Ben li va demanar perdó i li va prometre que no ho tornaria a fer.",
+"id": "VAL2-013",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Quina va ser la «gran idea» del Ben quan es va posar a ploure?",
+"o": [
+"Anar al Covent Garden, el mercat més important de Londres",
+"Tornar a França",
+"Anar a la policia",
+"Dormir en una església"
+],
+"e": "Ho havia llegit en els llibres de la tia de la seua mare.",
+"id": "VAL2-014",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Per què no van poder entrar al mercat aquella nit?",
+"o": [
+"Era tard i ja estava tancat",
+"Els van fer fora",
+"No el van trobar",
+"Era diumenge"
+],
+"e": "Es van arraulir sota la marquesina d'una tenda.",
+"id": "VAL2-015",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què van aconseguir per menjar al mercat l'endemà?",
+"o": [
+"Dos panets, tres pomes i un tros de formatge",
+"Un pernil sencer",
+"Una cistella de taronges",
+"Un plat de sopa calenta"
+],
+"e": "Ho van aconseguir posant cara de pena davant de les parades.",
+"id": "VAL2-016",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què vol dir que el Ben portava «les ulleres de color rosa»?",
+"o": [
+"Que ho veia tot de manera optimista",
+"Que no hi veia bé",
+"Que portava unes ulleres noves",
+"Que estava trist"
+],
+"e": "El Ben s'estimava més agafar-se les coses pel cantó bo.",
+"id": "VAL2-017",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què digué el Ben que havien d'aconseguir per a dormir calents?",
+"o": [
+"Una harmònica",
+"Una manta",
+"Diners",
+"Un mapa"
+],
+"e": "El senyor F. no entenia per a què.",
+"id": "VAL2-018",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Per què volia trobar el conservatori de música?",
+"o": [
+"Perquè a prop hi hauria botigues d'instruments",
+"Per a estudiar música",
+"Per a dormir-hi",
+"Per a trobar l'amic de la tia"
+],
+"e": "«Prop del conservatori hi haurà botigues d'instruments, ja ho veuràs!»",
+"id": "VAL2-019",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Quins serveis va oferir el Ben a l'amo de la botiga?",
+"o": [
+"Adobar i afinar instruments",
+"Netejar el terra",
+"Vendre partitures",
+"Cantar al carrer"
+],
+"e": "El senyor F. li va preguntar si en sabia i el Ben va dir que no.",
+"id": "VAL2-020",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què va netejar el senyor F.?",
+"o": [
+"Una trompeta, un trombó i un cornetí",
+"Un violí i un piano",
+"Les finestres de la botiga",
+"Les partitures"
+],
+"e": "Els va deixar ben lluents.",
+"id": "VAL2-021",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què va arreglar el Ben?",
+"o": [
+"Un instrument de corda que pensava que era una bandúrria",
+"El rellotge de la botiga",
+"Un piano",
+"La porta"
+],
+"e": "Després va resultar que era una mandolina.",
+"id": "VAL2-022",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "On va anar l'amo de la botiga a les dotze?",
+"o": [
+"Al pub a dinar",
+"Al banc",
+"A sa casa",
+"Al mercat"
+],
+"e": "Va tornar de més bon humor: havia begut molta cervesa.",
+"id": "VAL2-023",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Com els va pagar l'amo de la botiga?",
+"o": [
+"Amb una harmònica",
+"Amb diners",
+"Amb menjar",
+"No els va pagar res"
+],
+"e": "El Ben va triar una harmònica d'un calaix ple d'instruments petits.",
+"id": "VAL2-024",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Per què havia triat el Ben la mandolina?",
+"o": [
+"Perquè un amic del seu pare en tenia una i l'havia vist tocar",
+"Perquè era la més cara",
+"Perquè era la més fàcil",
+"Perquè l'amo l'hi va dir"
+],
+"e": "Per això la va escollir per a arreglar-la.",
+"id": "VAL2-025",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què passa quan són les set en punt?",
+"o": [
+"Ix un homenet per una finestreta del rellotge cridant «ei, ei!»",
+"Sona una cançó",
+"Cau una pilota",
+"S'encén un llum vermell"
+],
+"e": "El senyor F. prem el botó i l'homenet es fica dins.",
+"id": "VAL2-026",
+"t": "val-llibre2"
+},
+{
+"tipo": "test",
+"p": "Què li prepararà el senyor F. per al dimarts següent?",
+"o": [
+"Un pastís de formatge",
+"Galetes de pistatxo",
+"Una coca de llima",
+"Un pastís de xocolate"
+],
+"e": "A la Clàudia li encanta el formatge.",
+"id": "VAL2-027",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "La Clàudia va passar tota la setmana pensant en la història del Ben i el senyor F.",
+"v": true,
+"e": "Hi havia donat voltes tota la setmana.",
+"id": "VAL2-028",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "El senyor F. s'havia oblidat que la Clàudia havia de vindre.",
+"v": false,
+"e": "Va trigar una mica a obrir, però se'n recordava molt bé.",
+"id": "VAL2-029",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "La dona del senyor F. trobava molt graciós el despertador del Ben.",
+"v": true,
+"e": "Sempre li havia fet molta gràcia.",
+"id": "VAL2-030",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "A l'arribar a la casa, el senyor F. entenia perfectament l'anglès.",
+"v": false,
+"e": "No entenia res; va aprendre l'anglès de pressa per les males estones.",
+"id": "VAL2-031",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "L'home de la casa es va posar furiós i va acabar donant un cop de porta.",
+"v": true,
+"e": "Es va posar vermell, gairebé morat.",
+"id": "VAL2-032",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "Si la policia els haguera agafat, segurament els haurien posat en un internat.",
+"v": true,
+"e": "Perquè eren menors d'edat.",
+"id": "VAL2-033",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "Al mercat, a primera hora, van descarregar molts camions.",
+"v": false,
+"e": "Es van adormir i, quan es van despertar, ja no quedava cap camió per descarregar.",
+"id": "VAL2-034",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "El Ben sabia adobar instruments perquè n'havia estudiat.",
+"v": false,
+"e": "No en sabia, però deia que no devia ser gaire complicat.",
+"id": "VAL2-035",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "Els pubs són una mena de bars.",
+"v": true,
+"e": "Hi serveixen begudes alcohòliques i plats senzills.",
+"id": "VAL2-036",
+"t": "val-llibre2"
+},
+{
+"tipo": "vf",
+"p": "El senyor F. sabia tocar l'harmònica.",
+"v": false,
+"e": "No en tenia ni idea, però al final la va tocar.",
+"id": "VAL2-037",
+"t": "val-llibre2"
+},
+{
+"tipo": "hueco",
+"p": "El despertador del Ben té una finestreta com la dels rellotges de ___.",
+"r": [
+"cucut"
+],
+"e": "Però més menuda.",
+"id": "VAL2-038",
+"t": "val-llibre2"
+},
+{
+"tipo": "hueco",
+"p": "El fill del Ben es deia ___.",
+"r": [
+"Joaquim"
+],
+"e": "El despertador era per a ell.",
+"id": "VAL2-039",
+"t": "val-llibre2"
+},
+{
+"tipo": "hueco",
+"p": "El mercat més important de Londres era el Covent ___.",
+"r": [
+"Garden"
+],
+"e": "Era un mercat cobert.",
+"id": "VAL2-040",
+"t": "val-llibre2"
+},
+{
+"tipo": "hueco",
+"p": "L'instrument que va arreglar el Ben no era una bandúrria, sinó una ___.",
+"r": [
+"mandolina"
+],
+"e": "Ho va aclarir el Ben després.",
+"id": "VAL2-041",
+"t": "val-llibre2"
+},
+{
+"tipo": "hueco",
+"p": "L'amo de la botiga els va pagar amb una ___.",
+"r": [
+"harmònica",
+"harmonica"
+],
+"e": "«Amb una harmònica no es menja!», es queixava el senyor F.",
+"id": "VAL2-042",
+"t": "val-llibre2"
 }
 ],
 "tarjetas": [
@@ -1363,6 +1853,156 @@
 "t": "val-llibre1",
 "f": "Qui és… La Dora?",
 "b": "La dona del Nikos."
+},
+{
+"id": "VAL2-T01",
+"t": "val-llibre2",
+"f": "donar voltes (a una cosa)",
+"b": "Pensar-hi molt."
+},
+{
+"id": "VAL2-T02",
+"t": "val-llibre2",
+"f": "atrotinat/atrotinada",
+"b": "Vell i en mal estat."
+},
+{
+"id": "VAL2-T03",
+"t": "val-llibre2",
+"f": "cangueli",
+"b": "Por."
+},
+{
+"id": "VAL2-T04",
+"t": "val-llibre2",
+"f": "estrambòtic/estrambòtica",
+"b": "Estrany, extravagant."
+},
+{
+"id": "VAL2-T05",
+"t": "val-llibre2",
+"f": "enfilall",
+"b": "Sèrie de coses posades una darrere de l'altra."
+},
+{
+"id": "VAL2-T06",
+"t": "val-llibre2",
+"f": "suburbi",
+"b": "Barri als afores d'una ciutat."
+},
+{
+"id": "VAL2-T07",
+"t": "val-llibre2",
+"f": "colar-se",
+"b": "Entrar sense pagar o sense permís."
+},
+{
+"id": "VAL2-T08",
+"t": "val-llibre2",
+"f": "esverat/esverada",
+"b": "Molt alterat; amb els cabells esverats, despentinada."
+},
+{
+"id": "VAL2-T09",
+"t": "val-llibre2",
+"f": "forçut/forçuda",
+"b": "Que té molta força."
+},
+{
+"id": "VAL2-T10",
+"t": "val-llibre2",
+"f": "grunyir",
+"b": "Fer un so de queixa en lloc de parlar."
+},
+{
+"id": "VAL2-T11",
+"t": "val-llibre2",
+"f": "immutar-se",
+"b": "Mostrar alguna emoció; «no s'immutà»: es quedà tranquil."
+},
+{
+"id": "VAL2-T12",
+"t": "val-llibre2",
+"f": "guspira",
+"b": "Espurna; «li saltaven guspires dels ulls»: estava furiós."
+},
+{
+"id": "VAL2-T13",
+"t": "val-llibre2",
+"f": "aixopluc",
+"b": "Lloc on protegir-se de la pluja o del fred."
+},
+{
+"id": "VAL2-T14",
+"t": "val-llibre2",
+"f": "arraulir-se",
+"b": "Encongir-se per protegir-se del fred."
+},
+{
+"id": "VAL2-T15",
+"t": "val-llibre2",
+"f": "fer figa (les cames)",
+"b": "Fallar, no aguantar-se dret."
+},
+{
+"id": "VAL2-T16",
+"t": "val-llibre2",
+"f": "ulleres de color rosa",
+"b": "Veure-ho tot de manera optimista."
+},
+{
+"id": "VAL2-T17",
+"t": "val-llibre2",
+"f": "trencacolls",
+"b": "Situació perillosa o complicada."
+},
+{
+"id": "VAL2-T18",
+"t": "val-llibre2",
+"f": "garbuix",
+"b": "Desordre, barreja de coses."
+},
+{
+"id": "VAL2-T19",
+"t": "val-llibre2",
+"f": "fortor",
+"b": "Olor molt forta i desagradable."
+},
+{
+"id": "VAL2-T20",
+"t": "val-llibre2",
+"f": "adobar",
+"b": "Arreglar una cosa trencada."
+},
+{
+"id": "VAL2-T21",
+"t": "val-llibre2",
+"f": "ficar-se una cosa a la barretina",
+"b": "Encaparrar-se, voler fer-la de totes maneres."
+},
+{
+"id": "VAL2-T22",
+"t": "val-llibre2",
+"f": "Qui és… El Joaquim?",
+"b": "El fill del Ben."
+},
+{
+"id": "VAL2-T23",
+"t": "val-llibre2",
+"f": "Qui és… La nena de la casa de Londres?",
+"b": "Obri la porta i crida son pare."
+},
+{
+"id": "VAL2-T24",
+"t": "val-llibre2",
+"f": "Qui és… L'home de la casa de Londres?",
+"b": "Alt i forçut com un ogre; no vol saber res dels xics."
+},
+{
+"id": "VAL2-T25",
+"t": "val-llibre2",
+"f": "Qui és… L'amo de la botiga d'instruments?",
+"b": "Home despentinat que els paga amb una harmònica."
 }
 ],
 "texto": {
@@ -1491,6 +2131,30 @@
 },
 {
 "x": "Just quan la història es posa interessant, el pare de la Clàudia truca a la porta perquè fa molta estona que ha eixit. El senyor F. la convida a tornar dimarts que ve. La Clàudia ja no li té por i està impacient per saber com continua la història."
+}
+],
+"val-llibre2": [
+{
+"h": 1,
+"x": "Resum del capítol 2 (pàgines 27 a 40)"
+},
+{
+"x": "Aquest resum està fet per a repassar. No substitueix la lectura del llibre."
+},
+{
+"x": "La Clàudia passa tota la setmana pensant en la història del senyor F., però té tantes coses a fer que no pot tornar fins al dimarts. Quan arriba, el senyor F. l'espera amb un pastís de llimona i suc de taronja. Al costat hi ha un despertador molt curiós, ple de campanetes, que el Ben havia fet per al seu fill Joaquim. Queden que la Clàudia es quedarà fins a les set."
+},
+{
+"x": "El senyor F. continua la història. A Londres, l'amic del Ben vivia en un suburbi molt lluny del centre. Els obri una nena i, després, un home enorme i enfadat que no vol saber res d'ells i tanca la porta d'un colp. El senyor F. descobreix que el Ben no coneixia de res aquell home: era un conegut d'uns coneguts. S'enfada perquè el Ben no li ha dit la veritat, però el Ben li demana perdó."
+},
+{
+"x": "Plou molt i el Ben té la idea d'anar al Covent Garden, el gran mercat de Londres, per a treballar-hi. Quan hi arriben ja està tancat i dormen arraulits sota una marquesina. L'endemà es desperten tard, sense feina, i només aconsegueixen uns panets, unes pomes i un tros de formatge sec."
+},
+{
+"x": "El Ben, sempre optimista, diu que aquella nit dormiran calents i que per a això necessiten una harmònica. Busquen una botiga d'instruments prop del conservatori i el Ben ofereix a l'amo els seus serveis com a adobadors d'instruments, encara que no en saben. El senyor F. neteja trompetes i altres instruments de metall, i el Ben arregla una mandolina."
+},
+{
+"x": "Al final del dia, l'amo els paga amb una harmònica. El senyor F. està furiós, però el Ben li diu que la tocarà ell. Just llavors el despertador marca les set: un homenet ix per la finestreta cridant. La Clàudia s'ha de quedar amb la intriga fins al dimarts següent, quan el senyor F. li prepararà un pastís de formatge."
 }
 ]
 }
