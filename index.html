@@ -1,0 +1,704 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Repaso 2º ESO</title>
+<meta name="theme-color" content="#f4f1ea">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Paleta: papel cálido, tinta oscura y un color propio por perfil (--me) */
+:root{
+  --bg:#f4f1ea; --surface:#fffdf8; --sunk:#ebe6dc; --ink:#1e2124; --muted:#636a70; --line:#dcd5c8;
+  --ok:#1f8a4c; --ok-soft:#dcf1e4; --bad:#c2412d; --bad-soft:#f9e1dc; --warn:#b7791f;
+  --me:#3d6fd1; --me-soft:#e2eafb; --me-ink:#ffffff;
+  --f:"Nunito",system-ui,-apple-system,"Segoe UI",sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+  --r:14px; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15171a; --surface:#1e2125; --sunk:#262a2f; --ink:#eceae5; --muted:#a3a8ad; --line:#353a40;
+  --ok:#55c986; --ok-soft:#183626; --bad:#f07a66; --bad-soft:#3d1f1a; --warn:#e3a94a; --me-soft:#232c40; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15171a; --surface:#1e2125; --sunk:#262a2f; --ink:#eceae5; --muted:#a3a8ad; --line:#353a40;
+  --ok:#55c986; --ok-soft:#183626; --bad:#f07a66; --bad-soft:#3d1f1a; --warn:#e3a94a; --me-soft:#232c40; color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--me);outline-offset:2px}
+.app{max-width:860px;margin:0 auto;padding:calc(14px + env(safe-area-inset-top,0px)) 16px 90px}
+header.top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:18px}
+.brand{font-weight:900;font-size:1.15rem;letter-spacing:-.01em}
+.brand b{color:var(--me)}
+.who{display:flex;align-items:center;gap:8px;font-weight:800}
+.av{width:36px;height:36px;border-radius:999px;background:var(--me);color:var(--me-ink);display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem;flex:none}
+.btn{border:1.5px solid var(--line);background:var(--surface);border-radius:12px;padding:10px 16px;font-weight:800}
+.btn:hover{border-color:var(--me)}
+.btn.pri{background:var(--me);border-color:var(--me);color:var(--me-ink)}
+.btn.pri:hover{filter:brightness(1.07)}
+.btn.sm{padding:6px 12px;font-size:.9rem;border-radius:10px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.link{border:0;background:none;padding:0;color:var(--me);font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.muted{color:var(--muted)}
+.hint{font-size:.88rem;color:var(--muted)}
+h1{font-size:1.9rem;line-height:1.15;margin:0 0 4px;font-weight:900;letter-spacing:-.02em}
+h2{font-size:1.15rem;margin:22px 0 10px;font-weight:900}
+.stack{display:flex;flex-direction:column;gap:14px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.card{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:16px}
+.note{border:1.5px solid var(--line);background:var(--surface);border-radius:var(--r);padding:12px 14px;font-size:.95rem}
+.note.warn{border-color:var(--bad);background:var(--bad-soft)}
+/* login */
+.profiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px}
+.prof{background:var(--surface);border:2px solid var(--line);border-radius:18px;padding:22px 12px;display:flex;flex-direction:column;align-items:center;gap:10px;font-weight:900;font-size:1.15rem}
+.prof:hover{border-color:var(--pc)}
+.prof .av{width:64px;height:64px;font-size:1.9rem;background:var(--pc)}
+.prof small{font-weight:600;font-size:.82rem;color:var(--muted)}
+.pinbox{max-width:320px;margin:0 auto;text-align:center;display:flex;flex-direction:column;gap:14px;align-items:center}
+.dots{display:flex;gap:14px;justify-content:center;margin:6px 0}
+.dots i{width:16px;height:16px;border-radius:999px;border:2px solid var(--me)}
+.dots i.on{background:var(--me)}
+.pad{display:grid;grid-template-columns:repeat(3,72px);gap:12px;justify-content:center}
+.pad button{height:72px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);font-size:1.6rem;font-weight:800}
+.pad button:active{background:var(--me-soft)}
+.shake{animation:sh .35s}
+@keyframes sh{20%,60%{transform:translateX(-8px)}40%,80%{transform:translateX(8px)}}
+/* chips de estadísticas */
+.chips{display:grid;grid-template-columns:repeat(auto-fit,minmax(100px,1fr));gap:10px}
+.chip{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:10px 12px}
+.chip b{display:block;font-family:var(--mono);font-size:1.45rem;font-variant-numeric:tabular-nums;line-height:1.2}
+.chip span{font-size:.82rem;color:var(--muted);font-weight:700}
+/* asignaturas y temas */
+.subjects{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.subj{background:var(--surface);border:1.5px solid var(--line);border-left:6px solid var(--sc);border-radius:var(--r);padding:14px 16px;text-align:left;display:flex;flex-direction:column;gap:6px}
+.subj:hover{border-color:var(--sc)}
+.subj .t{font-weight:900;font-size:1.1rem}
+.bar{height:8px;border-radius:999px;background:var(--sunk);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--sc,var(--me));border-radius:999px}
+.tema{background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.tema .t{font-weight:900;font-size:1.08rem}
+.meters{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;font-size:.8rem;color:var(--muted);font-weight:700}
+.meters .bar{margin-top:3px;height:6px}
+.crumb{font-size:.9rem;color:var(--muted);font-weight:700}
+.crumb button{border:0;background:none;padding:0;color:var(--me);font-weight:800}
+/* práctica */
+.types{display:flex;flex-wrap:wrap;gap:8px}
+.tog{border:1.5px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;font-weight:800;font-size:.92rem}
+.tog[aria-pressed="true"]{background:var(--me);border-color:var(--me);color:var(--me-ink)}
+.qhead{display:flex;justify-content:space-between;align-items:center;gap:10px;font-weight:800;color:var(--muted);font-size:.9rem}
+.qcard{background:var(--surface);border:1.5px solid var(--line);border-radius:18px;padding:20px}
+.qtype{display:inline-block;font-size:.75rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--me);background:var(--me-soft);border-radius:999px;padding:3px 10px;margin-bottom:10px}
+.qtext{font-size:1.18rem;font-weight:800;line-height:1.45}
+.opts{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;border:1.5px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;font-weight:700}
+.opt:hover:not(:disabled){border-color:var(--me)}
+.opt .k{font-family:var(--mono);font-weight:700;color:var(--me);width:22px;flex:none}
+.opt.ok{border-color:var(--ok);background:var(--ok-soft)}
+.opt.ko{border-color:var(--bad);background:var(--bad-soft)}
+.opt:disabled{cursor:default}
+.vfrow{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+.vfrow .opt{justify-content:center;font-size:1.1rem}
+.ans{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+.ans input{flex:1;min-width:160px;border:1.5px solid var(--line);background:var(--surface);border-radius:12px;padding:12px 14px;font-size:1.1rem;font-weight:700}
+.ans input.ok{border-color:var(--ok);background:var(--ok-soft)}
+.ans input.ko{border-color:var(--bad);background:var(--bad-soft)}
+.unit{align-self:center;font-weight:800;color:var(--muted)}
+.fb{margin-top:16px;border-radius:12px;padding:12px 14px;font-weight:600}
+.fb.ok{background:var(--ok-soft);border:1.5px solid var(--ok)}
+.fb.ko{background:var(--bad-soft);border:1.5px solid var(--bad)}
+.fb b{font-weight:900}
+.fb ol{margin:6px 0 0;padding-left:20px}
+.prog{height:10px;border-radius:999px;background:var(--sunk);overflow:hidden}
+.prog i{display:block;height:100%;background:var(--me);transition:width .3s}
+.score{font-size:4rem;font-weight:900;line-height:1;font-family:var(--mono);color:var(--me)}
+.fails{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.fails li{background:var(--surface);border:1.5px solid var(--line);border-left:5px solid var(--bad);border-radius:12px;padding:10px 12px;font-size:.95rem}
+/* tarjetas */
+.flash{perspective:1000px;height:260px;cursor:pointer}
+.flash .in{position:relative;width:100%;height:100%;transition:transform .5s;transform-style:preserve-3d}
+.flash.flip .in{transform:rotateY(180deg)}
+.flash .face{position:absolute;inset:0;backface-visibility:hidden;border-radius:18px;border:1.5px solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:1.3rem;font-weight:800}
+.flash .back{transform:rotateY(180deg);background:var(--me-soft);font-size:1.1rem;font-weight:700}
+.flash small{position:absolute;top:12px;left:16px;font-size:.75rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+/* escuchar */
+.player{position:sticky;top:8px;z-index:5;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 6px 18px rgb(0 0 0 / .08)}
+.pctrl{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.pbtn{width:46px;height:46px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);display:inline-flex;align-items:center;justify-content:center;font-size:1.05rem}
+.pbtn.main{width:56px;height:56px;background:var(--me);border-color:var(--me);color:var(--me-ink);font-size:1.3rem}
+.pinfo{display:flex;justify-content:space-between;font-family:var(--mono);font-size:.8rem;color:var(--muted)}
+.texto p{margin:0;padding:7px 10px;border-radius:10px;line-height:1.6;cursor:pointer}
+.texto p.h{font-weight:900;margin-top:10px}
+.texto p:hover{background:var(--sunk)}
+.texto p.now{background:var(--me-soft);box-shadow:inset 3px 0 0 var(--me)}
+/* panel del padre */
+.tabs{display:flex;gap:4px;background:var(--sunk);padding:4px;border-radius:999px;width:max-content;max-width:100%;flex-wrap:wrap}
+.tabs button{border:0;background:transparent;border-radius:999px;padding:7px 16px;font-weight:800;color:var(--muted)}
+.tabs button[aria-current="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;align-items:end;height:120px}
+.week div{display:flex;flex-direction:column;align-items:center;gap:4px;height:100%;justify-content:flex-end;font-size:.72rem;color:var(--muted);font-weight:700}
+.week i{display:block;width:100%;max-width:34px;background:var(--me);border-radius:6px 6px 2px 2px;min-height:2px}
+.week b{font-family:var(--mono);font-size:.72rem;color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th{text-align:left;font-size:.78rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);padding:6px 8px;border-bottom:1.5px solid var(--line)}
+td{padding:8px;border-bottom:1px solid var(--line);vertical-align:middle}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tbl{overflow-x:auto;background:var(--surface);border:1.5px solid var(--line);border-radius:var(--r);padding:4px 8px}
+.pill{display:inline-block;border-radius:999px;padding:2px 9px;font-size:.78rem;font-weight:800}
+.pill.ok{background:var(--ok-soft);color:var(--ok)}
+.pill.ko{background:var(--bad-soft);color:var(--bad)}
+.pill.mid{background:var(--sunk);color:var(--warn)}
+.sync{display:inline-flex;align-items:center;gap:6px}
+.sync i{width:8px;height:8px;border-radius:999px;background:var(--muted)}
+.sync.on i{background:var(--ok)} .sync.err i{background:var(--bad)}
+[hidden]{display:none !important}
+#mini{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;background:var(--surface);border:1.5px solid var(--line);border-radius:999px;padding:6px 8px 6px 16px;display:flex;align-items:center;gap:10px;box-shadow:0 6px 20px rgb(0 0 0 / .18);max-width:calc(100% - 24px);font-size:.9rem}
+#mini span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:52vw;font-weight:800}
+#mini .pbtn{width:38px;height:38px}
+@media (max-width:520px){h1{font-size:1.6rem}.qtext{font-size:1.08rem}.meters{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top"><div class="brand">Repaso <b>2º ESO</b></div><div id="hdr"></div></header>
+  <main id="main"><p class="muted">Cargando…</p></main>
+  <p class="hint" style="margin-top:40px"><span class="sync" id="sync"><i></i><span>Progreso guardado en este dispositivo</span></span></p>
+</div>
+<div id="mini" hidden></div>
+<script src="config.js"></script>
+<script>
+(function(){
+"use strict";
+/* ================= Configuración y utilidades ================= */
+const CFG = Object.assign({supabaseUrl:"", supabaseKey:"", tabla:"eso_progreso"}, window.RE_CONFIG || {});
+const PERFILES = [
+  {id:"daniela", nombre:"Daniela", color:"#7c5cd6", icono:"🦋"},
+  {id:"alba",    nombre:"Alba",    color:"#d9537f", icono:"🌸"},
+  {id:"papa",    nombre:"Papá",    color:"#1f6f5c", icono:"📊", admin:true}
+];
+const HIJAS = PERFILES.filter(p => !p.admin);
+const TIPOS = {test:"Test", vf:"Verdadero o falso", hueco:"Completar", problema:"Problemas"};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const LS = {get(k, d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+            set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }};
+const SSN = {get(k){ try{ return sessionStorage.getItem(k); }catch(e){ return null; } }, set(k, v){ try{ v == null ? sessionStorage.removeItem(k) : sessionStorage.setItem(k, v); }catch(e){} }};
+const shuffle = a => { for(let i = a.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const hoy = (ms = Date.now()) => { const d = new Date(ms); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+const fecha = ms => new Date(ms).toLocaleDateString("es-ES", {day:"numeric", month:"short"}) + " · " + new Date(ms).toLocaleTimeString("es-ES", {hour:"2-digit", minute:"2-digit"});
+const pct = (a, b) => b ? Math.round(a / b * 100) : 0;
+const norm = s => String(s).trim().replace(/[.!?;:]+$/, "").replace(/\s+/g, " ");
+const sinAcentos = s => norm(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/·/g, ".").replace(/[’']/g, "'");
+async function hashPin(id, pin){
+  const data = new TextEncoder().encode("repaso-eso:" + id + ":" + pin);
+  if(window.crypto && crypto.subtle){ const h = await crypto.subtle.digest("SHA-256", data); return [...new Uint8Array(h)].map(b => b.toString(16).padStart(2, "0")).join(""); }
+  let h = 0; for(const b of data) h = (h * 31 + b) | 0; return "x" + h;   // reserva si el navegador no tiene crypto.subtle
+}
+
+/* ================= Datos ================= */
+let C = null;                         // contenido: asignaturas, temas, ejercicios, tarjetas, texto
+const EJ = {}, TJ = {};
+const vacio = () => ({upd:0, pin:null, pinU:0, ses:[], st:{}, tar:{}, aud:{}});
+const D = {};                         // datos de cada perfil
+PERFILES.forEach(p => D[p.id] = Object.assign(vacio(), LS.get("re.p." + p.id, {})));
+function merge(a, b){
+  const o = vacio();
+  o.upd = Math.max(a.upd || 0, b.upd || 0);
+  if((b.pinU || 0) > (a.pinU || 0)){ o.pin = b.pin; o.pinU = b.pinU; } else { o.pin = a.pin; o.pinU = a.pinU || 0; }
+  const ses = new Map(); [...(a.ses || []), ...(b.ses || [])].forEach(s => ses.set(String(s.f), s)); o.ses = [...ses.values()].sort((x, y) => x.f - y.f);
+  ["st", "tar", "aud"].forEach(k => { o[k] = Object.assign({}, a[k]); Object.entries(b[k] || {}).forEach(([id, v]) => { if(!o[k][id] || (v.u || 0) > (o[k][id].u || 0)) o[k][id] = v; }); });
+  return o;
+}
+function guardar(id){ D[id].upd = Date.now(); LS.set("re.p." + id, D[id]); push(id); }
+
+/* ---- sincronización opcional con Supabase ---- */
+let sb = false;
+function setSync(state, txt){ const el = $("#sync"); el.className = "sync " + (state || ""); el.querySelector("span").textContent = txt; }
+async function api(path, opts = {}){
+  const r = await fetch(CFG.supabaseUrl.replace(/\/$/, "") + "/rest/v1/" + path, Object.assign({}, opts, {headers: Object.assign({apikey: CFG.supabaseKey, Authorization: "Bearer " + CFG.supabaseKey, "Content-Type": "application/json"}, opts.headers || {})}));
+  if(!r.ok) throw new Error(r.status); return r.status === 204 ? null : r.json();
+}
+async function pull(ids){
+  if(!sb) return;
+  const rows = await api(CFG.tabla + "?select=id,datos&id=in.(" + ids.join(",") + ")");
+  rows.forEach(r => { if(D[r.id] && r.datos){ D[r.id] = merge(D[r.id], r.datos); LS.set("re.p." + r.id, D[r.id]); } });
+  setSync("on", "Progreso sincronizado · " + new Date().toLocaleTimeString("es-ES", {hour:"2-digit", minute:"2-digit"}));
+}
+const pushT = {};
+function push(id){
+  if(!sb) return;
+  clearTimeout(pushT[id]);
+  pushT[id] = setTimeout(async () => {
+    try{
+      const rows = await api(CFG.tabla + "?select=id,datos&id=eq." + id);
+      if(rows[0] && rows[0].datos) D[id] = merge(D[id], rows[0].datos);
+      await api(CFG.tabla, {method:"POST", headers:{Prefer:"resolution=merge-duplicates,return=minimal"}, body: JSON.stringify([{id, datos: D[id], updated_at: new Date().toISOString()}])});
+      LS.set("re.p." + id, D[id]); setSync("on", "Progreso sincronizado");
+    }catch(e){ setSync("err", "Sin conexión: se guarda en este dispositivo y se enviará después"); }
+  }, 600);
+}
+async function initSync(){
+  if(!CFG.supabaseUrl || !CFG.supabaseKey){ setSync("", "Progreso guardado solo en este dispositivo"); return; }
+  sb = true; setSync("", "Conectando…");
+  try{ await pull(PERFILES.map(p => p.id)); }catch(e){ setSync("err", "No se pudo conectar: se guarda en este dispositivo"); }
+}
+
+/* ================= Estado de la interfaz ================= */
+const S = {user: SSN.get("re.user"), view:"inicio", asig:null, tema:null, pinFor:null, pin:"", pin1:null, pinMsg:"", fails:0, lockUntil:0,
+           prac:{tipos:["test","vf","hueco","problema"], n:10}, ses:null, res:null, tj:null, hija: HIJAS[0].id};
+const yo = () => PERFILES.find(p => p.id === S.user);
+const asigById = id => C.asignaturas.find(a => a.id === id);
+const temaById = id => C.temas.find(t => t.id === id);
+const ejTema = id => C.ejercicios.filter(e => e.t === id);
+const temaNom = t => t.libro ? t.libro + " · " + t.titulo : "Tema " + t.numero + " · " + t.titulo;
+const temaCorto = t => t.libro ? "Llibre: " + t.libro : "T" + t.numero;
+const tjTema = id => C.tarjetas.filter(e => e.t === id);
+function statsTema(d, id){
+  const ej = ejTema(id); let v = 0, a = 0, vistos = 0, dom = 0;
+  ej.forEach(e => { const s = d.st[e.id]; if(s){ v += s.v; a += s.a; vistos++; if(s.r === 1) dom++; } });
+  const tj = tjTema(id), td = tj.filter(t => (d.tar[t.id] || {}).box >= 3).length;
+  const tx = (C.texto[id] || []).length, au = d.aud[id] ? Math.min(100, pct((d.aud[id].max || 0) + 1, tx)) : 0;
+  return {total: ej.length, vistos, dom, pct: v ? Math.round(a / v * 100) : null, resp: v, tj: tj.length, td, au, tx};
+}
+function racha(d){
+  const dias = new Set(d.ses.map(s => hoy(s.f))); let n = 0; let t = Date.now();
+  if(!dias.has(hoy(t))) t -= 864e5;
+  while(dias.has(hoy(t))){ n++; t -= 864e5; }
+  return n;
+}
+const xp = d => d.ses.reduce((s, x) => s + (x.ok || 0) * (x.k === "tarjetas" ? 1 : 10), 0);
+function setTheme(){ const p = yo(); const c = p ? p.color : "#3d6fd1"; document.documentElement.style.setProperty("--me", c);
+  document.documentElement.style.setProperty("--me-soft", "color-mix(in srgb, " + c + " 16%, var(--surface))"); }
+
+/* ================= Render ================= */
+function render(){
+  setTheme();
+  const p = yo();
+  $("#hdr").innerHTML = p ? `<div class="who"><span class="av">${p.icono}</span><span>${esc(p.nombre)}</span><button class="btn sm" data-act="salir">Salir</button></div>` : "";
+  let html;
+  if(!p) html = S.pinFor ? vPin() : vLogin();
+  else if(p.admin) html = vPanel();
+  else html = ({inicio:vInicio, asig:vAsig, prac:vPrac, ses:vSes, res:vRes, tj:vTj, esc:vEsc}[S.view] || vInicio)();
+  $("#main").innerHTML = html;
+  if(S.view === "esc" && p && !p.admin) audioPaint(true);
+  miniPaint();
+}
+
+/* ---------- Entrada con PIN ---------- */
+function vLogin(){
+  return `<div class="stack">
+    <section><h1>¿Quién eres?</h1><p class="muted">Elige tu perfil y escribe tu PIN.</p></section>
+    <div class="profiles">${PERFILES.map(p => `<button class="prof" style="--pc:${p.color}" data-act="perfil" data-id="${p.id}"><span class="av">${p.icono}</span>${esc(p.nombre)}<small>${p.admin ? "Ver el progreso" : (D[p.id].pin ? "Entrar" : "Primera vez: crea tu PIN")}</small></button>`).join("")}</div>
+  </div>`;
+}
+function vPin(){
+  const p = PERFILES.find(x => x.id === S.pinFor), nuevo = !D[p.id].pin;
+  document.documentElement.style.setProperty("--me", p.color);
+  const tit = nuevo ? (S.pin1 ? "Repite tu PIN" : "Crea un PIN de 4 cifras") : "Escribe tu PIN";
+  const lock = S.lockUntil > Date.now();
+  return `<div class="pinbox" id="pinbox">
+    <span class="av" style="width:64px;height:64px;font-size:1.9rem;background:${p.color}">${p.icono}</span>
+    <h1>${esc(p.nombre)}</h1><div class="muted" style="font-weight:800">${tit}</div>
+    <div class="dots">${[0,1,2,3].map(i => `<i class="${i < S.pin.length ? "on" : ""}"></i>`).join("")}</div>
+    <div class="hint" style="min-height:1.4em;color:var(--bad);font-weight:700">${esc(lock ? "Demasiados intentos. Espera unos segundos." : S.pinMsg)}</div>
+    <div class="pad">${[1,2,3,4,5,6,7,8,9].map(n => `<button data-act="pin" data-n="${n}" ${lock ? "disabled" : ""}>${n}</button>`).join("")}<button data-act="pin-back" aria-label="Volver">←</button><button data-act="pin" data-n="0" ${lock ? "disabled" : ""}>0</button><button data-act="pin-del" aria-label="Borrar">⌫</button></div>
+    ${nuevo ? `<p class="hint">Apúntalo en algún sitio: si lo olvidas, ${p.admin ? "habrá que borrar los datos de este navegador" : "papá puede borrarlo desde su panel"}.</p>` : ""}
+  </div>`;
+}
+async function pinDigit(n){
+  if(S.pin.length >= 4 || S.lockUntil > Date.now()) return;
+  S.pin += n; S.pinMsg = ""; render();
+  if(S.pin.length < 4) return;
+  const id = S.pinFor, h = await hashPin(id, S.pin);
+  if(!D[id].pin){
+    if(!S.pin1){ S.pin1 = S.pin; S.pin = ""; render(); return; }
+    if(S.pin1 !== S.pin){ S.pin1 = null; S.pin = ""; S.pinMsg = "No coinciden. Vuelve a empezar."; render(); shake(); return; }
+    D[id].pin = h; D[id].pinU = Date.now(); guardar(id); entrar(id); return;
+  }
+  if(h === D[id].pin){ entrar(id); return; }
+  S.fails++; S.pin = ""; S.pinMsg = "PIN incorrecto";
+  if(S.fails >= 5){ S.lockUntil = Date.now() + 30000; S.fails = 0; setTimeout(render, 30500); }
+  render(); shake();
+}
+function shake(){ const b = $("#pinbox"); if(b){ b.classList.remove("shake"); void b.offsetWidth; b.classList.add("shake"); } }
+function entrar(id){ S.user = id; SSN.set("re.user", id); S.pinFor = null; S.pin = ""; S.pin1 = null; S.fails = 0; S.view = "inicio"; render(); scrollTo(0, 0);
+  if(PERFILES.find(p => p.id === id).admin && sb) pull(HIJAS.map(h => h.id)).then(render).catch(() => {}); }
+function salir(){ stopAudio(); S.user = null; SSN.set("re.user", null); S.view = "inicio"; S.ses = null; render(); scrollTo(0, 0); }
+
+/* ---------- Inicio de cada hija ---------- */
+function vInicio(){
+  const d = D[S.user], hoyN = d.ses.filter(s => hoy(s.f) === hoy()).reduce((a, s) => a + s.n, 0);
+  const fall = C.ejercicios.filter(e => d.st[e.id] && d.st[e.id].r === 0).length;
+  const subs = C.asignaturas.map(a => {
+    const ts = C.temas.filter(t => t.asig === a.id); let tot = 0, dom = 0; const nl = ts.filter(t => t.libro).length, nt = ts.length - nl;
+    ts.forEach(t => { const s = statsTema(d, t.id); tot += s.total; dom += s.dom; });
+    return `<button class="subj" style="--sc:${a.color}" data-act="asig" data-id="${a.id}"><span style="font-size:1.6rem">${a.icono || "📘"}</span><span class="t">${esc(a.nombre)}</span><span class="hint">${[nt ? nt + (nt === 1 ? " tema" : " temas") : "", nl ? "libro de lectura" : ""].filter(Boolean).join(" + ")} · ${dom} de ${tot} ejercicios dominados</span><span class="bar"><i style="width:${pct(dom, tot)}%"></i></span></button>`;
+  }).join("");
+  return `<div class="stack">
+    <section><h1>¡Hola, ${esc(yo().nombre)}!</h1><p class="muted">¿Qué repasamos hoy?</p></section>
+    <div class="chips">
+      <div class="chip"><b>${racha(d)} 🔥</b><span>días seguidos</span></div>
+      <div class="chip"><b>${xp(d)}</b><span>puntos</span></div>
+      <div class="chip"><b>${hoyN}</b><span>preguntas hoy</span></div>
+    </div>
+    ${fall ? `<div class="card row" style="justify-content:space-between"><div><b>Tienes ${fall} ${fall === 1 ? "pregunta" : "preguntas"} para repasar</b><div class="hint">Las que fallaste la última vez. Desaparecen cuando las aciertas.</div></div><button class="btn pri" data-act="repaso">Repasar fallos</button></div>` : ""}
+    <h2>Asignaturas</h2>
+    <div class="subjects">${subs}</div>
+  </div>`;
+}
+function vAsig(){
+  const a = asigById(S.asig), d = D[S.user];
+  const fila = t => { const s = statsTema(d, t.id);
+    return `<div class="tema" style="--sc:${a.color}">
+      <div><div class="t">${esc(t.libro ? t.titulo : "Tema " + t.numero + " · " + t.titulo)}</div>${t.resumen ? `<div class="hint">${esc(t.resumen)}</div>` : ""}</div>
+      <div class="meters">
+        <div>Ejercicios ${s.dom}/${s.total}${s.pct !== null ? " · " + s.pct + "% aciertos" : ""}<div class="bar"><i style="width:${pct(s.dom, s.total)}%"></i></div></div>
+        <div>Tarjetas ${s.td}/${s.tj}<div class="bar"><i style="width:${pct(s.td, s.tj)}%"></i></div></div>
+        <div>Escuchado ${s.au}%<div class="bar"><i style="width:${s.au}%"></i></div></div>
+      </div>
+      <div class="row">
+        ${s.total ? `<button class="btn pri sm" data-act="prac" data-id="${t.id}">Practicar</button>` : ""}
+        ${s.tj ? `<button class="btn sm" data-act="tj" data-id="${t.id}">Tarjetas</button>` : ""}
+        ${s.tx ? `<button class="btn sm" data-act="esc" data-id="${t.id}">${t.libro ? "Escuchar el resumen" : "Escuchar"}</button>` : ""}
+      </div></div>`; };
+  const all = C.temas.filter(t => t.asig === a.id), normales = all.filter(t => !t.libro), libros = [...new Set(all.filter(t => t.libro).map(t => t.libro))];
+  const ts = (normales.length ? (libros.length ? "<h2>Temas</h2>" : "") + normales.map(fila).join("") : "") +
+    libros.map(l => `<h2>📚 Libro de lectura: <i>${esc(l)}</i></h2>` + all.filter(t => t.libro === l).map(fila).join("")).join("");
+  return `<div class="stack">
+    <div class="crumb"><button data-act="home">Inicio</button> › ${esc(a.nombre)}</div>
+    <section><h1>${a.icono || ""} ${esc(a.nombre)}</h1></section>
+    ${ts || `<p class="muted">Todavía no hay temas.</p>`}
+  </div>`;
+}
+
+/* ---------- Práctica ---------- */
+function vPrac(){
+  const t = temaById(S.tema), a = asigById(t.asig);
+  const disp = Object.keys(TIPOS).filter(k => ejTema(t.id).some(e => e.tipo === k));
+  const pool = ejTema(t.id).filter(e => S.prac.tipos.includes(e.tipo));
+  return `<div class="stack">
+    <div class="crumb"><button data-act="home">Inicio</button> › <button data-act="asig" data-id="${a.id}">${esc(a.nombre)}</button> › Practicar</div>
+    <section><h1>${esc(temaNom(t))}</h1><p class="muted">Elige qué tipo de ejercicios quieres y cuántos.</p></section>
+    <div class="card stack">
+      <div><b>Tipo de ejercicios</b><div class="types" style="margin-top:8px">${disp.map(k => `<button class="tog" data-act="ptipo" data-k="${k}" aria-pressed="${S.prac.tipos.includes(k)}">${TIPOS[k]} <span class="hint">(${ejTema(t.id).filter(e => e.tipo === k).length})</span></button>`).join("")}</div></div>
+      <div><b>Cuántos</b><div class="types" style="margin-top:8px">${[5,10,15,20].map(n => `<button class="tog" data-act="pn" data-n="${n}" aria-pressed="${S.prac.n === n}">${n}</button>`).join("")}</div></div>
+      <div class="row" style="justify-content:space-between"><span class="hint">${pool.length} ejercicios disponibles. Primero salen los que fallaste y los que no has hecho.</span><button class="btn pri" data-act="start" ${pool.length ? "" : "disabled"}>Empezar</button></div>
+    </div>
+  </div>`;
+}
+function elegir(pool, n){
+  const d = D[S.user];
+  const f = shuffle(pool.filter(e => d.st[e.id] && d.st[e.id].r === 0));
+  const nu = shuffle(pool.filter(e => !d.st[e.id]));
+  const vi = pool.filter(e => d.st[e.id] && d.st[e.id].r === 1).sort((x, y) => d.st[x.id].u - d.st[y.id].u);
+  return shuffle([...f, ...nu, ...vi].slice(0, n));
+}
+function prep(e){ const q = Object.assign({}, e); if(e.tipo === "test"){ q.ord = shuffle(e.o.map((x, i) => i)); } return q; }
+function startSes(lista, k){
+  if(!lista.length) return;
+  S.ses = {k, f: Date.now(), qs: lista.map(prep), i: 0, resp: [], done: [], input: ""};
+  S.view = "ses"; render(); scrollTo(0, 0); focusInput();
+}
+function focusInput(){ setTimeout(() => { const i = $("#ansIn"); if(i) i.focus(); }, 30); }
+function vSes(){
+  const s = S.ses, q = s.qs[s.i], hecho = s.done[s.i], r = s.resp[s.i];
+  let body = "";
+  if(q.tipo === "test"){
+    body = `<div class="opts">${q.ord.map((oi, k) => { let cl = ""; if(hecho){ if(oi === 0) cl = "ok"; else if(r === oi) cl = "ko"; }
+      return `<button class="opt ${cl}" data-act="resp" data-v="${oi}" ${hecho ? "disabled" : ""}><span class="k">${"abcd"[k]}</span><span>${esc(q.o[oi])}</span></button>`; }).join("")}</div>`;
+  } else if(q.tipo === "vf"){
+    body = `<div class="vfrow">${[true, false].map(v => { let cl = ""; if(hecho){ if(v === q.v) cl = "ok"; else if(r === v) cl = "ko"; }
+      return `<button class="opt ${cl}" data-act="resp" data-v="${v}" ${hecho ? "disabled" : ""}>${v ? "Verdadero" : "Falso"}</button>`; }).join("")}</div>`;
+  } else {
+    const cl = hecho ? (s.ok[s.i] ? "ok" : "ko") : "";
+    body = `<div class="ans"><input id="ansIn" class="${cl}" ${q.tipo === "problema" ? 'inputmode="decimal"' : 'autocapitalize="off"'} autocomplete="off" placeholder="${q.tipo === "problema" ? "Escribe el número" : "Escribe la respuesta"}" value="${esc(hecho ? r : s.input)}" ${hecho ? "disabled" : ""}>${q.u ? `<span class="unit">${esc(q.u)}</span>` : ""}${hecho ? "" : `<button class="btn pri" data-act="check">Comprobar</button>`}</div>`;
+  }
+  let fb = "";
+  if(hecho){
+    const ok = s.ok[s.i];
+    let sol = "";
+    if(q.tipo === "hueco") sol = `La respuesta es: <b>${esc(q.r[0])}</b>. `;
+    if(q.tipo === "problema") sol = `La solución es <b>${String(q.r).replace(".", ",")} ${esc(q.u || "")}</b>.<ol>${(q.pasos || []).map(p => `<li>${esc(p)}</li>`).join("")}</ol>`;
+    if(q.tipo === "vf" && !ok) sol = `Era <b>${q.v ? "verdadero" : "falso"}</b>. `;
+    fb = `<div class="fb ${ok ? "ok" : "ko"}"><b>${ok ? "¡Correcto!" : "No es correcto."}</b> ${sol}${q.e ? esc(q.e) : ""}</div>`;
+  }
+  const last = s.i === s.qs.length - 1;
+  return `<div class="stack">
+    <div class="qhead"><span>${s.i + 1} de ${s.qs.length}</span><button class="link" data-act="quit">Salir</button></div>
+    <div class="prog"><i style="width:${(s.i + (hecho ? 1 : 0)) / s.qs.length * 100}%"></i></div>
+    <div class="qcard"><span class="qtype">${TIPOS[q.tipo]}</span><div class="qtext">${esc(q.p).replace(/___/g, '<span style="border-bottom:2px solid var(--me);padding:0 22px"></span>')}</div>${body}${fb}</div>
+    ${hecho ? `<div class="row" style="justify-content:flex-end"><button class="btn pri" data-act="next" id="nextBtn">${last ? "Ver resultado" : "Siguiente"}</button></div>` : ""}
+  </div>`;
+}
+function corregir(q, r){
+  if(q.tipo === "test") return r === 0;
+  if(q.tipo === "vf") return r === q.v;
+  if(q.tipo === "hueco") return q.r.some(x => (/[A-Z]/.test(x) || x.length <= 3) ? norm(r) === norm(x) : sinAcentos(r) === sinAcentos(x));
+  if(q.tipo === "problema"){
+    let txt = String(r).replace(/\s/g, "");
+    if(/^-?\d{1,3}(\.\d{3})+$/.test(txt.replace(/[^\d.,-]/g, "")) && Math.abs(q.r) >= 1000) txt = txt.replace(/\./g, "");   // 3.000 = tres mil
+    if(txt.includes(",") && txt.includes(".")) txt = txt.replace(/\./g, "");
+    const m = txt.replace(",", ".").match(/-?\d+(\.\d+)?/);
+    if(!m) return false; const x = parseFloat(m[0]);
+    return Math.abs(x - q.r) <= Math.max(1e-9, Math.abs(q.r) * (q.tol || 0.01));
+  }
+  return false;
+}
+function responder(r){
+  const s = S.ses; if(!s || s.done[s.i]) return;
+  const q = s.qs[s.i];
+  if((q.tipo === "hueco" || q.tipo === "problema") && !String(r).trim()) return;
+  s.ok = s.ok || []; s.resp[s.i] = r; s.done[s.i] = true; s.ok[s.i] = corregir(q, r);
+  const d = D[S.user], st = d.st[q.id] || {v:0, a:0};
+  d.st[q.id] = {v: st.v + 1, a: st.a + (s.ok[s.i] ? 1 : 0), r: s.ok[s.i] ? 1 : 0, u: Date.now()};
+  render(); const nb = $("#nextBtn"); if(nb) nb.focus();
+}
+function siguiente(){
+  const s = S.ses; if(!s || !s.done[s.i]) return;
+  if(s.i < s.qs.length - 1){ s.i++; s.input = ""; render(); scrollTo(0, 0); focusInput(); return; }
+  const ok = s.ok.filter(Boolean).length, d = D[S.user];
+  d.ses.push({f: s.f, d: Date.now() - s.f, k: s.k, t: [...new Set(s.qs.map(q => q.t))], n: s.qs.length, ok});
+  guardar(S.user);
+  S.res = {ok, n: s.qs.length, fails: s.qs.filter((q, i) => !s.ok[i]), k: s.k, tema: S.tema};
+  S.ses = null; S.view = "res"; render(); scrollTo(0, 0);
+}
+function vRes(){
+  const r = S.res, nota = Math.round(r.ok / r.n * 100) / 10;
+  const msg = nota >= 9 ? "¡Espectacular! 🎉" : nota >= 7 ? "¡Muy bien! 💪" : nota >= 5 ? "¡Aprobado! Sigue así." : "Hay que repasar un poco más. ¡Tú puedes!";
+  const t = r.tema && temaById(r.tema);
+  return `<div class="stack">
+    <div class="card" style="text-align:center"><div class="score">${String(nota).replace(".", ",")}</div><div style="font-weight:900;font-size:1.2rem;margin-top:6px">${msg}</div><div class="muted">${r.ok} de ${r.n} correctas · +${r.ok * 10} puntos</div></div>
+    ${r.fails.length ? `<h2>Para repasar</h2><ul class="fails">${r.fails.map(q => `<li><b>${esc(q.p)}</b><div class="hint">${q.tipo === "test" ? "Respuesta: " + esc(q.o[0]) : q.tipo === "vf" ? "Era " + (q.v ? "verdadero" : "falso") : q.tipo === "hueco" ? "Respuesta: " + esc(q.r[0]) : "Solución: " + String(q.r).replace(".", ",") + " " + esc(q.u || "")}</div></li>`).join("")}</ul>` : ""}
+    <div class="row">
+      ${r.fails.length ? `<button class="btn pri" data-act="refail">Repetir las falladas</button>` : ""}
+      ${t ? `<button class="btn" data-act="prac" data-id="${t.id}">Otra práctica</button>` : ""}
+      <button class="btn" data-act="home">Inicio</button>
+    </div>
+  </div>`;
+}
+
+/* ---------- Tarjetas (método de cajas: las que sabes salen menos) ---------- */
+function vTj(){
+  const t = temaById(S.tema), a = asigById(t.asig), j = S.tj;
+  if(!j.cola.length || j.i >= j.cola.length){
+    return `<div class="stack"><div class="crumb"><button data-act="home">Inicio</button> › <button data-act="asig" data-id="${a.id}">${esc(a.nombre)}</button> › Tarjetas</div>
+      <div class="card" style="text-align:center"><div style="font-size:3rem">🃏</div><div style="font-weight:900;font-size:1.2rem">¡Tarjetas terminadas!</div><div class="muted">${j.sab} de ${j.cola.length} las sabías.</div></div>
+      <div class="row"><button class="btn pri" data-act="tj" data-id="${t.id}" data-all="1">Repasar todas otra vez</button><button class="btn" data-act="asig" data-id="${a.id}">Volver</button></div></div>`;
+  }
+  const c = j.cola[j.i];
+  return `<div class="stack">
+    <div class="crumb"><button data-act="home">Inicio</button> › <button data-act="asig" data-id="${a.id}">${esc(a.nombre)}</button> › Tarjetas</div>
+    <div class="qhead"><span>Tarjeta ${j.i + 1} de ${j.cola.length}</span><button class="link" data-act="tj-fin">Terminar</button></div>
+    <div class="flash ${j.flip ? "flip" : ""}" data-act="flip" role="button" tabindex="0" aria-label="Dar la vuelta"><div class="in"><div class="face"><small>Pregunta</small>${esc(c.f)}</div><div class="face back"><small>Respuesta</small>${esc(c.b)}</div></div></div>
+    ${j.flip ? `<div class="two"><button class="btn" data-act="tj-no" style="border-color:var(--bad)">No la sabía</button><button class="btn pri" data-act="tj-si" style="background:var(--ok);border-color:var(--ok)">¡La sabía!</button></div>` : `<p class="hint" style="text-align:center">Piensa la respuesta y toca la tarjeta para darle la vuelta.</p>`}
+  </div>`;
+}
+function startTj(id, todas){
+  const d = D[S.user], ahora = Date.now(), dias = [0, 1, 2, 4, 7, 15];
+  let cola = tjTema(id).filter(c => { const s = d.tar[c.id]; return todas || !s || ahora - s.u >= dias[s.box] * 864e5 * 0.9; });
+  if(!cola.length) cola = tjTema(id);
+  S.tema = id; S.tj = {cola: shuffle(cola.slice()), i: 0, flip: false, sab: 0, f: Date.now()}; S.view = "tj"; render(); scrollTo(0, 0);
+}
+function tjResp(si){
+  const j = S.tj, c = j.cola[j.i], d = D[S.user], s = d.tar[c.id] || {box: 0};
+  d.tar[c.id] = {box: si ? Math.min(5, s.box + 1) : 0, u: Date.now()};
+  if(si) j.sab++;
+  j.i++; j.flip = false;
+  if(j.i >= j.cola.length){ d.ses.push({f: j.f, d: Date.now() - j.f, k: "tarjetas", t: [S.tema], n: j.cola.length, ok: j.sab}); }
+  guardar(S.user); render();
+}
+
+/* ---------- Escuchar ---------- */
+const SY = window.speechSynthesis;
+const A = {playing:false, chunks:[], ci:0, token:0, lock:null, started:false, rate: LS.get("re.audio.rate", 1)};
+const parrafos = id => (C && C.texto[id]) || [];
+const langOf = id => { const t = temaById(id); const a = t && asigById(t.asig); return (a && a.lang) || "es"; };
+function vocesPara(lang){ const all = SY ? SY.getVoices() : []; const v = all.filter(x => x.lang.toLowerCase().startsWith(lang)); return v.length ? v : all.filter(x => /^es/i.test(x.lang)); }
+if(SY) SY.onvoiceschanged = () => { if(S.view === "esc") render(); };
+function trocear(t){
+  const out = []; let cur = "";
+  (t.match(/[^.;:!?]+[.;:!?]*\s*/g) || [t]).forEach(f => { if((cur + f).length > 220 && cur){ out.push(cur); cur = ""; } cur += f; });
+  if(cur.trim()) out.push(cur); return out.map(x => x.trim()).filter(Boolean);
+}
+const audPos = id => (D[S.user].aud[id] || {}).pos || 0;
+function setAud(id, i){ const d = D[S.user], o = d.aud[id] || {max: 0}; d.aud[id] = {pos: i, max: Math.max(o.max || 0, i), u: Date.now()}; LS.set("re.p." + S.user, d); }
+async function wake(on){ try{ if(on && !A.lock && navigator.wakeLock) A.lock = await navigator.wakeLock.request("screen"); if(!on && A.lock){ await A.lock.release(); A.lock = null; } }catch(e){} }
+function speakFrom(pi, ci){
+  if(!SY || !S.tema) return;
+  const ps = parrafos(S.tema); if(!ps.length) return;
+  if(pi >= ps.length){ stopAudio(); setAud(S.tema, ps.length - 1); guardar(S.user); audioPaint(); return; }
+  A.token++; const tok = A.token; SY.cancel(); setAud(S.tema, pi);
+  A.chunks = trocear(ps[pi].x); A.ci = ci || 0; A.playing = true; A.started = true; wake(true);
+  const lang = langOf(S.tema), voice = LS.get("re.audio.voice." + lang, "");
+  const next = () => {
+    if(tok !== A.token || !A.playing) return;
+    if(A.ci >= A.chunks.length){ speakFrom(audPos(S.tema) + 1, 0); return; }
+    const u = new SpeechSynthesisUtterance(A.chunks[A.ci]); const vs = vocesPara(lang);
+    const v = vs.find(x => x.voiceURI === voice) || vs[0]; if(v){ u.voice = v; u.lang = v.lang; } else u.lang = lang === "ca" ? "ca-ES" : "es-ES";
+    u.rate = A.rate;
+    u.onend = () => { if(tok === A.token){ A.ci++; next(); } };
+    u.onerror = e => { if(tok !== A.token || e.error === "interrupted" || e.error === "canceled") return; A.ci++; next(); };
+    SY.speak(u);
+  };
+  next(); audioPaint();
+}
+function pauseAudio(){ A.playing = false; A.token++; if(SY) SY.cancel(); wake(false); if(S.user && D[S.user]) guardar(S.user); audioPaint(); }
+function stopAudio(){ if(A.playing) pauseAudio(); A.ci = 0; A.started = false; miniPaint(); }
+function vEsc(){
+  const t = temaById(S.tema), a = asigById(t.asig), ps = parrafos(t.id), lang = langOf(t.id);
+  if(!SY) return `<div class="note warn">Este navegador no puede leer en voz alta. Prueba con Chrome, Edge o Safari actualizados.</div>`;
+  const vs = vocesPara(lang), sinVoz = !SY.getVoices().some(x => x.lang.toLowerCase().startsWith(lang));
+  const cur = LS.get("re.audio.voice." + lang, "");
+  return `<div class="stack">
+    <div class="crumb"><button data-act="home">Inicio</button> › <button data-act="asig" data-id="${a.id}">${esc(a.nombre)}</button> › Escuchar</div>
+    <div class="player">
+      <div style="font-weight:900">${esc(temaNom(t))}</div>
+      <div class="pctrl">
+        <button class="pbtn" data-act="a-prev" aria-label="Párrafo anterior">⏮</button>
+        <button class="pbtn main" id="aPlay" data-act="a-toggle" aria-label="Reproducir">▶</button>
+        <button class="pbtn" data-act="a-next" aria-label="Párrafo siguiente">⏭</button>
+        <button class="pbtn" data-act="a-stop" aria-label="Volver al principio">⏹</button>
+        <label class="hint" style="margin-left:auto">Velocidad <select id="aRate">${[0.8,0.9,1,1.1,1.25,1.5].map(r => `<option value="${r}" ${r === A.rate ? "selected" : ""}>${String(r).replace(".", ",")}×</option>`).join("")}</select></label>
+      </div>
+      <div class="prog"><i id="aBar"></i></div>
+      <div class="pinfo"><span id="aPos"></span><label>Voz <select id="aVoice">${vs.length ? vs.map(v => `<option value="${esc(v.voiceURI)}" ${v.voiceURI === cur ? "selected" : ""}>${esc(v.name)}</option>`).join("") : `<option>Voz del sistema</option>`}</select></label></div>
+    </div>
+    ${lang === "ca" && sinVoz ? `<p class="note">Este dispositivo no tiene voz en valenciano/catalán, así que se lee con la voz española. Se puede instalar en los ajustes de «Texto a voz» del móvil.</p>` : ""}
+    <p class="hint">Toca un párrafo para escuchar desde ahí. La pantalla se mantiene encendida mientras suena.</p>
+    <div class="texto" id="aText">${ps.map((p, i) => `<p data-act="a-jump" data-i="${i}" class="${p.h ? "h" : ""}">${esc(p.x)}</p>`).join("")}</div>
+  </div>`;
+}
+function audioPaint(scroll){
+  if(S.view === "esc" && S.tema){
+    const ps = parrafos(S.tema), i = audPos(S.tema);
+    const pb = $("#aPlay"); if(pb){ pb.textContent = A.playing ? "⏸" : "▶"; pb.setAttribute("aria-label", A.playing ? "Pausa" : "Reproducir"); }
+    const bar = $("#aBar"); if(bar) bar.style.width = pct(i, ps.length) + "%";
+    const ap = $("#aPos"); if(ap) ap.textContent = `Párrafo ${i + 1} de ${ps.length}`;
+    document.querySelectorAll("#aText p.now").forEach(p => p.classList.remove("now"));
+    const c = document.querySelector(`#aText p[data-i="${i}"]`);
+    if(c){ c.classList.add("now"); if(scroll || A.playing){ const r = c.getBoundingClientRect(); if(r.top < 220 || r.bottom > innerHeight - 70) c.scrollIntoView({block:"center", behavior: scroll ? "auto" : "smooth"}); } }
+  }
+  miniPaint();
+}
+function miniPaint(){
+  const m = $("#mini"); if(!m) return;
+  const show = A.started && S.user && !yo().admin && S.view !== "esc" && S.view !== "ses" && S.tema;
+  m.hidden = !show; if(!show) return;
+  const t = temaById(S.tema);
+  m.innerHTML = `<span>🎧 ${esc(t.titulo)}</span><button class="pbtn" data-act="a-toggle">${A.playing ? "⏸" : "▶"}</button><button class="pbtn" data-act="esc" data-id="${t.id}" aria-label="Abrir">↗</button>`;
+}
+
+/* ---------- Panel de papá ---------- */
+function vPanel(){
+  const h = HIJAS.find(x => x.id === S.hija), d = D[h.id];
+  const todasPreg = d.ses.filter(s => s.k !== "tarjetas"), resp = todasPreg.reduce((a, s) => a + s.n, 0), ok = todasPreg.reduce((a, s) => a + s.ok, 0);
+  const sem = d.ses.filter(s => Date.now() - s.f < 7 * 864e5);
+  const ult = d.ses.length ? d.ses[d.ses.length - 1].f : null;
+  const dias = []; for(let k = 6; k >= 0; k--){ const t = Date.now() - k * 864e5, dia = hoy(t); const n = d.ses.filter(s => hoy(s.f) === dia).reduce((a, s) => a + s.n, 0), min = Math.round(d.ses.filter(s => hoy(s.f) === dia).reduce((a, s) => a + (s.d || 0), 0) / 60000);
+    dias.push({l: new Date(t).toLocaleDateString("es-ES", {weekday:"short"}).replace(".", ""), n, min}); }
+  const maxN = Math.max(1, ...dias.map(x => x.n));
+  const filas = C.temas.map(t => { const s = statsTema(d, t.id), a = asigById(t.asig);
+    const cl = s.pct === null ? "" : s.pct >= 75 ? "ok" : s.pct >= 50 ? "mid" : "ko";
+    return `<tr><td><b>${esc(a.nombre)}</b><div class="hint">${esc(t.libro ? "Libro: " + temaNom(t) : "Tema " + t.numero + " · " + t.titulo)}</div></td><td class="n">${s.vistos}/${s.total}</td><td>${s.pct === null ? `<span class="hint">—</span>` : `<span class="pill ${cl}">${s.pct}%</span>`}</td><td class="n">${s.td}/${s.tj}</td><td class="n">${s.au}%</td></tr>`; }).join("");
+  const flojos = C.temas.map(t => ({t, s: statsTema(d, t.id)})).filter(x => x.s.resp >= 5 && x.s.pct < 60).sort((a, b) => a.s.pct - b.s.pct);
+  const fallEj = C.ejercicios.filter(e => d.st[e.id] && d.st[e.id].r === 0);
+  const rec = d.ses.slice(-12).reverse().map(s => { const nota = s.k === "tarjetas" ? null : Math.round(s.ok / s.n * 100) / 10;
+    return `<tr><td class="n">${fecha(s.f)}</td><td>${s.t.map(id => { const t = temaById(id); return t ? esc(asigById(t.asig).nombre + " · " + temaCorto(t)) : ""; }).join(", ")}</td><td>${s.k === "tarjetas" ? "Tarjetas" : s.k === "repaso" ? "Repaso de fallos" : "Práctica"}</td><td class="n">${s.ok}/${s.n}${nota !== null ? ` <span class="pill ${nota >= 7 ? "ok" : nota >= 5 ? "mid" : "ko"}">${String(nota).replace(".", ",")}</span>` : ""}</td><td class="n">${Math.max(1, Math.round((s.d || 0) / 60000))} min</td></tr>`; }).join("");
+  return `<div class="stack">
+    <section class="row" style="justify-content:space-between"><div><h1>Progreso</h1><p class="muted">Cómo van tus hijas con el repaso.</p></div>${sb ? `<button class="btn sm" data-act="refresh">Actualizar</button>` : ""}</section>
+    ${sb ? "" : `<div class="note">La sincronización no está activada: aquí solo ves lo que se ha hecho en <b>este</b> dispositivo. Para ver lo que hacen en sus móviles, configura Supabase (mira el README).</div>`}
+    <div class="tabs">${HIJAS.map(x => `<button data-act="hija" data-id="${x.id}" aria-current="${x.id === h.id}">${x.icono} ${esc(x.nombre)}</button>`).join("")}</div>
+    <div class="chips">
+      <div class="chip"><b>${ult ? new Date(ult).toLocaleDateString("es-ES", {day:"numeric", month:"short"}) : "—"}</b><span>última vez</span></div>
+      <div class="chip"><b>${racha(d)} 🔥</b><span>días seguidos</span></div>
+      <div class="chip"><b>${new Set(sem.map(s => hoy(s.f))).size}/7</b><span>días esta semana</span></div>
+      <div class="chip"><b>${resp}</b><span>preguntas hechas</span></div>
+      <div class="chip"><b>${resp ? pct(ok, resp) + "%" : "—"}</b><span>de aciertos</span></div>
+      <div class="chip"><b>${(m => m > 0 && m < 1 ? "<1" : Math.round(m))(sem.reduce((a, s) => a + (s.d || 0), 0) / 60000)} min</b><span>esta semana</span></div>
+    </div>
+    <div class="card"><b>Últimos 7 días</b><div class="week" style="margin-top:10px">${dias.map(x => `<div><b>${x.n || ""}</b><i style="height:${x.n / maxN * 80}%"></i>${x.l}</div>`).join("")}</div><div class="hint" style="margin-top:6px">Preguntas y tarjetas respondidas cada día.</div></div>
+    ${flojos.length ? `<div class="note warn"><b>Temas flojos:</b> ${flojos.map(x => esc(asigById(x.t.asig).nombre + " · " + temaNom(x.t)) + " (" + x.s.pct + "%)").join(", ")}</div>` : ""}
+    <h2>Por tema</h2>
+    <div class="tbl"><table><thead><tr><th>Tema</th><th>Ejercicios hechos</th><th>Aciertos</th><th>Tarjetas sabidas</th><th>Escuchado</th></tr></thead><tbody>${filas}</tbody></table></div>
+    ${fallEj.length ? `<h2>Preguntas que tiene falladas (${fallEj.length})</h2><ul class="fails">${fallEj.slice(0, 15).map(e => `<li>${esc(e.p)}</li>`).join("")}</ul>` : ""}
+    <h2>Últimas sesiones</h2>
+    ${rec ? `<div class="tbl"><table><thead><tr><th>Cuándo</th><th>Qué</th><th>Tipo</th><th>Resultado</th><th>Tiempo</th></tr></thead><tbody>${rec}</tbody></table></div>` : `<p class="muted">${esc(h.nombre)} todavía no ha hecho ninguna sesión.</p>`}
+    <h2>PIN</h2>
+    <div class="card row" style="justify-content:space-between"><span>${D[h.id].pin ? `${esc(h.nombre)} tiene un PIN creado.` : `${esc(h.nombre)} todavía no ha creado su PIN.`}</span>${D[h.id].pin ? `<button class="btn sm" data-act="resetpin" data-id="${h.id}">Borrar su PIN</button>` : ""}</div>
+    ${S.confirmReset ? `<div class="note warn">¿Seguro? La próxima vez que entre, ${esc(h.nombre)} tendrá que crear un PIN nuevo. Su progreso no se borra. <div class="row" style="margin-top:8px"><button class="btn sm" data-act="resetpin-no">Cancelar</button><button class="btn sm pri" data-act="resetpin-yes">Sí, borrar el PIN</button></div></div>` : ""}
+  </div>`;
+}
+
+/* ================= Eventos ================= */
+document.addEventListener("click", e => {
+  const el = e.target.closest("[data-act]"); if(!el) return;
+  const act = el.dataset.act, id = el.dataset.id;
+  switch(act){
+    case "perfil": S.pinFor = id; S.pin = ""; S.pin1 = null; S.pinMsg = ""; render(); break;
+    case "pin": pinDigit(el.dataset.n); break;
+    case "pin-del": S.pin = S.pin.slice(0, -1); render(); break;
+    case "pin-back": S.pinFor = null; S.pin = ""; S.pin1 = null; render(); break;
+    case "salir": salir(); break;
+    case "home": S.view = "inicio"; render(); scrollTo(0, 0); break;
+    case "asig": S.asig = id; S.view = "asig"; render(); scrollTo(0, 0); break;
+    case "prac": S.tema = id; S.asig = temaById(id).asig; S.view = "prac"; render(); scrollTo(0, 0); break;
+    case "ptipo": { const k = el.dataset.k, s = new Set(S.prac.tipos); s.has(k) ? s.delete(k) : s.add(k); S.prac.tipos = [...s]; render(); break; }
+    case "pn": S.prac.n = Number(el.dataset.n); render(); break;
+    case "start": startSes(elegir(ejTema(S.tema).filter(x => S.prac.tipos.includes(x.tipo)), S.prac.n), "practica"); break;
+    case "repaso": { const d = D[S.user]; startSes(shuffle(C.ejercicios.filter(x => d.st[x.id] && d.st[x.id].r === 0)).slice(0, 20), "repaso"); break; }
+    case "refail": startSes(shuffle(S.res.fails.map(f => EJ[f.id])), "repaso"); break;
+    case "resp": { const q = S.ses.qs[S.ses.i]; responder(q.tipo === "vf" ? el.dataset.v === "true" : Number(el.dataset.v)); break; }
+    case "check": responder(($("#ansIn") || {}).value || ""); break;
+    case "next": siguiente(); break;
+    case "quit": S.ses = null; S.view = S.asig ? "asig" : "inicio"; render(); break;
+    case "tj": startTj(id, !!el.dataset.all); break;
+    case "flip": S.tj.flip = !S.tj.flip; render(); break;
+    case "tj-si": tjResp(true); break;
+    case "tj-no": tjResp(false); break;
+    case "tj-fin": { const j = S.tj; if(j.i > 0) D[S.user].ses.push({f: j.f, d: Date.now() - j.f, k: "tarjetas", t: [S.tema], n: j.i, ok: j.sab}); guardar(S.user); j.cola = j.cola.slice(0, j.i); render(); break; }
+    case "esc": if(S.tema !== id) stopAudio(); S.tema = id; S.asig = temaById(id).asig; S.view = "esc"; render(); break;
+    case "a-toggle": A.playing ? pauseAudio() : speakFrom(audPos(S.tema), A.ci); break;
+    case "a-stop": stopAudio(); setAud(S.tema, 0); audioPaint(true); break;
+    case "a-prev": { const i = Math.max(0, audPos(S.tema) - 1); A.ci = 0; if(A.playing) speakFrom(i, 0); else { setAud(S.tema, i); audioPaint(true); } break; }
+    case "a-next": { const i = Math.min(parrafos(S.tema).length - 1, audPos(S.tema) + 1); A.ci = 0; if(A.playing) speakFrom(i, 0); else { setAud(S.tema, i); audioPaint(true); } break; }
+    case "a-jump": speakFrom(Number(el.dataset.i), 0); break;
+    case "hija": S.hija = id; S.confirmReset = false; render(); break;
+    case "refresh": pull(HIJAS.map(h => h.id)).then(render).catch(() => setSync("err", "No se pudo actualizar")); break;
+    case "resetpin": S.confirmReset = true; render(); break;
+    case "resetpin-no": S.confirmReset = false; render(); break;
+    case "resetpin-yes": D[S.hija].pin = null; D[S.hija].pinU = Date.now(); guardar(S.hija); S.confirmReset = false; render(); break;
+  }
+});
+document.addEventListener("input", e => { if(e.target.id === "ansIn" && S.ses) S.ses.input = e.target.value; });
+document.addEventListener("change", e => {
+  if(e.target.id === "aRate"){ A.rate = Number(e.target.value); LS.set("re.audio.rate", A.rate); if(A.playing) speakFrom(audPos(S.tema), A.ci); }
+  if(e.target.id === "aVoice"){ LS.set("re.audio.voice." + langOf(S.tema), e.target.value); if(A.playing) speakFrom(audPos(S.tema), A.ci); }
+});
+document.addEventListener("keydown", e => {
+  if(!S.user && S.pinFor){ if(/^\d$/.test(e.key)) pinDigit(e.key); else if(e.key === "Backspace"){ S.pin = S.pin.slice(0, -1); render(); } return; }
+  if(S.view === "ses" && S.ses){
+    const s = S.ses, q = s.qs[s.i];
+    if(e.key === "Enter"){ e.preventDefault(); if(s.done[s.i]) siguiente(); else if(q.tipo === "hueco" || q.tipo === "problema") responder(($("#ansIn") || {}).value || ""); return; }
+    if(!s.done[s.i] && q.tipo === "test" && document.activeElement.id !== "ansIn"){ const k = "abcd".indexOf(e.key.toLowerCase()); if(k >= 0 && k < q.ord.length) responder(q.ord[k]); }
+  }
+  if(S.view === "tj" && S.tj && e.key === " "){ e.preventDefault(); S.tj.flip = !S.tj.flip; render(); }
+});
+document.addEventListener("visibilitychange", () => {
+  if(document.visibilityState !== "visible") return;
+  if(A.playing) wake(true);
+  if(sb && S.user && yo().admin) pull(HIJAS.map(h => h.id)).then(render).catch(() => {});
+});
+
+/* ================= Arranque ================= */
+fetch("contenido.json", {cache:"no-cache"}).then(r => { if(!r.ok) throw new Error(r.status); return r.json(); }).then(async data => {
+  C = data; C.ejercicios.forEach(e => EJ[e.id] = e); C.tarjetas.forEach(t => TJ[t.id] = t); C.texto = C.texto || {};
+  if(S.user && !PERFILES.some(p => p.id === S.user)) S.user = null;
+  render();
+  await initSync(); render();
+}).catch(() => { $("#main").innerHTML = `<div class="note warn">No se pudo cargar el contenido. Si has abierto el archivo directamente desde el ordenador, súbelo a GitHub Pages: el navegador no deja leer contenido.json desde un archivo local.</div>`; });
+})();
+</script>
+</body>
+</html>
