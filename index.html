@@ -217,8 +217,12 @@ function guardar(id){ D[id].upd = Date.now(); LS.set("re.p." + id, D[id]); push(
 let sb = false;
 function setSync(state, txt){ const el = $("#sync"); el.className = "sync " + (state || ""); el.querySelector("span").textContent = txt; }
 async function api(path, opts = {}){
-  const r = await fetch(CFG.supabaseUrl.replace(/\/$/, "") + "/rest/v1/" + path, Object.assign({}, opts, {headers: Object.assign({apikey: CFG.supabaseKey, Authorization: "Bearer " + CFG.supabaseKey, "Content-Type": "application/json"}, opts.headers || {})}));
-  if(!r.ok) throw new Error(r.status); return r.status === 204 ? null : r.json();
+  const key = CFG.supabaseKey.trim(), base = CFG.supabaseUrl.trim().replace(/\/(rest\/v1\/?)?$/, "");
+  const h = {apikey: key, "Content-Type": "application/json"};
+  if(!key.startsWith("sb_")) h.Authorization = "Bearer " + key;      // las claves nuevas sb_publishable_… van solo en apikey
+  const r = await fetch(base + "/rest/v1/" + path, Object.assign({}, opts, {headers: Object.assign(h, opts.headers || {})}));
+  if(!r.ok){ let m = ""; try{ m = (await r.json()).message || ""; }catch(e){} throw new Error(r.status + (m ? " · " + m : "")); }
+  return r.status === 204 ? null : r.json();
 }
 async function pull(ids){
   if(!sb) return;
@@ -242,7 +246,12 @@ function push(id){
 async function initSync(){
   if(!CFG.supabaseUrl || !CFG.supabaseKey){ setSync("", "Progreso guardado solo en este dispositivo"); return; }
   sb = true; setSync("", "Conectando…");
-  try{ await pull(PERFILES.map(p => p.id)); }catch(e){ setSync("err", "No se pudo conectar: se guarda en este dispositivo"); }
+  if(!/^https:\/\/[a-z0-9-]+\.supabase\.co/i.test(CFG.supabaseUrl.trim())){ sb = false; setSync("err", "La URL de config.js no es la buena: debe ser https://xxxx.supabase.co"); return; }
+  try{ await pull(PERFILES.map(p => p.id)); }
+  catch(e){
+    const c = String(e.message || e), why = /^401|^403/.test(c) ? "la clave no es correcta (usa la anon / publishable)" : /^404|PGRST205|does not exist/.test(c) ? "falta crear la tabla (ejecuta supabase.sql)" : c === "Failed to fetch" || /TypeError/.test(c) ? "no se llega al servidor (revisa la URL)" : "error " + c;
+    setSync("err", "No se pudo conectar: " + why + " · de momento se guarda en este dispositivo");
+  }
 }
 
 /* ================= Estado de la interfaz ================= */
