@@ -1,5 +1,5 @@
 {
- "v": 2,
+ "v": 3,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -55,6 +55,14 @@
    "numero": "3",
    "titulo": "Capítol 3 · pàgines 41-52",
    "resumen": "L'harmònica, el restaurant Corfú i el Nikos, la fugida de la policia, la Dora, la senyora Potter i el teatre."
+  },
+  {
+   "id": "val-llibre4",
+   "asig": "val",
+   "libro": "Els dimarts del senyor F.",
+   "numero": "4",
+   "titulo": "Capítol 4 · pàgines 53-66",
+   "resumen": "Cap a Amèrica: l'obra de teatre a Nova York, els baguls, la travessia d'amagat, el Fluff i la policia."
   },
   {
    "id": "gh-roma",
@@ -2273,6 +2281,683 @@
   },
   {
    "tipo": "test",
+   "p": "Quin pastís li prepara el senyor F. a la Clàudia al principi del capítol?",
+   "o": [
+    "Pastís calent de poma",
+    "Pastís de formatge",
+    "Pastís de cireres",
+    "Pastís de llimona"
+   ],
+   "e": "Era el pastís preferit de la Dora.",
+   "id": "VAL4-001",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Amb què li proposa el senyor F. menjar el pastís de poma?",
+   "o": [
+    "Amb crema o amb gelat de vainilla",
+    "Amb nata i xocolate",
+    "Amb mel",
+    "Amb suc de taronja"
+   ],
+   "e": "Li aconsella tastar-lo primer amb crema i després amb gelat.",
+   "id": "VAL4-002",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui feia el pastís de poma quan menjaven a casa de la Dora i el Nikos?",
+   "o": [
+    "La Dora",
+    "El Nikos",
+    "La senyora Potter",
+    "La senyora Maple"
+   ],
+   "e": "Deia que el Nikos no en sabia; ell responia que preferia coses més elaborades.",
+   "id": "VAL4-003",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin consell li havia donat el pare a la Clàudia?",
+   "o": [
+    "No fer cas a l'Andrea",
+    "Canviar d'escola",
+    "Parlar amb la professora",
+    "Fer les paus amb el Július"
+   ],
+   "e": "L'Andrea continuava deixant-la de racó, però ella havia decidit no fer-li cas.",
+   "id": "VAL4-004",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què li havia dit la mare a la Clàudia?",
+   "o": [
+    "Que el món no s'acabava amb l'Andrea i el Július i que podia trobar altres amics",
+    "Que deixara d'anar a casa del senyor F.",
+    "Que l'Andrea tenia raó",
+    "Que havia d'estudiar més"
+   ],
+   "e": "La Clàudia encara no havia posat en pràctica aquest consell.",
+   "id": "VAL4-005",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què esperava encara la Clàudia?",
+   "o": [
+    "Que el Július tornara a ser amic seu",
+    "Que l'Andrea li demanara perdó",
+    "Canviar de classe",
+    "Que el senyor F. parlara amb els seus pares"
+   ],
+   "e": "L'Andrea li era igual, però el Július...",
+   "id": "VAL4-006",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quina era la vocació del Ben?",
+   "o": [
+    "Ser inventor",
+    "Ser actor",
+    "Ser cuiner",
+    "Ser músic"
+   ],
+   "e": "Volia tindre un taller propi, patentar els seus invents i fer-se milionari.",
+   "id": "VAL4-007",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què volia fer-se milionari el Ben?",
+   "o": [
+    "Per a tindre diners per a inventar coses encara més revolucionàries",
+    "Per a comprar una casa a Londres",
+    "Per a tornar a la seua terra",
+    "Per a ajudar el Nikos"
+   ],
+   "e": "Els diners li servirien per a continuar inventant.",
+   "id": "VAL4-008",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "En què tenia força traça el senyor F., segons el Nikos?",
+   "o": [
+    "En la cuina",
+    "En la pintura",
+    "En els esports",
+    "En les matemàtiques"
+   ],
+   "e": "El Nikos li deia que podria arribar a ser un bon cuiner.",
+   "id": "VAL4-009",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què s'havien oblidat el Ben i el senyor F. mentre vivien a Londres?",
+   "o": [
+    "Que la guerra continuava molt a prop",
+    "Que havien de renovar els papers",
+    "Que el Nikos se n'anava",
+    "Que tenien família a Amèrica"
+   ],
+   "e": "Pensaven que tenien temps, però la Gran Bretanya també estava en guerra.",
+   "id": "VAL4-010",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què la companyia de teatre va rebre l'oferta d'anar a Nova York?",
+   "o": [
+    "Un empresari americà va veure l'obra i en va quedar entusiasmat",
+    "El director era americà",
+    "Van guanyar un premi",
+    "La Dora tenia família allí"
+   ],
+   "e": "Els va oferir un contracte per a representar-la a Nova York.",
+   "id": "VAL4-011",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què alguns membres de la companyia no volien anar-se'n?",
+   "o": [
+    "Pensaven que era quasi una traïció abandonar el país en uns moments tan difícils",
+    "Tenien por del mar",
+    "No sabien anglés americà",
+    "No els pagaven prou"
+   ],
+   "e": "Les notícies de la guerra eren cada vegada més alarmants.",
+   "id": "VAL4-012",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què es deia que preparava Hitler?",
+   "o": [
+    "La invasió de la Gran Bretanya",
+    "Un tractat de pau",
+    "La invasió d'Amèrica",
+    "Un viatge a Londres"
+   ],
+   "e": "Per això molts pensaven que era millor eixir del país.",
+   "id": "VAL4-013",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui va convéncer el Ben que era millor anar-se'n de Londres?",
+   "o": [
+    "El tècnic de llum de la companyia",
+    "La senyora Potter",
+    "El director de l'obra",
+    "Un policia"
+   ],
+   "e": "Va dir que no els convenia ser a Londres si l'exèrcit alemany ocupava l'illa.",
+   "id": "VAL4-014",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin problema tenien el Ben i el senyor F. per a viatjar als Estats Units?",
+   "o": [
+    "No tenien passaport ni cap document",
+    "No tenien diners per al bitllet",
+    "Estaven malalts",
+    "Tenien por del vaixell"
+   ],
+   "e": "Calia veure com travessar l'Atlàntic i entrar als EUA sense papers.",
+   "id": "VAL4-015",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què no van intentar aconseguir els papers per la via oficial?",
+   "o": [
+    "El procediment podia allargar-se molt i, a més, eren menors d'edat",
+    "Perquè ja els els havien denegat",
+    "Perquè no volien ser refugiats",
+    "Perquè costava massa diners"
+   ],
+   "e": "La companyia se n'anava a finals d'abril.",
+   "id": "VAL4-016",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quina va ser la solució per a pujar al vaixell?",
+   "o": [
+    "Anar-hi d'amagat, com a polissons",
+    "Comprar uns passaports falsos",
+    "Fer-se passar per actors",
+    "Treballar de mariners"
+   ],
+   "e": "Un cop a bord seria fàcil passar desapercebuts entre centenars de passatgers.",
+   "id": "VAL4-017",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va passar a última hora el dia de marxar?",
+   "o": [
+    "El Nikos va dir que no se n'aniria",
+    "La Dora es va posar malalta",
+    "El vaixell va eixir abans d'hora",
+    "La policia va aparéixer al port"
+   ],
+   "e": "Volia ser útil al seu país, encara que era coix.",
+   "id": "VAL4-018",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Com va reaccionar la Dora quan el Nikos li va dir que es quedava?",
+   "o": [
+    "Es va enfadar molt perquè sentia que l'havia enganyada",
+    "Es va alegrar",
+    "Va decidir quedar-se ella també",
+    "No va dir res"
+   ],
+   "e": "El Nikos la va calmar amb molts treballs.",
+   "id": "VAL4-019",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què el Ben i el senyor F. no es van quedar amb el Nikos?",
+   "o": [
+    "Perquè amb la companyia fora, en lloc d'ajudar-lo li farien nosa",
+    "Perquè el Nikos no els volia",
+    "Perquè la policia els buscava",
+    "Perquè la senyora Potter els va fer fora"
+   ],
+   "e": "Quasi es van penedir de marxar.",
+   "id": "VAL4-020",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què els va donar la senyora Potter abans de marxar?",
+   "o": [
+    "Una maleta amb roba dels seus fills i una bossa amb galetes i te",
+    "Diners",
+    "Un gos",
+    "Una harmònica nova"
+   ],
+   "e": "La maleta la van barrejar amb l'equipatge de la companyia.",
+   "id": "VAL4-021",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "On es van amagar per a pujar al vaixell?",
+   "o": [
+    "Dins de dos baguls",
+    "En uns barrils de cervesa",
+    "Entre les caixes del decorat",
+    "A la cuina del vaixell"
+   ],
+   "e": "El senyor F. en el bagul de la Dora i el Ben en el de la senyora Maple.",
+   "id": "VAL4-022",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui era la senyora Maple?",
+   "o": [
+    "Una de les actrius més veteranes de la companyia",
+    "La germana de la Dora",
+    "La dona del director",
+    "La mare del Nikos"
+   ],
+   "e": "En el seu bagul anava el Ben.",
+   "id": "VAL4-023",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què els baguls anaven plens de disfresses?",
+   "o": [
+    "Per a amagar-los una mica si els obrien",
+    "Per a l'obra de teatre",
+    "Per a vendre-les a Nova York",
+    "Perquè no tenien altra roba"
+   ],
+   "e": "Vestits de nit, abrics i capes amplíssimes.",
+   "id": "VAL4-024",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Com podien respirar dins dels baguls?",
+   "o": [
+    "El Ben va fer uns foradets i hi va connectar un tub amb una màscara",
+    "Obrien la tapa de tant en tant",
+    "Duien una bombona d'oxigen",
+    "Els baguls no tenien tapa"
+   ],
+   "e": "Havien de respirar molt a poc a poc, amb molta calma.",
+   "id": "VAL4-025",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Cap a quin port els va portar el camió?",
+   "o": [
+    "El port de Dover",
+    "El port de Liverpool",
+    "El port de Southampton",
+    "El port de Londres"
+   ],
+   "e": "Era un viatge no gaire llarg, però a ell se li va fer interminable.",
+   "id": "VAL4-026",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Com van aconseguir la Dora i la senyora Maple dominar els nervis?",
+   "o": [
+    "Imaginant que eren actrius d'una obra d'aventures",
+    "Prenent una til·la",
+    "Cantant cançons",
+    "Sense mirar els baguls"
+   ],
+   "e": "Van fer el que sabien fer: actuar.",
+   "id": "VAL4-027",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què va cridar la senyora Maple al camàlic?",
+   "o": [
+    "Perquè havia posat el bagul del Ben cap per avall",
+    "Perquè li havia trencat la maleta",
+    "Perquè volia obrir el bagul",
+    "Perquè anava massa lent"
+   ],
+   "e": "Ho va fer sense perdre la calma.",
+   "id": "VAL4-028",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Com sabia el senyor F. que tot havia anat bé dins del vaixell?",
+   "o": [
+    "La Dora va donar tres colps convinguts al bagul",
+    "Va sentir la sirena del vaixell",
+    "El Ben el va cridar",
+    "La Dora li va parlar en veu alta"
+   ],
+   "e": "Era el senyal que havien pactat.",
+   "id": "VAL4-029",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Fins quan no podien eixir dels baguls?",
+   "o": [
+    "Fins que el vaixell haguera salpat",
+    "Fins a l'endemà",
+    "Fins a arribar a Nova York",
+    "Fins que s'acabara el menjar"
+   ],
+   "e": "Van ser un parell d'hores més d'empresonament.",
+   "id": "VAL4-030",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "On dormien durant la travessia?",
+   "o": [
+    "Sobre unes mantes a terra, en una cabina de la companyia",
+    "En un llit de primera classe",
+    "A la sala de màquines",
+    "Dins dels baguls"
+   ],
+   "e": "Ningú no es fixava en ells.",
+   "id": "VAL4-031",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què no es van amagar als baguls per a desembarcar?",
+   "o": [
+    "Perquè el control d'equipatges a l'entrada als EUA era molt més sever",
+    "Perquè els baguls s'havien trencat",
+    "Perquè ja no hi cabien",
+    "Perquè la Dora no volia"
+   ],
+   "e": "Hi havia moltes possibilitats que els escorcollaren.",
+   "id": "VAL4-032",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin va ser el pla per a desembarcar?",
+   "o": [
+    "Provocar una gran confusió per a esquivar els controls",
+    "Nadar fins a la costa",
+    "Disfressar-se de policies",
+    "Donar l'alarma de foc"
+   ],
+   "e": "L'alarma de foc la van descartar perquè era massa perillosa.",
+   "id": "VAL4-033",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui era el Fluff?",
+   "o": [
+    "Un cadell de pèl blanc amb una taca marró a l'ull dret i una altra a la cua",
+    "Un gat de la senyora Maple",
+    "Un actor de la companyia",
+    "El gos del Nikos"
+   ],
+   "e": "Era fill de la gossa de la senyora Potter.",
+   "id": "VAL4-034",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què va acabar la Dora quedant-se el Fluff?",
+   "o": [
+    "Se li va encendre la idea que el cadell els ajudaria a passar la duana",
+    "Perquè la senyora Potter la va obligar",
+    "Perquè el Nikos li'l va regalar",
+    "Perquè no tenia companyia"
+   ],
+   "e": "Al principi no volia fer-se'n càrrec.",
+   "id": "VAL4-035",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Com anava vestida la Dora quan va arribar a Nova York?",
+   "o": [
+    "Amb roba cridanera, abric de pell falsa, joies falses i un barret amb una ploma llarguíssima",
+    "Amb un vestit senzill",
+    "Amb uniforme de criada",
+    "Amb roba d'home"
+   ],
+   "e": "Feia el paper de nova rica excèntrica i autoritària.",
+   "id": "VAL4-036",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin paper feia la senyora Maple?",
+   "o": [
+    "De criada fidel de la Dora",
+    "De policia",
+    "De mare del Ben",
+    "De capità del vaixell"
+   ],
+   "e": "Protestava indignadíssima perquè el policia dubtava de la seua senyora.",
+   "id": "VAL4-037",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què feien els altres actors de la companyia durant l'escàndol?",
+   "o": [
+    "Es repartien per les cues i protestaven a crits a favor de la Dora",
+    "Ajudaven la policia",
+    "Es quedaven al vaixell",
+    "Cantaven"
+   ],
+   "e": "Deien que els americans no tenien sensibilitat pels animals.",
+   "id": "VAL4-038",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va passar quan el Ben i el senyor F. van intentar passar el control?",
+   "o": [
+    "Un policia els va veure, va donar l'alarma i els van enxampar",
+    "Van passar sense problemes",
+    "Es van perdre per la ciutat",
+    "Els va ajudar un policia jove"
+   ],
+   "e": "De sobte hi havia policies per tot arreu.",
+   "id": "VAL4-039",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va cridar el Ben quan els van agafar?",
+   "o": [
+    "Que el seu oncle Samuel Bernstein, sastre de Brooklyn, els vindria a buscar",
+    "Que eren fills de la Dora",
+    "Que eren actors de la companyia",
+    "Que volien tornar a Londres"
+   ],
+   "e": "Ho cridava perquè ho sentiren la Dora i la senyora Maple.",
+   "id": "VAL4-040",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què la Clàudia no pot quedar-se més a casa del senyor F.?",
+   "o": [
+    "Perquè ja són les set i l'última vegada els pares s'enfadaren",
+    "Perquè té entrenament",
+    "Perquè ha de recollir el seu germà",
+    "Perquè el senyor F. està cansat"
+   ],
+   "e": "Va haver de quedar-se fins a les deu fent deures.",
+   "id": "VAL4-041",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin pastís li promet el senyor F. per al dimarts següent?",
+   "o": [
+    "Un pastís de cireres",
+    "Un pastís de poma",
+    "Un pastís de xocolate",
+    "Un pastís de formatge"
+   ],
+   "e": "Diu que és una recepta de la senyora Bernstein.",
+   "id": "VAL4-042",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "Al principi del capítol, la Clàudia ja està una mica millor.",
+   "v": true,
+   "e": "Ha decidit no fer cas a l'Andrea.",
+   "id": "VAL4-043",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "El senyor F. tenia molt clar des de jove que volia ser actor.",
+   "v": false,
+   "e": "No tenia cap vocació definida.",
+   "id": "VAL4-044",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Nikos va ser un dels que volien que la companyia se n'anara a Nova York.",
+   "v": true,
+   "e": "Pensava que era una ocasió que els brindava el destí.",
+   "id": "VAL4-045",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Nikos va viatjar a Nova York amb la companyia.",
+   "v": false,
+   "e": "A última hora va decidir quedar-se a Anglaterra.",
+   "id": "VAL4-046",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "El senyor F. va anar dins del bagul de la Dora.",
+   "v": true,
+   "e": "El Ben anava en el de la senyora Maple.",
+   "id": "VAL4-047",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "Durant la travessia, els actors els passaven menjar d'amagat.",
+   "v": true,
+   "e": "Ho apartaven dels seus àpats sense aixecar sospites.",
+   "id": "VAL4-048",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "Van donar l'alarma de foc per a provocar confusió.",
+   "v": false,
+   "e": "Ho van descartar perquè era massa perillós.",
+   "id": "VAL4-049",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Ben ja li havia parlat moltes vegades al senyor F. del seu oncle de Nova York.",
+   "v": false,
+   "e": "Mai no li n'havia parlat.",
+   "id": "VAL4-050",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "La Dora va entrar als Estats Units amb el Fluff als braços.",
+   "v": true,
+   "e": "Els papers del cadell van aparéixer «per miracle».",
+   "id": "VAL4-051",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "vf",
+   "p": "Al final, la Clàudia torna a preguntar al senyor F. qui era la senyora Bernstein.",
+   "v": false,
+   "e": "Està a punt de fer-ho, però ho deixa córrer.",
+   "id": "VAL4-052",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El Ben volia ser ___.",
+   "r": [
+    "inventor"
+   ],
+   "e": "Volia tindre un taller propi i patentar els seus invents.",
+   "id": "VAL4-053",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Es van amagar dins de dos ___ per a pujar al vaixell.",
+   "r": [
+    "baguls",
+    "bagul"
+   ],
+   "e": "Un era de la Dora i l'altre de la senyora Maple.",
+   "id": "VAL4-054",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El cadell blanc amb taques marrons es deia ___.",
+   "r": [
+    "Fluff"
+   ],
+   "e": "Era fill de la gossa de la senyora Potter.",
+   "id": "VAL4-055",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "hueco",
+   "p": "L'oncle que es va inventar el Ben es deia Samuel ___.",
+   "r": [
+    "Bernstein"
+   ],
+   "e": "Deia que era sastre i vivia a Brooklyn.",
+   "id": "VAL4-056",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El camió va portar els baguls fins al port de ___.",
+   "r": [
+    "Dover"
+   ],
+   "e": "Allí van embarcar cap a Nova York.",
+   "id": "VAL4-057",
+   "t": "val-llibre4"
+  },
+  {
+   "tipo": "test",
    "p": "¿Junto a qué río surgió Roma?",
    "o": [
     "El Tíber",
@@ -3617,6 +4302,186 @@
    "b": "Dona divorciada que lloga una habitació al Ben i al senyor F. i els cuida com una àvia."
   },
   {
+   "id": "VAL4-T01",
+   "t": "val-llibre4",
+   "f": "encetar",
+   "b": "Començar (una conversa, un tema, un pastís...)."
+  },
+  {
+   "id": "VAL4-T02",
+   "t": "val-llibre4",
+   "f": "vocació",
+   "b": "Inclinació cap a una professió o activitat."
+  },
+  {
+   "id": "VAL4-T03",
+   "t": "val-llibre4",
+   "f": "patentar",
+   "b": "Registrar un invent perquè ningú el puga copiar."
+  },
+  {
+   "id": "VAL4-T04",
+   "t": "val-llibre4",
+   "f": "tramoista",
+   "b": "Persona que munta i mou els decorats d'un teatre."
+  },
+  {
+   "id": "VAL4-T05",
+   "t": "val-llibre4",
+   "f": "tindre traça",
+   "b": "Tindre habilitat per a fer una cosa."
+  },
+  {
+   "id": "VAL4-T06",
+   "t": "val-llibre4",
+   "f": "trencar-se el cap",
+   "b": "Pensar molt en una cosa, preocupar-se'n."
+  },
+  {
+   "id": "VAL4-T07",
+   "t": "val-llibre4",
+   "f": "estremir-se",
+   "b": "Tremolar de sobte, per por o impressió."
+  },
+  {
+   "id": "VAL4-T08",
+   "t": "val-llibre4",
+   "f": "resignar-se",
+   "b": "Acceptar una cosa que no t'agrada perquè no la pots canviar."
+  },
+  {
+   "id": "VAL4-T09",
+   "t": "val-llibre4",
+   "f": "d'estranquis",
+   "b": "D'amagat, sense que se n'adone ningú."
+  },
+  {
+   "id": "VAL4-T10",
+   "t": "val-llibre4",
+   "f": "polissó / polissona",
+   "b": "Persona que viatja amagada en un vaixell sense pagar."
+  },
+  {
+   "id": "VAL4-T11",
+   "t": "val-llibre4",
+   "f": "fer nosa",
+   "b": "Molestar, destorbar."
+  },
+  {
+   "id": "VAL4-T12",
+   "t": "val-llibre4",
+   "f": "bagul",
+   "b": "Caixa gran amb tapa per a guardar o transportar roba i objectes."
+  },
+  {
+   "id": "VAL4-T13",
+   "t": "val-llibre4",
+   "f": "angoixa",
+   "b": "Por i neguit molt forts, sensació d'ofec."
+  },
+  {
+   "id": "VAL4-T14",
+   "t": "val-llibre4",
+   "f": "camàlic",
+   "b": "Persona que porta els equipatges al port o a l'estació."
+  },
+  {
+   "id": "VAL4-T15",
+   "t": "val-llibre4",
+   "f": "sargantana",
+   "b": "Rèptil xicotet; «tindre la sang més freda que una sargantana» = estar molt tranquil."
+  },
+  {
+   "id": "VAL4-T16",
+   "t": "val-llibre4",
+   "f": "encofurnat / encofurnada",
+   "b": "Tancat en un lloc estret i amagat."
+  },
+  {
+   "id": "VAL4-T17",
+   "t": "val-llibre4",
+   "f": "xop / xopa",
+   "b": "Completament mullat."
+  },
+  {
+   "id": "VAL4-T18",
+   "t": "val-llibre4",
+   "f": "salpar",
+   "b": "Eixir un vaixell del port."
+  },
+  {
+   "id": "VAL4-T19",
+   "t": "val-llibre4",
+   "f": "escorcollar",
+   "b": "Registrar a fons per a buscar alguna cosa."
+  },
+  {
+   "id": "VAL4-T20",
+   "t": "val-llibre4",
+   "f": "cadell",
+   "b": "Cria d'un gos o d'un altre mamífer."
+  },
+  {
+   "id": "VAL4-T21",
+   "t": "val-llibre4",
+   "f": "duana",
+   "b": "Control on es revisen les persones i les mercaderies que entren en un país."
+  },
+  {
+   "id": "VAL4-T22",
+   "t": "val-llibre4",
+   "f": "cridaner / cridanera",
+   "b": "Que crida l'atenció, de colors molt vius."
+  },
+  {
+   "id": "VAL4-T23",
+   "t": "val-llibre4",
+   "f": "xitxarel·lo",
+   "b": "Jove presumptuós, sense experiència."
+  },
+  {
+   "id": "VAL4-T24",
+   "t": "val-llibre4",
+   "f": "guirigall",
+   "b": "Soroll i confusió de moltes persones parlant alhora."
+  },
+  {
+   "id": "VAL4-T25",
+   "t": "val-llibre4",
+   "f": "enxampar",
+   "b": "Atrapar, agafar algú."
+  },
+  {
+   "id": "VAL4-T26",
+   "t": "val-llibre4",
+   "f": "aixafat / aixafada",
+   "b": "Molt decebut, desanimat."
+  },
+  {
+   "id": "VAL4-T27",
+   "t": "val-llibre4",
+   "f": "amb l'ai al cor",
+   "b": "Amb angoixa, amb molta intriga o por."
+  },
+  {
+   "id": "VAL4-T28",
+   "t": "val-llibre4",
+   "f": "llepar-se els dits",
+   "b": "Trobar boníssim un menjar."
+  },
+  {
+   "id": "VAL4-T29",
+   "t": "val-llibre4",
+   "f": "Senyora Maple",
+   "b": "Actriu veterana de la companyia. Amaga el Ben al seu bagul i a Nova York fa de criada de la Dora."
+  },
+  {
+   "id": "VAL4-T30",
+   "t": "val-llibre4",
+   "f": "Fluff",
+   "b": "Cadell blanc de la senyora Potter que la Dora s'endú a Nova York per a provocar confusió a la duana."
+  },
+  {
    "id": "GH1-T01",
    "t": "gh-roma",
    "f": "Patricios",
@@ -4085,6 +4950,42 @@
    },
    {
     "x": "La Clàudia pregunta si es van quedar molt de temps a Londres, però el senyor F. ho deixa per al dimarts següent. Ja és tard i a casa l'esperen deures de matemàtiques i una redacció. Abans d'anar-se'n, la Clàudia li demana permís per a explicar la història de l'harmònica, i se'n va contenta com un gínjol: la tristesa i el mal humor han desaparegut."
+   }
+  ],
+  "val-llibre4": [
+   {
+    "h": 1,
+    "x": "Resum del capítol 4 (pàgines 53 a 66)"
+   },
+   {
+    "x": "Aquest resum està fet per a repassar. No substitueix la lectura del llibre."
+   },
+   {
+    "x": "El senyor F. rep la Clàudia amb un pastís calent de poma, el preferit de la Dora, que es pot menjar amb crema o amb gelat de vainilla. La Clàudia ja està una mica millor: l'Andrea continua deixant-la de banda, però ella ha decidit no fer-li cas, com li va aconsellar el seu pare. La mare li ha dit que el món no s'acaba amb l'Andrea i el Július i que pot trobar altres amics a classe, però ella encara té esperances que el Július torne a ser amic seu."
+   },
+   {
+    "x": "El senyor F. explica que el Ben tenia molt clara la seua vocació: volia ser inventor, tindre un taller propi, patentar els seus invents i fer-se milionari. Ell, en canvi, no sabia què volia ser: tocava l'harmònica, li agradava el teatre i tenia traça per a la cuina, però res d'això el convencia. A estones pensava en Amèrica, però a Londres estaven bé i creien que tenien temps. S'havien oblidat que la guerra continuava molt a prop."
+   },
+   {
+    "x": "L'obra de teatre va ser un èxit i un empresari americà va oferir a la companyia un contracte per a representar-la a Nova York. Alguns no volien abandonar el país en un moment tan difícil, perquè es deia que Hitler preparava la invasió de la Gran Bretanya, però el Nikos va convéncer la Dora i van guanyar els que volien anar-se'n. El tècnic de llum va dir que al Ben i al senyor F. no els convenia quedar-se a Londres si arribaven els alemanys, i tots els van persuadir que se n'anaren també."
+   },
+   {
+    "x": "El problema era que no tenien passaport ni cap document. Aconseguir els papers per la via oficial com a refugiats podia tardar massa, i a més eren menors d'edat. Per això van decidir pujar al vaixell d'amagat, com a polissons. El dia de marxar va ser molt trist: a última hora el Nikos va dir que no se n'aniria, perquè volia ser útil al seu país. La Dora s'enfadà molt, però el Nikos la va calmar: només serien uns mesos i s'escriurien i es telefonarien cada setmana."
+   },
+   {
+    "x": "La senyora Potter els va omplir una maleta amb roba dels seus fills i els va donar galetes i te. El pla era amagar-se dins de dos baguls: el senyor F. en el de la Dora i el Ben en el de la senyora Maple, una actriu veterana. Els baguls anaven plens de disfresses per a tapar-los. El Ben va fer uns foradets dissimulats i un tub amb una màscara per a poder respirar. El senyor F. va passar molta angoixa: estava a les fosques, suant i sacsejat, intentant endevinar cada soroll, fins que la Dora va donar els tres colps convinguts per a dir que tot anava bé."
+   },
+   {
+    "x": "La Dora i la senyora Maple van dominar els nervis fent com si foren actrius d'una obra d'aventures. Al vaixell la vida va ser fàcil: dormien sobre unes mantes a la cabina de la companyia i els actors els passaven menjar d'amagat, encara que ells es quedaven amb gana. Mai no els agrairan prou el que van fer."
+   },
+   {
+    "x": "Per a desembarcar a Nova York no podien tornar a amagar-se als baguls, perquè el control era molt més sever. El pla va ser provocar una gran confusió amb el Fluff, un cadell blanc amb una taca marró a l'ull i una altra a la cua, fill de la gossa de la senyora Potter. Els papers del Fluff van «desaparéixer» i la Dora, disfressada de dona rica, excèntrica i autoritària, va muntar un escàndol amb la policia. La senyora Maple feia de criada i els altres actors protestaven des de les cues."
+   },
+   {
+    "x": "Enmig del guirigall, el Ben va agafar de la mà el senyor F. i van passar per davant d'un policia jove, però un altre policia els va veure i els van enxampar. Els papers del Fluff van aparéixer «per miracle» i la Dora va entrar amb el cadell. Aleshores el Ben va començar a cridar que el seu oncle, Samuel Bernstein, un sastre de Brooklyn, els vindria a buscar. El senyor F. no entenia res: mai li havia parlat d'aquell oncle."
+   },
+   {
+    "x": "Ja són les set i la Clàudia s'ha de quedar amb la intriga: la setmana passada va arribar tard i els pares s'enfadaren. El senyor F. li promet un pastís de cireres per al dimarts següent i, quan ja tanca la porta, li diu que és una recepta de la senyora Bernstein. La Clàudia està a punt de tornar a preguntar, però ho deixa córrer."
    }
   ]
  }
