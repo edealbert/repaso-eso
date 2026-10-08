@@ -1,5 +1,5 @@
 {
- "v": 3,
+ "v": 4,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -63,6 +63,14 @@
    "numero": "4",
    "titulo": "Capítol 4 · pàgines 53-66",
    "resumen": "Cap a Amèrica: l'obra de teatre a Nova York, els baguls, la travessia d'amagat, el Fluff i la policia."
+  },
+  {
+   "id": "val-llibre5",
+   "asig": "val",
+   "libro": "Els dimarts del senyor F.",
+   "numero": "5",
+   "titulo": "Capítol 5 · pàgines 67-86",
+   "resumen": "L'Àngels, la nova amiga; l'oncle Samuel Bernstein; Ben i David a Nova York; els bombardeigs de Londres i el retrobament amb la Dora i el Nikos."
   },
   {
    "id": "gh-roma",
@@ -2958,6 +2966,813 @@
   },
   {
    "tipo": "test",
+   "p": "On estan xerrant la Clàudia i l'Àngels al principi del capítol?",
+   "o": [
+    "En un banc del pati de l'escola",
+    "A la biblioteca",
+    "A casa del senyor F.",
+    "A la rambla"
+   ],
+   "e": "No feien cas dels jocs ni dels crits del voltant.",
+   "id": "VAL5-001",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què el Július no és a l'escola aquell dia?",
+   "o": [
+    "Té la grip",
+    "S'ha canviat d'escola",
+    "Està castigat",
+    "Ha anat de viatge"
+   ],
+   "e": "Per sort no hi era, pensa la Clàudia.",
+   "id": "VAL5-002",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quan va arribar l'Àngels a l'escola?",
+   "o": [
+    "Feia un parell d'anys, quan els seus pares es van traslladar a Barcelona",
+    "Aquell mateix curs",
+    "Quan era molt menuda",
+    "Feia cinc anys"
+   ],
+   "e": "Ve d'un poble de l'interior.",
+   "id": "VAL5-003",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què l'Andrea no volia l'Àngels a la colla?",
+   "o": [
+    "Perquè deia que era una tòtila i es reia del seu accent",
+    "Perquè era massa gran",
+    "Perquè no jugava a futbol",
+    "Perquè era nova i no la coneixia ningú"
+   ],
+   "e": "També es burlava de les coses que explicava del seu poble.",
+   "id": "VAL5-004",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com reaccionava l'Àngels als comentaris de l'Andrea?",
+   "o": [
+    "No li afectaven i aviat va fer amics",
+    "Plorava molt",
+    "Se'n va anar de l'escola",
+    "Es va enfadar amb la Clàudia"
+   ],
+   "e": "No li feia falta que ningú la defensara.",
+   "id": "VAL5-005",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què feia la Clàudia a l'hora del pati quan estava sola?",
+   "o": [
+    "Agafava un llibre de la biblioteca i llegia en un racó",
+    "Jugava a futbol",
+    "Feia deures",
+    "Se n'anava a casa"
+   ],
+   "e": "Feia com si la resta del món li importara un rave.",
+   "id": "VAL5-006",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com va començar l'amistat entre la Clàudia i l'Àngels?",
+   "o": [
+    "L'Àngels la va convidar a jugar un partit de futbol",
+    "Van fer un treball juntes",
+    "Es van trobar a casa del senyor F.",
+    "La Clàudia li va deixar un llibre"
+   ],
+   "e": "Als seus companys els faltava una jugadora.",
+   "id": "VAL5-007",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va estar a punt de fer la Clàudia quan es va alçar per a jugar el partit?",
+   "o": [
+    "Traure-li la llengua a l'Andrea",
+    "Plorar d'alegria",
+    "Abraçar l'Àngels",
+    "Cridar el Július"
+   ],
+   "e": "Però es va estimar més ignorar-la.",
+   "id": "VAL5-008",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què li va proposar l'Àngels a la Clàudia per al dimarts?",
+   "o": [
+    "Quedar després de classe per a fer els deures de matemàtiques",
+    "Anar al cine",
+    "Jugar un altre partit",
+    "Anar a casa del senyor F."
+   ],
+   "e": "La Clàudia li va dir que no podia, perquè els dimarts els tenia ocupats.",
+   "id": "VAL5-009",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què diu l'Andrea quan s'acosta a la Clàudia i l'Àngels a classe?",
+   "o": [
+    "Que ho ha sentit tot i que no cal que es facen tan interessants",
+    "Que vol fer les paus",
+    "Que el senyor F. és perillós",
+    "Que el Július està malalt"
+   ],
+   "e": "Ho diu amb un punt de despit a la veu.",
+   "id": "VAL5-010",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com respon l'Àngels a l'Andrea?",
+   "o": [
+    "Amb un somriure innocent, dient que és una història increïble",
+    "Amb un insult",
+    "No li diu res",
+    "Li demana perdó"
+   ],
+   "e": "L'Andrea fa un esbufec i se'n va al seu lloc.",
+   "id": "VAL5-011",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com li deia l'Àngels al senyor F. quan li feia por?",
+   "o": [
+    "L'home del ganxo",
+    "El senyor de la mà",
+    "L'avi misteriós",
+    "El sastre"
+   ],
+   "e": "La Clàudia no s'atreveix a preguntar-li què li va passar a la mà.",
+   "id": "VAL5-012",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quantes vegades ha anat ja la Clàudia a casa del senyor F. quan parla amb l'Àngels?",
+   "o": [
+    "Quatre; aquell dia serà el cinqué dimarts",
+    "Dues",
+    "Tres",
+    "Set"
+   ],
+   "e": "Ho diu ella mateixa.",
+   "id": "VAL5-013",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin pastís ha preparat el senyor F. aquest dimarts?",
+   "o": [
+    "Pastís de cireres",
+    "Pastís de poma",
+    "Pastís de formatge",
+    "Pastís de llimona"
+   ],
+   "e": "Amb xocolata, nata i cireres àcides; és una recepta de la senyora Bernstein.",
+   "id": "VAL5-014",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Era veritat que el Ben tenia uns oncles a Nova York?",
+   "o": [
+    "No; no tenia cap parent allí",
+    "Sí, els visitava sovint",
+    "Sí, però no els coneixia",
+    "No, eren oncles del senyor F."
+   ],
+   "e": "El crit del Ben era un recurs desesperat.",
+   "id": "VAL5-015",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "De qui havia sentit parlar el Ben dels Bernstein?",
+   "o": [
+    "D'una amiga de la seua mare",
+    "D'un policia",
+    "De la Dora",
+    "De la senyora Potter"
+   ],
+   "e": "Aquella amiga deia que els seus oncles eren bona gent.",
+   "id": "VAL5-016",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què l'amiga de la mare del Ben no havia emigrat abans?",
+   "o": [
+    "Perquè els seus sogres eren molt grans i no volien abandonar la seua terra",
+    "Perquè no tenia diners",
+    "Perquè no parlava anglés",
+    "Perquè no li agradava Amèrica"
+   ],
+   "e": "Quan per fi els va convéncer, ja no van arribar a temps.",
+   "id": "VAL5-017",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què recorda la Clàudia quan el senyor F. diu que ha tingut molta sort a la vida?",
+   "o": [
+    "La seua mà ortopèdica i que la seua família havia mort durant la guerra civil",
+    "Que és molt ric",
+    "Que té molts amics",
+    "Que viu en una casa molt gran"
+   ],
+   "e": "Per això se sent confosa.",
+   "id": "VAL5-018",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què li havia dit un dia el senyor F. sobre les coses tristes?",
+   "o": [
+    "Que sempre n'hi ha, però que no has de permetre que t'impedisquen viure les alegres",
+    "Que cal oblidar-les",
+    "Que no s'han de contar mai",
+    "Que fan més forta la gent"
+   ],
+   "e": "La Clàudia s'havia quedat sense ganes de menjar perquè les històries de la guerra eren massa tristes.",
+   "id": "VAL5-019",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "On els va tancar la policia en arribar a Nova York?",
+   "o": [
+    "En un centre d'una illa del port",
+    "En una presó de Brooklyn",
+    "Al vaixell",
+    "En un hotel"
+   ],
+   "e": "Hi havia molta gent que esperava permís per a entrar als Estats Units.",
+   "id": "VAL5-020",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què el senyor F. feia veure que no sabia parlar anglés?",
+   "o": [
+    "Perquè així el Ben portaria la veu cantant i seria més difícil que es contradigueren",
+    "Perquè de veritat no en sabia",
+    "Perquè tenia vergonya",
+    "Perquè la policia li ho va demanar"
+   ],
+   "e": "Era una idea del Ben.",
+   "id": "VAL5-021",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Segons la història que es va inventar el Ben, què eren ell i el senyor F.?",
+   "o": [
+    "Cosins per part de mare",
+    "Germans",
+    "Amics de l'escola",
+    "Fills de la Dora"
+   ],
+   "e": "Va estar a punt de dir germans, però s'hi va repensar a temps.",
+   "id": "VAL5-022",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què el Ben no va dir que eren germans?",
+   "o": [
+    "Perquè hauria sigut molt difícil explicar per què el senyor F. no parlava gens d'alemany",
+    "Perquè no s'assemblaven",
+    "Perquè la policia ja ho sabia",
+    "Perquè el senyor F. no volia"
+   ],
+   "e": "El senyor F. no parlava «ni un borrall» d'alemany.",
+   "id": "VAL5-023",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "En la història inventada, on vivia la família del senyor F.?",
+   "o": [
+    "A Montpeller",
+    "A Leipzig",
+    "A Londres",
+    "A Barcelona"
+   ],
+   "e": "El seu pare era francés, segons la història.",
+   "id": "VAL5-024",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "En quina llengua va declarar el senyor F. davant la policia?",
+   "o": [
+    "En francés, i el Ben feia d'intèrpret",
+    "En anglés",
+    "En alemany",
+    "En valencià"
+   ],
+   "e": "El Ben, en traduir, hi traia o hi afegia el que feia falta.",
+   "id": "VAL5-025",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quina excusa van donar per no tindre papers?",
+   "o": [
+    "Que els els havien robat a França",
+    "Que els havien perdut al vaixell",
+    "Que se'ls havia menjat el Fluff",
+    "Que la Dora els els guardava"
+   ],
+   "e": "Tenien resposta per a tot.",
+   "id": "VAL5-026",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui va trobar la família Bernstein?",
+   "o": [
+    "La Dora i els de la companyia",
+    "La policia",
+    "La senyora Maple sola",
+    "El Nikos"
+   ],
+   "e": "Havien sentit els crits del Ben i havien entés el missatge.",
+   "id": "VAL5-027",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quant de temps van tardar a trobar els Bernstein?",
+   "o": [
+    "Quasi tres setmanes",
+    "Dos dies",
+    "Sis mesos",
+    "Un any"
+   ],
+   "e": "Després la Dora els va anar a explicar la història.",
+   "id": "VAL5-028",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com es deia el Ben de cognom?",
+   "o": [
+    "Grunewald",
+    "Bernstein",
+    "Friand",
+    "Potter"
+   ],
+   "e": "Els Bernstein no tenien cap nebot que es diguera Ben Grunewald.",
+   "id": "VAL5-029",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què els Bernstein van decidir ajudar-los?",
+   "o": [
+    "Van pensar que era algú que coneixia la seua neboda de Leipzig",
+    "Perquè els van pagar",
+    "Perquè la policia els ho va ordenar",
+    "Perquè eren amics de la Dora"
+   ],
+   "e": "De la neboda feia temps que no en tenien notícies.",
+   "id": "VAL5-030",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin pla tenia el Ben si els tornaven a Europa?",
+   "o": [
+    "Fugir nedant de l'illa",
+    "Amagar-se en un altre bagul",
+    "Demanar ajuda al Nikos",
+    "Escriure a la senyora Potter"
+   ],
+   "e": "Era un pla del tot impossible.",
+   "id": "VAL5-031",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Com era el senyor Bernstein?",
+   "o": [
+    "Un home una mica calb d'entre quaranta i cinquanta anys",
+    "Un home molt vell amb barba",
+    "Un jove alt i ros",
+    "Un home gros i enfadat"
+   ],
+   "e": "Els esperava en una sala amb un parell de policies i un funcionari.",
+   "id": "VAL5-032",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va dir el senyor Bernstein al senyor F. quan el va abraçar?",
+   "o": [
+    "«Benvingut, David»",
+    "«Hola, nebot»",
+    "«Qui ets tu?»",
+    "«Ja no hi ha res a fer»"
+   ],
+   "e": "Així va començar a seguir-los el joc.",
+   "id": "VAL5-033",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin nom va tindre el senyor F. a partir d'aquell moment?",
+   "o": [
+    "David Friand",
+    "David Bernstein",
+    "Ben Friand",
+    "Samuel Friand"
+   ],
+   "e": "La Clàudia pregunta si d'això li ve «senyor F.», però ell diu que això ve d'una altra història.",
+   "id": "VAL5-034",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quant de temps van viure el Ben i el senyor F. a casa dels Bernstein?",
+   "o": [
+    "Dos anys",
+    "Uns dies",
+    "Sis mesos",
+    "Deu anys"
+   ],
+   "e": "Després van llogar un pis xicotet al mateix barri.",
+   "id": "VAL5-035",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què van deixar la casa dels Bernstein?",
+   "o": [
+    "Estaven massa acostumats a fer la seua i volien ser independents",
+    "Els Bernstein els van fer fora",
+    "Se'n van anar a Londres",
+    "La casa era massa xicoteta"
+   ],
+   "e": "La independència té un preu, diu el senyor F.",
+   "id": "VAL5-036",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quin ofici li va ensenyar el Samuel al senyor F.?",
+   "o": [
+    "Sastre",
+    "Cuiner",
+    "Inventor",
+    "Fuster"
+   ],
+   "e": "Va acabar treballant amb ell.",
+   "id": "VAL5-037",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què la Dora s'hauria estimat més que l'obra fora un fracàs?",
+   "o": [
+    "Perquè enyorava molt el Nikos i patia per ell",
+    "Perquè no li agradava actuar",
+    "Perquè volia tornar a Austràlia",
+    "Perquè no cobrava"
+   ],
+   "e": "L'obra es va anar prorrogant.",
+   "id": "VAL5-038",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quina ciutat van arrasar en una nit, el novembre?",
+   "o": [
+    "Coventry",
+    "Londres",
+    "Dover",
+    "Leipzig"
+   ],
+   "e": "Abans havien bombardejat Londres durant més de dos mesos.",
+   "id": "VAL5-039",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què va plorar el senyor F.?",
+   "o": [
+    "Pel Nikos, per la gent que patia la guerra i pel record de la seua pròpia ciutat bombardejada",
+    "Perquè la Dora se n'anava",
+    "Perquè va perdre la feina",
+    "Perquè estava malalt"
+   ],
+   "e": "A ell no li agradava plorar.",
+   "id": "VAL5-040",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què aconsella el senyor F. a la Clàudia sobre els ambiciosos i els intolerants?",
+   "o": [
+    "Estar molt atents perquè no ens empenyen a una bogeria com la guerra",
+    "No parlar mai amb ells",
+    "Fer-los cas",
+    "Fugir del país"
+   ],
+   "e": "La Clàudia diu que ho entén: n'havien parlat a casa i a l'escola.",
+   "id": "VAL5-041",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quan va tornar la Dora a Londres?",
+   "o": [
+    "Al principi de febrer, tota sola",
+    "Amb tota la companyia",
+    "Just quan va acabar la guerra",
+    "Al cap de cinc anys"
+   ],
+   "e": "Volia buscar el Nikos i no hi van valer arguments.",
+   "id": "VAL5-042",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va arribar dos dies després que marxara la Dora?",
+   "o": [
+    "Un telegrama del Nikos dient que estava bé",
+    "Una carta de la senyora Potter",
+    "Un paquet de la tia Hilary",
+    "Una carta de la Dora"
+   ],
+   "e": "No hi posava cap adreça.",
+   "id": "VAL5-043",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "On treballava el Nikos durant la guerra?",
+   "o": [
+    "De cuiner en uns menjadors públics",
+    "En una fàbrica de motors",
+    "Al teatre",
+    "A l'exèrcit"
+   ],
+   "e": "Els bombardeigs havien destruït la seua casa i el restaurant.",
+   "id": "VAL5-044",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "On va treballar la Dora durant la guerra?",
+   "o": [
+    "En una fàbrica de motors",
+    "En un hospital",
+    "En una escola",
+    "Al restaurant del Nikos"
+   ],
+   "e": "Les dones es van fer càrrec de feines que abans eren dels homes.",
+   "id": "VAL5-045",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quina nova vocació va descobrir el Nikos?",
+   "o": [
+    "La d'escriptor",
+    "La d'actor",
+    "La de músic",
+    "La d'inventor"
+   ],
+   "e": "Va escriure un parell d'obres de teatre.",
+   "id": "VAL5-046",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Qui els escrivia cartes llarguíssimes després de la guerra?",
+   "o": [
+    "La senyora Maple",
+    "La Dora",
+    "El Nikos",
+    "La senyora Potter"
+   ],
+   "e": "Era de la raça dels escriptors de cartes.",
+   "id": "VAL5-047",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Quant de temps feia que no es veien quan es van retrobar a Nova York?",
+   "o": [
+    "Set anys",
+    "Dos anys",
+    "Cinc anys",
+    "Deu anys"
+   ],
+   "e": "El Ben i el senyor F. ja no eren dues criatures.",
+   "id": "VAL5-048",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què va salvar l'amistat en el retrobament, segons el senyor F.?",
+   "o": [
+    "El pastís de cireres de la senyora Bernstein",
+    "Una cançó amb l'harmònica",
+    "Un regal de la Dora",
+    "Una carta del Nikos"
+   ],
+   "e": "La discussió sobre la tia Hilary els va fer riure i va trencar el gel.",
+   "id": "VAL5-049",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Per què es van posar a discutir el Nikos i la Dora en el retrobament?",
+   "o": [
+    "Perquè ella va dir que el pastís li recordava el de la tia Hilary i ell va dir que el de la tia era massa dolç",
+    "Per qui havia de tallar el pastís",
+    "Perquè el Nikos no volia tornar a Londres",
+    "Perquè la Dora havia arribat tard"
+   ],
+   "e": "La senyora Bernstein els mirava una mica espantada.",
+   "id": "VAL5-050",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què demana la Clàudia abans d'anar-se'n?",
+   "o": [
+    "Un tros de pastís per a l'Àngels",
+    "La recepta del pastís",
+    "Una fotografia del Ben",
+    "Que la deixe quedar-se més"
+   ],
+   "e": "El senyor F. li dona tot el que queda.",
+   "id": "VAL5-051",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
+   "p": "Què li proposa el senyor F. per al dimarts següent?",
+   "o": [
+    "Fer galetes junts",
+    "Anar al cine",
+    "Conéixer l'Àngels",
+    "Tocar l'harmònica"
+   ],
+   "e": "Mentre treballen, li explicarà què va passar quan el Nikos i la Dora van tornar a Nova York.",
+   "id": "VAL5-052",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "L'Andrea i el seu grupet estaven asseguts en el banc del costat.",
+   "v": true,
+   "e": "Fingien indiferència, però les miraven i se'n reien.",
+   "id": "VAL5-053",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "La Clàudia sempre havia defensat l'Àngels davant l'Andrea.",
+   "v": false,
+   "e": "Li queia bé, però no gosava plantar cara a l'Andrea.",
+   "id": "VAL5-054",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "L'Àngels i la Clàudia seien juntes a classe aquell curs.",
+   "v": true,
+   "e": "De vegades xerraven i feien exercicis juntes.",
+   "id": "VAL5-055",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "La Clàudia ja sap com va perdre la mà el senyor F.",
+   "v": false,
+   "e": "Encara no li ho ha dit i ella no s'atreveix a preguntar-ho.",
+   "id": "VAL5-056",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "Aquest dimarts el senyor F. s'ha oblidat de posar el despertador del Ben.",
+   "v": true,
+   "e": "La Clàudia se n'havia adonat, però no li ho va dir.",
+   "id": "VAL5-057",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "Els policies del centre es van creure tota la història del Ben.",
+   "v": false,
+   "e": "No s'ho creien, però tampoc no podien demostrar que mentien.",
+   "id": "VAL5-058",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "La senyora Bernstein era una cuinera excel·lent.",
+   "v": true,
+   "e": "Per això hi anaven sovint a menjar.",
+   "id": "VAL5-059",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "Durant la guerra, el Nikos i la Dora escrivien moltes cartes als seus amics.",
+   "v": false,
+   "e": "No els agradava escriure cartes i durant quasi cinc anys no en van saber res.",
+   "id": "VAL5-060",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "A la Clàudia se li havia acudit escriure una carta al Július.",
+   "v": true,
+   "e": "Per explicar-li com estava de dolguda, però ho va deixar córrer.",
+   "id": "VAL5-061",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "vf",
+   "p": "L'Àngels és una amiga nova; la Clàudia encara no ha fet les paus amb l'Andrea.",
+   "v": true,
+   "e": "Diu que l'Andrea cada dia és més estúpida i que l'Àngels és molt millor.",
+   "id": "VAL5-062",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La nova amiga de la Clàudia es diu ___.",
+   "r": [
+    "Àngels",
+    "Angels"
+   ],
+   "e": "Ve d'un poble de l'interior.",
+   "id": "VAL5-063",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El senyor Bernstein era ___ i vivia a Brooklyn.",
+   "r": [
+    "sastre"
+   ],
+   "e": "Després va ensenyar l'ofici al senyor F.",
+   "id": "VAL5-064",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "hueco",
+   "p": "A Nova York, el senyor F. es va convertir en David ___.",
+   "r": [
+    "Friand"
+   ],
+   "e": "Oficialment eren nebots dels Bernstein.",
+   "id": "VAL5-065",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "hueco",
+   "p": "En una sola nit del mes de novembre, els alemanys van arrasar la ciutat de ___.",
+   "r": [
+    "Coventry"
+   ],
+   "e": "Abans havien bombardejat Londres més de dos mesos.",
+   "id": "VAL5-066",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Durant la guerra, la Dora va treballar en una fàbrica de ___.",
+   "r": [
+    "motors"
+   ],
+   "e": "Les dones feien les feines dels homes, que eren a la guerra.",
+   "id": "VAL5-067",
+   "t": "val-llibre5"
+  },
+  {
+   "tipo": "test",
    "p": "¿Junto a qué río surgió Roma?",
    "o": [
     "El Tíber",
@@ -4482,6 +5297,192 @@
    "b": "Cadell blanc de la senyora Potter que la Dora s'endú a Nova York per a provocar confusió a la duana."
   },
   {
+   "id": "VAL5-T01",
+   "t": "val-llibre5",
+   "f": "anar a pastar fang",
+   "b": "Expressió per a dir que algú se'n vaja i deixe de molestar."
+  },
+  {
+   "id": "VAL5-T02",
+   "t": "val-llibre5",
+   "f": "colla de bledes",
+   "b": "Grup de persones sense gràcia o una mica ximples (insult suau)."
+  },
+  {
+   "id": "VAL5-T03",
+   "t": "val-llibre5",
+   "f": "tòtila",
+   "b": "Persona una mica beneita, babaua (paraula despectiva)."
+  },
+  {
+   "id": "VAL5-T04",
+   "t": "val-llibre5",
+   "f": "plantar cara",
+   "b": "Enfrontar-se a algú, no deixar-se intimidar."
+  },
+  {
+   "id": "VAL5-T05",
+   "t": "val-llibre5",
+   "f": "importar un rave",
+   "b": "No importar gens."
+  },
+  {
+   "id": "VAL5-T06",
+   "t": "val-llibre5",
+   "f": "no fer-se pregar",
+   "b": "Acceptar de seguida, sense que t'ho hagen de demanar dues vegades."
+  },
+  {
+   "id": "VAL5-T07",
+   "t": "val-llibre5",
+   "f": "trencar el gel",
+   "b": "Acabar amb la incomoditat del principi d'una relació."
+  },
+  {
+   "id": "VAL5-T08",
+   "t": "val-llibre5",
+   "f": "despit",
+   "b": "Disgust per haver estat menyspreat o per no aconseguir una cosa."
+  },
+  {
+   "id": "VAL5-T09",
+   "t": "val-llibre5",
+   "f": "estirabot",
+   "b": "Resposta brusca o fora de lloc."
+  },
+  {
+   "id": "VAL5-T10",
+   "t": "val-llibre5",
+   "f": "esbufec",
+   "b": "Bufada forta que mostra enuig o cansament."
+  },
+  {
+   "id": "VAL5-T11",
+   "t": "val-llibre5",
+   "f": "fer l'ullet",
+   "b": "Tancar un ull un moment per complicitat."
+  },
+  {
+   "id": "VAL5-T12",
+   "t": "val-llibre5",
+   "f": "ortopèdic / ortopèdica",
+   "b": "Aparell que substituïx o ajuda una part del cos (una mà ortopèdica)."
+  },
+  {
+   "id": "VAL5-T13",
+   "t": "val-llibre5",
+   "f": "portar la veu cantant",
+   "b": "Dirigir una conversa o una situació."
+  },
+  {
+   "id": "VAL5-T14",
+   "t": "val-llibre5",
+   "f": "ni un borrall",
+   "b": "Gens ni mica."
+  },
+  {
+   "id": "VAL5-T15",
+   "t": "val-llibre5",
+   "f": "èxode",
+   "b": "Eixida d'un grup de persones del seu país, sovint per una guerra."
+  },
+  {
+   "id": "VAL5-T16",
+   "t": "val-llibre5",
+   "f": "intèrpret",
+   "b": "Persona que traduïx oralment el que diu una altra."
+  },
+  {
+   "id": "VAL5-T17",
+   "t": "val-llibre5",
+   "f": "quedar-se de pedra",
+   "b": "Quedar-se molt sorprés, sense saber reaccionar."
+  },
+  {
+   "id": "VAL5-T18",
+   "t": "val-llibre5",
+   "f": "barrinar",
+   "b": "Pensar molt en una cosa, rumiar."
+  },
+  {
+   "id": "VAL5-T19",
+   "t": "val-llibre5",
+   "f": "ficar la pota",
+   "b": "Equivocar-se, dir o fer una cosa inoportuna."
+  },
+  {
+   "id": "VAL5-T20",
+   "t": "val-llibre5",
+   "f": "empassar-se una cosa",
+   "b": "Creure-se-la (una mentida, una comèdia)."
+  },
+  {
+   "id": "VAL5-T21",
+   "t": "val-llibre5",
+   "f": "fil per randa",
+   "b": "Amb tots els detalls."
+  },
+  {
+   "id": "VAL5-T22",
+   "t": "val-llibre5",
+   "f": "aclaparat / aclaparada",
+   "b": "Molt afectat, abatut per una notícia o un pes."
+  },
+  {
+   "id": "VAL5-T23",
+   "t": "val-llibre5",
+   "f": "espavilar-se",
+   "b": "Saber resoldre els propis problemes."
+  },
+  {
+   "id": "VAL5-T24",
+   "t": "val-llibre5",
+   "f": "acollidor / acollidora",
+   "b": "Que rep la gent amb afecte."
+  },
+  {
+   "id": "VAL5-T25",
+   "t": "val-llibre5",
+   "f": "brandar el cap",
+   "b": "Moure el cap d'un costat a l'altre."
+  },
+  {
+   "id": "VAL5-T26",
+   "t": "val-llibre5",
+   "f": "enutjós / enutjosa",
+   "b": "Pesat, molest."
+  },
+  {
+   "id": "VAL5-T27",
+   "t": "val-llibre5",
+   "f": "amb tots els ets i uts",
+   "b": "Amb tots els detalls, sense deixar-se res."
+  },
+  {
+   "id": "VAL5-T28",
+   "t": "val-llibre5",
+   "f": "encarcarat / encarcarada",
+   "b": "Rígid, poc natural, incòmode."
+  },
+  {
+   "id": "VAL5-T29",
+   "t": "val-llibre5",
+   "f": "esclafir la rialla",
+   "b": "Començar a riure de sobte i amb força."
+  },
+  {
+   "id": "VAL5-T30",
+   "t": "val-llibre5",
+   "f": "Àngels",
+   "b": "Companya de classe de la Clàudia, d'un poble de l'interior. Es fa amiga seua després d'un partit de futbol."
+  },
+  {
+   "id": "VAL5-T31",
+   "t": "val-llibre5",
+   "f": "Samuel Bernstein",
+   "b": "Sastre de Brooklyn que fa veure que és l'oncle del Ben i del senyor F. i els acull a sa casa."
+  },
+  {
    "id": "GH1-T01",
    "t": "gh-roma",
    "f": "Patricios",
@@ -4986,6 +5987,45 @@
    },
    {
     "x": "Ja són les set i la Clàudia s'ha de quedar amb la intriga: la setmana passada va arribar tard i els pares s'enfadaren. El senyor F. li promet un pastís de cireres per al dimarts següent i, quan ja tanca la porta, li diu que és una recepta de la senyora Bernstein. La Clàudia està a punt de tornar a preguntar, però ho deixa córrer."
+   }
+  ],
+  "val-llibre5": [
+   {
+    "h": 1,
+    "x": "Resum del capítol 5 (pàgines 67 a 86)"
+   },
+   {
+    "x": "Aquest resum està fet per a repassar. No substitueix la lectura del llibre."
+   },
+   {
+    "x": "La Clàudia i l'Àngels xerren en un banc del pati. L'Andrea i el seu grupet les miren i se'n riuen, però la Clàudia els gira l'esquena. El Július no hi és perquè té la grip. L'Àngels va arribar a l'escola fa un parell d'anys, quan els seus pares es van traslladar a viure a Barcelona. Ve d'un poble de l'interior i té un altre accent, i per això l'Andrea no la volia a la colla i se'n burlava. A l'Àngels, però, no li importaven els comentaris de l'Andrea i aviat va fer amics."
+   },
+   {
+    "x": "Des que es va barallar amb l'Andrea i el Július, la Clàudia estava sola a l'hora del pati i es posava a llegir en un racó. Un dijous, l'Àngels la va convidar a jugar un partit de futbol perquè els faltava una jugadora, i aquell partit va trencar el gel. Ara la Clàudia ja li ha parlat del senyor F. L'Àngels li confessa que abans també li feia por i que li deia «l'home del ganxo». L'Andrea diu que ho ha sentit tot, però l'Àngels li respon amb un somriure i la deixa sense paraules."
+   },
+   {
+    "x": "És el cinqué dimarts. El senyor F. ha fet el pastís de cireres de la senyora Bernstein, amb xocolata, nata i cireres àcides. Li explica que el Ben no tenia cap oncle a Nova York: el crit va ser un recurs desesperat. Una amiga de la seua mare parlava d'uns oncles bona gent que vivien a Brooklyn, i l'oncle era sastre. Aquella amiga volia emigrar, però no va arribar a temps: la van agafar, com a la família del Ben. La Clàudia pensa en la mà ortopèdica del senyor F. i en la seua família, morta durant la guerra civil."
+   },
+   {
+    "x": "La policia els va tancar en un centre d'una illa del port, amb altres persones que esperaven permís per a entrar als Estats Units. El senyor F. feia veure que no parlava anglés i el Ben es va inventar una història: eren cosins, el pare del senyor F. era francés, vivien a Montpeller i els alemanys havien capturat els pares durant una visita a Leipzig. El senyor F. contestava en francés i el Ben feia d'intèrpret i arredonia la història."
+   },
+   {
+    "x": "La Dora i la companyia havien sentit els crits del Ben i van tardar quasi tres setmanes a trobar la família Bernstein. Els Bernstein no tenien cap nebot que es diguera Ben Grunewald, però van entendre que era algú que coneixia la seua neboda. El senyor Bernstein, un home una mica calb d'entre quaranta i cinquanta anys, va anar al centre. El Ben se li va llançar als braços i l'home el va seguir el joc: «Benvingut, David». Així van eixir del centre com a nebots seus, i el senyor F. es va convertir en David Friand."
+   },
+   {
+    "x": "Els Bernstein els van acollir a sa casa, en una habitació de dalt de tot. Havien de ser uns dies, però s'hi van quedar dos anys. Després el Ben i el senyor F. van llogar un pis xicotet al mateix barri, perquè volien ser independents. Continuaven anant a menjar a casa dels Bernstein, i el senyor F. va acabar treballant amb el Samuel, que li va ensenyar l'ofici de sastre."
+   },
+   {
+    "x": "La Dora enyorava molt el Nikos. El juliol van començar els bombardeigs sobre Anglaterra: més de dos mesos sobre Londres, i el novembre van arrasar Coventry. Al final de setembre van deixar de tindre notícies del Nikos. El senyor F. va plorar per ell i per totes les víctimes de la guerra, i li diu a la Clàudia que cal estar molt atents perquè els ambiciosos i els intolerants no ens empenyen a una bogeria com aquella."
+   },
+   {
+    "x": "Quan l'obra de teatre es va acabar, la Dora va tornar sola a Londres, al principi de febrer, per a buscar el Nikos. Dos dies després va arribar un telegrama del Nikos dient que estava bé. Durant quasi cinc anys no en van saber res més. Després van saber que els bombardeigs havien destruït la seua casa i el restaurant, que el Nikos feia de cuiner en uns menjadors públics, que la Dora va treballar en una fàbrica de motors i que el Nikos va descobrir que també tenia vocació d'escriptor."
+   },
+   {
+    "x": "Quan es va acabar la guerra, la companyia va tornar a Londres i la senyora Maple els escrivia cartes llarguíssimes. Al cap de dos anys, la companyia va tornar a Nova York. Feia set anys que no es veien i el retrobament va ser estrany, fins que la senyora Bernstein va portar el seu pastís de cireres: el Nikos i la Dora es van posar a discutir per la tia Hilary, el Ben i el senyor F. van esclafir a riure, i la distància va desaparéixer. Per això és el seu pastís preferit."
+   },
+   {
+    "x": "Aquest dimarts el senyor F. s'ha oblidat de posar el despertador i la Clàudia no li ho ha dit. Abans d'anar-se'n, ella li demana un tros de pastís per a l'Àngels, la seua amiga nova. El senyor F. li dona tot el que queda i li proposa fer galetes junts el dimarts següent, mentre li explica què va passar quan el Nikos i la Dora van tornar a Nova York."
    }
   ]
  }
