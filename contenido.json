@@ -1,5 +1,5 @@
 {
- "v": 4,
+ "v": 5,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -22,6 +22,13 @@
    "lang": "es",
    "color": "#9a6b1f",
    "icono": "🏛️"
+  },
+  {
+   "id": "en",
+   "nombre": "Inglés",
+   "lang": "en",
+   "color": "#1d4ed8",
+   "icono": "🇬🇧"
   }
  ],
  "temas": [
@@ -78,6 +85,13 @@
    "numero": "1",
    "titulo": "La civilización romana",
    "resumen": "Orígenes, Monarquía, República e Imperio, el ejército, las ciudades y el arte romano."
+  },
+  {
+   "id": "en-irreg1",
+   "asig": "en",
+   "numero": "1",
+   "titulo": "Irregular verbs (be – keep)",
+   "resumen": "Infinitivo, past simple y past participle de los verbos irregulares de la lista de Synchronize 2 (de be a keep)."
   }
  ],
  "ejercicios": [
@@ -4507,6 +4521,3534 @@
    "e": "Eran caminos empedrados.",
    "id": "GH1-064",
    "t": "gh-roma"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «ser/estar»: ___",
+   "r": [
+    "be"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-001",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «ser/estar»: ___",
+   "r": [
+    "was",
+    "were",
+    "was/were",
+    "was / were",
+    "were/was",
+    "were / was",
+    "was or were",
+    "was, were"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-002",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «ser/estar»: ___",
+   "r": [
+    "been"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-003",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de be: ___",
+   "r": [
+    "was",
+    "were",
+    "was/were",
+    "was / were",
+    "were/was",
+    "were / was",
+    "was or were",
+    "was, were"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-004",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de be: ___",
+   "r": [
+    "been"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-005",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«was» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "be"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-006",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«were» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "be"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-007",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«been» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "be"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-008",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «been», el past simple es ___.",
+   "r": [
+    "was",
+    "were",
+    "was/were",
+    "was / were",
+    "were/was",
+    "were / was",
+    "was or were",
+    "was, were"
+   ],
+   "e": "be – was / were – been · ser/estar",
+   "id": "ENIV-009",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «golpear (algo) / vencer (a alguien)»: ___",
+   "r": [
+    "beat"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-010",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «golpear (algo) / vencer (a alguien)»: ___",
+   "r": [
+    "beat"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-011",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «golpear (algo) / vencer (a alguien)»: ___",
+   "r": [
+    "beaten"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-012",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de beat: ___",
+   "r": [
+    "beat"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-013",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de beat: ___",
+   "r": [
+    "beaten"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-014",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«beaten» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "beat"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-015",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «beat», el past participle es ___.",
+   "r": [
+    "beaten"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-016",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «beaten», el past simple es ___.",
+   "r": [
+    "beat"
+   ],
+   "e": "beat – beat – beaten · golpear (algo) / vencer (a alguien)",
+   "id": "ENIV-017",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «convertirse»: ___",
+   "r": [
+    "become"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-018",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «convertirse»: ___",
+   "r": [
+    "became"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-019",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «convertirse»: ___",
+   "r": [
+    "become"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-020",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de become: ___",
+   "r": [
+    "became"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-021",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de become: ___",
+   "r": [
+    "become"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-022",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«became» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "become"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-023",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «became», el past participle es ___.",
+   "r": [
+    "become"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-024",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «become», el past simple es ___.",
+   "r": [
+    "became"
+   ],
+   "e": "become – became – become · convertirse",
+   "id": "ENIV-025",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «comenzar»: ___",
+   "r": [
+    "begin"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-026",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «comenzar»: ___",
+   "r": [
+    "began"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-027",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «comenzar»: ___",
+   "r": [
+    "begun"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-028",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de begin: ___",
+   "r": [
+    "began"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-029",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de begin: ___",
+   "r": [
+    "begun"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-030",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«began» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "begin"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-031",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«begun» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "begin"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-032",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «began», el past participle es ___.",
+   "r": [
+    "begun"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-033",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «begun», el past simple es ___.",
+   "r": [
+    "began"
+   ],
+   "e": "begin – began – begun · comenzar",
+   "id": "ENIV-034",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «morder»: ___",
+   "r": [
+    "bite"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-035",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «morder»: ___",
+   "r": [
+    "bit"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-036",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «morder»: ___",
+   "r": [
+    "bitten"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-037",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de bite: ___",
+   "r": [
+    "bit"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-038",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de bite: ___",
+   "r": [
+    "bitten"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-039",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«bit» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "bite"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-040",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«bitten» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "bite"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-041",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «bit», el past participle es ___.",
+   "r": [
+    "bitten"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-042",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «bitten», el past simple es ___.",
+   "r": [
+    "bit"
+   ],
+   "e": "bite – bit – bitten · morder",
+   "id": "ENIV-043",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «soplar»: ___",
+   "r": [
+    "blow"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-044",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «soplar»: ___",
+   "r": [
+    "blew"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-045",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «soplar»: ___",
+   "r": [
+    "blown"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-046",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de blow: ___",
+   "r": [
+    "blew"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-047",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de blow: ___",
+   "r": [
+    "blown"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-048",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«blew» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "blow"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-049",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«blown» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "blow"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-050",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «blew», el past participle es ___.",
+   "r": [
+    "blown"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-051",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «blown», el past simple es ___.",
+   "r": [
+    "blew"
+   ],
+   "e": "blow – blew – blown · soplar",
+   "id": "ENIV-052",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «romper»: ___",
+   "r": [
+    "break"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-053",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «romper»: ___",
+   "r": [
+    "broke"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-054",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «romper»: ___",
+   "r": [
+    "broken"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-055",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de break: ___",
+   "r": [
+    "broke"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-056",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de break: ___",
+   "r": [
+    "broken"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-057",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«broke» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "break"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-058",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«broken» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "break"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-059",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «broke», el past participle es ___.",
+   "r": [
+    "broken"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-060",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «broken», el past simple es ___.",
+   "r": [
+    "broke"
+   ],
+   "e": "break – broke – broken · romper",
+   "id": "ENIV-061",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «traer / llevar»: ___",
+   "r": [
+    "bring"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-062",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «traer / llevar»: ___",
+   "r": [
+    "brought"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-063",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «traer / llevar»: ___",
+   "r": [
+    "brought"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-064",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de bring: ___",
+   "r": [
+    "brought"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-065",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de bring: ___",
+   "r": [
+    "brought"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-066",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«brought» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "bring"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-067",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «brought», el past participle es ___.",
+   "r": [
+    "brought"
+   ],
+   "e": "bring – brought – brought · traer / llevar",
+   "id": "ENIV-068",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «quemar»: ___",
+   "r": [
+    "burn"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-069",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «quemar»: ___",
+   "r": [
+    "burnt",
+    "burned",
+    "burnt/burned",
+    "burnt / burned",
+    "burned/burnt",
+    "burned / burnt",
+    "burnt or burned",
+    "burnt, burned"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-070",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «quemar»: ___",
+   "r": [
+    "burnt",
+    "burned",
+    "burnt/burned",
+    "burnt / burned",
+    "burned/burnt",
+    "burned / burnt",
+    "burnt or burned",
+    "burnt, burned"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-071",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de burn: ___",
+   "r": [
+    "burnt",
+    "burned",
+    "burnt/burned",
+    "burnt / burned",
+    "burned/burnt",
+    "burned / burnt",
+    "burnt or burned",
+    "burnt, burned"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-072",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de burn: ___",
+   "r": [
+    "burnt",
+    "burned",
+    "burnt/burned",
+    "burnt / burned",
+    "burned/burnt",
+    "burned / burnt",
+    "burnt or burned",
+    "burnt, burned"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-073",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«burnt» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "burn"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-074",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«burned» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "burn"
+   ],
+   "e": "burn – burnt / burned – burnt / burned · quemar",
+   "id": "ENIV-075",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «construir»: ___",
+   "r": [
+    "build"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-076",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «construir»: ___",
+   "r": [
+    "built"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-077",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «construir»: ___",
+   "r": [
+    "built"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-078",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de build: ___",
+   "r": [
+    "built"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-079",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de build: ___",
+   "r": [
+    "built"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-080",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«built» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "build"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-081",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «built», el past participle es ___.",
+   "r": [
+    "built"
+   ],
+   "e": "build – built – built · construir",
+   "id": "ENIV-082",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «comprar»: ___",
+   "r": [
+    "buy"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-083",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «comprar»: ___",
+   "r": [
+    "bought"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-084",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «comprar»: ___",
+   "r": [
+    "bought"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-085",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de buy: ___",
+   "r": [
+    "bought"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-086",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de buy: ___",
+   "r": [
+    "bought"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-087",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«bought» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "buy"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-088",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «bought», el past participle es ___.",
+   "r": [
+    "bought"
+   ],
+   "e": "buy – bought – bought · comprar",
+   "id": "ENIV-089",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «poder»: ___",
+   "r": [
+    "can"
+   ],
+   "e": "can – could – (no tiene participio) · poder",
+   "id": "ENIV-090",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «poder»: ___",
+   "r": [
+    "could"
+   ],
+   "e": "can – could – (no tiene participio) · poder",
+   "id": "ENIV-091",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de can: ___",
+   "r": [
+    "could"
+   ],
+   "e": "can – could – (no tiene participio) · poder",
+   "id": "ENIV-092",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«could» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "can"
+   ],
+   "e": "can – could – (no tiene participio) · poder",
+   "id": "ENIV-093",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «coger / agarrar»: ___",
+   "r": [
+    "catch"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-094",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «coger / agarrar»: ___",
+   "r": [
+    "caught"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-095",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «coger / agarrar»: ___",
+   "r": [
+    "caught"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-096",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de catch: ___",
+   "r": [
+    "caught"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-097",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de catch: ___",
+   "r": [
+    "caught"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-098",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«caught» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "catch"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-099",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «caught», el past participle es ___.",
+   "r": [
+    "caught"
+   ],
+   "e": "catch – caught – caught · coger / agarrar",
+   "id": "ENIV-100",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «elegir»: ___",
+   "r": [
+    "choose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-101",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «elegir»: ___",
+   "r": [
+    "chose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-102",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «elegir»: ___",
+   "r": [
+    "chosen"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-103",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de choose: ___",
+   "r": [
+    "chose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-104",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de choose: ___",
+   "r": [
+    "chosen"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-105",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«chose» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "choose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-106",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«chosen» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "choose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-107",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «chose», el past participle es ___.",
+   "r": [
+    "chosen"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-108",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «chosen», el past simple es ___.",
+   "r": [
+    "chose"
+   ],
+   "e": "choose – chose – chosen · elegir",
+   "id": "ENIV-109",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «venir»: ___",
+   "r": [
+    "come"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-110",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «venir»: ___",
+   "r": [
+    "came"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-111",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «venir»: ___",
+   "r": [
+    "come"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-112",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de come: ___",
+   "r": [
+    "came"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-113",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de come: ___",
+   "r": [
+    "come"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-114",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«came» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "come"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-115",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «came», el past participle es ___.",
+   "r": [
+    "come"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-116",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «come», el past simple es ___.",
+   "r": [
+    "came"
+   ],
+   "e": "come – came – come · venir",
+   "id": "ENIV-117",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «costar»: ___",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-118",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «costar»: ___",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-119",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «costar»: ___",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-120",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de cost: ___",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-121",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de cost: ___",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-122",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «cost», el past participle es ___.",
+   "r": [
+    "cost"
+   ],
+   "e": "cost – cost – cost · costar",
+   "id": "ENIV-123",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «cortar»: ___",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-124",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «cortar»: ___",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-125",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «cortar»: ___",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-126",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de cut: ___",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-127",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de cut: ___",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-128",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «cut», el past participle es ___.",
+   "r": [
+    "cut"
+   ],
+   "e": "cut – cut – cut · cortar",
+   "id": "ENIV-129",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «hacer»: ___",
+   "r": [
+    "do"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-130",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «hacer»: ___",
+   "r": [
+    "did"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-131",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «hacer»: ___",
+   "r": [
+    "done"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-132",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de do: ___",
+   "r": [
+    "did"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-133",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de do: ___",
+   "r": [
+    "done"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-134",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«did» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "do"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-135",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«done» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "do"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-136",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «did», el past participle es ___.",
+   "r": [
+    "done"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-137",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «done», el past simple es ___.",
+   "r": [
+    "did"
+   ],
+   "e": "do – did – done · hacer",
+   "id": "ENIV-138",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «dibujar»: ___",
+   "r": [
+    "draw"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-139",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «dibujar»: ___",
+   "r": [
+    "drew"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-140",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «dibujar»: ___",
+   "r": [
+    "drawn"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-141",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de draw: ___",
+   "r": [
+    "drew"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-142",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de draw: ___",
+   "r": [
+    "drawn"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-143",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«drew» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "draw"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-144",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«drawn» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "draw"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-145",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «drew», el past participle es ___.",
+   "r": [
+    "drawn"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-146",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «drawn», el past simple es ___.",
+   "r": [
+    "drew"
+   ],
+   "e": "draw – drew – drawn · dibujar",
+   "id": "ENIV-147",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «soñar»: ___",
+   "r": [
+    "dream"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-148",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «soñar»: ___",
+   "r": [
+    "dreamt",
+    "dreamed",
+    "dreamt/dreamed",
+    "dreamt / dreamed",
+    "dreamed/dreamt",
+    "dreamed / dreamt",
+    "dreamt or dreamed",
+    "dreamt, dreamed"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-149",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «soñar»: ___",
+   "r": [
+    "dreamt",
+    "dreamed",
+    "dreamt/dreamed",
+    "dreamt / dreamed",
+    "dreamed/dreamt",
+    "dreamed / dreamt",
+    "dreamt or dreamed",
+    "dreamt, dreamed"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-150",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de dream: ___",
+   "r": [
+    "dreamt",
+    "dreamed",
+    "dreamt/dreamed",
+    "dreamt / dreamed",
+    "dreamed/dreamt",
+    "dreamed / dreamt",
+    "dreamt or dreamed",
+    "dreamt, dreamed"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-151",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de dream: ___",
+   "r": [
+    "dreamt",
+    "dreamed",
+    "dreamt/dreamed",
+    "dreamt / dreamed",
+    "dreamed/dreamt",
+    "dreamed / dreamt",
+    "dreamt or dreamed",
+    "dreamt, dreamed"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-152",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«dreamt» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "dream"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-153",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«dreamed» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "dream"
+   ],
+   "e": "dream – dreamt / dreamed – dreamt / dreamed · soñar",
+   "id": "ENIV-154",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «beber»: ___",
+   "r": [
+    "drink"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-155",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «beber»: ___",
+   "r": [
+    "drank"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-156",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «beber»: ___",
+   "r": [
+    "drunk"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-157",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de drink: ___",
+   "r": [
+    "drank"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-158",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de drink: ___",
+   "r": [
+    "drunk"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-159",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«drank» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "drink"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-160",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«drunk» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "drink"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-161",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «drank», el past participle es ___.",
+   "r": [
+    "drunk"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-162",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «drunk», el past simple es ___.",
+   "r": [
+    "drank"
+   ],
+   "e": "drink – drank – drunk · beber",
+   "id": "ENIV-163",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «conducir»: ___",
+   "r": [
+    "drive"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-164",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «conducir»: ___",
+   "r": [
+    "drove"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-165",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «conducir»: ___",
+   "r": [
+    "driven"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-166",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de drive: ___",
+   "r": [
+    "drove"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-167",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de drive: ___",
+   "r": [
+    "driven"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-168",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«drove» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "drive"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-169",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«driven» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "drive"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-170",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «drove», el past participle es ___.",
+   "r": [
+    "driven"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-171",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «driven», el past simple es ___.",
+   "r": [
+    "drove"
+   ],
+   "e": "drive – drove – driven · conducir",
+   "id": "ENIV-172",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «comer»: ___",
+   "r": [
+    "eat"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-173",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «comer»: ___",
+   "r": [
+    "ate"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-174",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «comer»: ___",
+   "r": [
+    "eaten"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-175",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de eat: ___",
+   "r": [
+    "ate"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-176",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de eat: ___",
+   "r": [
+    "eaten"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-177",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«ate» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "eat"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-178",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«eaten» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "eat"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-179",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «ate», el past participle es ___.",
+   "r": [
+    "eaten"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-180",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «eaten», el past simple es ___.",
+   "r": [
+    "ate"
+   ],
+   "e": "eat – ate – eaten · comer",
+   "id": "ENIV-181",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «caer»: ___",
+   "r": [
+    "fall"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-182",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «caer»: ___",
+   "r": [
+    "fell"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-183",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «caer»: ___",
+   "r": [
+    "fallen"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-184",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de fall: ___",
+   "r": [
+    "fell"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-185",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de fall: ___",
+   "r": [
+    "fallen"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-186",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«fell» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "fall"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-187",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«fallen» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "fall"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-188",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «fell», el past participle es ___.",
+   "r": [
+    "fallen"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-189",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «fallen», el past simple es ___.",
+   "r": [
+    "fell"
+   ],
+   "e": "fall – fell – fallen · caer",
+   "id": "ENIV-190",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «alimentar»: ___",
+   "r": [
+    "feed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-191",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «alimentar»: ___",
+   "r": [
+    "fed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-192",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «alimentar»: ___",
+   "r": [
+    "fed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-193",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de feed: ___",
+   "r": [
+    "fed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-194",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de feed: ___",
+   "r": [
+    "fed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-195",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«fed» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "feed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-196",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «fed», el past participle es ___.",
+   "r": [
+    "fed"
+   ],
+   "e": "feed – fed – fed · alimentar",
+   "id": "ENIV-197",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «sentir»: ___",
+   "r": [
+    "feel"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-198",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «sentir»: ___",
+   "r": [
+    "felt"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-199",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «sentir»: ___",
+   "r": [
+    "felt"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-200",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de feel: ___",
+   "r": [
+    "felt"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-201",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de feel: ___",
+   "r": [
+    "felt"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-202",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«felt» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "feel"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-203",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «felt», el past participle es ___.",
+   "r": [
+    "felt"
+   ],
+   "e": "feel – felt – felt · sentir",
+   "id": "ENIV-204",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «luchar / pelear»: ___",
+   "r": [
+    "fight"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-205",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «luchar / pelear»: ___",
+   "r": [
+    "fought"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-206",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «luchar / pelear»: ___",
+   "r": [
+    "fought"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-207",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de fight: ___",
+   "r": [
+    "fought"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-208",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de fight: ___",
+   "r": [
+    "fought"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-209",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«fought» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "fight"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-210",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «fought», el past participle es ___.",
+   "r": [
+    "fought"
+   ],
+   "e": "fight – fought – fought · luchar / pelear",
+   "id": "ENIV-211",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «encontrar»: ___",
+   "r": [
+    "find"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-212",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «encontrar»: ___",
+   "r": [
+    "found"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-213",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «encontrar»: ___",
+   "r": [
+    "found"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-214",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de find: ___",
+   "r": [
+    "found"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-215",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de find: ___",
+   "r": [
+    "found"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-216",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«found» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "find"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-217",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «found», el past participle es ___.",
+   "r": [
+    "found"
+   ],
+   "e": "find – found – found · encontrar",
+   "id": "ENIV-218",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «volar»: ___",
+   "r": [
+    "fly"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-219",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «volar»: ___",
+   "r": [
+    "flew"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-220",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «volar»: ___",
+   "r": [
+    "flown"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-221",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de fly: ___",
+   "r": [
+    "flew"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-222",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de fly: ___",
+   "r": [
+    "flown"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-223",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«flew» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "fly"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-224",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«flown» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "fly"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-225",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «flew», el past participle es ___.",
+   "r": [
+    "flown"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-226",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «flown», el past simple es ___.",
+   "r": [
+    "flew"
+   ],
+   "e": "fly – flew – flown · volar",
+   "id": "ENIV-227",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «olvidar»: ___",
+   "r": [
+    "forget"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-228",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «olvidar»: ___",
+   "r": [
+    "forgot"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-229",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «olvidar»: ___",
+   "r": [
+    "forgotten"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-230",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de forget: ___",
+   "r": [
+    "forgot"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-231",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de forget: ___",
+   "r": [
+    "forgotten"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-232",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«forgot» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "forget"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-233",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«forgotten» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "forget"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-234",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «forgot», el past participle es ___.",
+   "r": [
+    "forgotten"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-235",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «forgotten», el past simple es ___.",
+   "r": [
+    "forgot"
+   ],
+   "e": "forget – forgot – forgotten · olvidar",
+   "id": "ENIV-236",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «perdonar»: ___",
+   "r": [
+    "forgive"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-237",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «perdonar»: ___",
+   "r": [
+    "forgave"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-238",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «perdonar»: ___",
+   "r": [
+    "forgiven"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-239",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de forgive: ___",
+   "r": [
+    "forgave"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-240",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de forgive: ___",
+   "r": [
+    "forgiven"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-241",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«forgave» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "forgive"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-242",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«forgiven» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "forgive"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-243",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «forgave», el past participle es ___.",
+   "r": [
+    "forgiven"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-244",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «forgiven», el past simple es ___.",
+   "r": [
+    "forgave"
+   ],
+   "e": "forgive – forgave – forgiven · perdonar",
+   "id": "ENIV-245",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «congelar»: ___",
+   "r": [
+    "freeze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-246",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «congelar»: ___",
+   "r": [
+    "froze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-247",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «congelar»: ___",
+   "r": [
+    "frozen"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-248",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de freeze: ___",
+   "r": [
+    "froze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-249",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de freeze: ___",
+   "r": [
+    "frozen"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-250",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«froze» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "freeze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-251",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«frozen» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "freeze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-252",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «froze», el past participle es ___.",
+   "r": [
+    "frozen"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-253",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «frozen», el past simple es ___.",
+   "r": [
+    "froze"
+   ],
+   "e": "freeze – froze – frozen · congelar",
+   "id": "ENIV-254",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «obtener / conseguir»: ___",
+   "r": [
+    "get"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-255",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «obtener / conseguir»: ___",
+   "r": [
+    "got"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-256",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «obtener / conseguir»: ___",
+   "r": [
+    "got"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-257",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de get: ___",
+   "r": [
+    "got"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-258",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de get: ___",
+   "r": [
+    "got"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-259",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«got» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "get"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-260",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «got», el past participle es ___.",
+   "r": [
+    "got"
+   ],
+   "e": "get – got – got · obtener / conseguir",
+   "id": "ENIV-261",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «dar»: ___",
+   "r": [
+    "give"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-262",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «dar»: ___",
+   "r": [
+    "gave"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-263",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «dar»: ___",
+   "r": [
+    "given"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-264",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de give: ___",
+   "r": [
+    "gave"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-265",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de give: ___",
+   "r": [
+    "given"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-266",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«gave» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "give"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-267",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«given» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "give"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-268",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «gave», el past participle es ___.",
+   "r": [
+    "given"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-269",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «given», el past simple es ___.",
+   "r": [
+    "gave"
+   ],
+   "e": "give – gave – given · dar",
+   "id": "ENIV-270",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «ir»: ___",
+   "r": [
+    "go"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-271",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «ir»: ___",
+   "r": [
+    "went"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-272",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «ir»: ___",
+   "r": [
+    "gone",
+    "been",
+    "gone/been",
+    "gone / been",
+    "been/gone",
+    "been / gone",
+    "gone or been",
+    "gone, been"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-273",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de go: ___",
+   "r": [
+    "went"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-274",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de go: ___",
+   "r": [
+    "gone",
+    "been",
+    "gone/been",
+    "gone / been",
+    "been/gone",
+    "been / gone",
+    "gone or been",
+    "gone, been"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-275",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«went» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "go"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-276",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«gone» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "go"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-277",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «went», el past participle es ___.",
+   "r": [
+    "gone",
+    "been",
+    "gone/been",
+    "gone / been",
+    "been/gone",
+    "been / gone",
+    "gone or been",
+    "gone, been"
+   ],
+   "e": "go – went – gone / been · ir",
+   "id": "ENIV-278",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «crecer»: ___",
+   "r": [
+    "grow"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-279",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «crecer»: ___",
+   "r": [
+    "grew"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-280",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «crecer»: ___",
+   "r": [
+    "grown"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-281",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de grow: ___",
+   "r": [
+    "grew"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-282",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de grow: ___",
+   "r": [
+    "grown"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-283",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«grew» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "grow"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-284",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«grown» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "grow"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-285",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «grew», el past participle es ___.",
+   "r": [
+    "grown"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-286",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «grown», el past simple es ___.",
+   "r": [
+    "grew"
+   ],
+   "e": "grow – grew – grown · crecer",
+   "id": "ENIV-287",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «colgar»: ___",
+   "r": [
+    "hang"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-288",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «colgar»: ___",
+   "r": [
+    "hung"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-289",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «colgar»: ___",
+   "r": [
+    "hung"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-290",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hang: ___",
+   "r": [
+    "hung"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-291",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hang: ___",
+   "r": [
+    "hung"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-292",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«hung» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "hang"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-293",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «hung», el past participle es ___.",
+   "r": [
+    "hung"
+   ],
+   "e": "hang – hung – hung · colgar",
+   "id": "ENIV-294",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «tener»: ___",
+   "r": [
+    "have"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-295",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «tener»: ___",
+   "r": [
+    "had"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-296",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «tener»: ___",
+   "r": [
+    "had"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-297",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de have: ___",
+   "r": [
+    "had"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-298",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de have: ___",
+   "r": [
+    "had"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-299",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«had» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "have"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-300",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «had», el past participle es ___.",
+   "r": [
+    "had"
+   ],
+   "e": "have – had – had · tener",
+   "id": "ENIV-301",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «escuchar / oír»: ___",
+   "r": [
+    "hear"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-302",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «escuchar / oír»: ___",
+   "r": [
+    "heard"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-303",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «escuchar / oír»: ___",
+   "r": [
+    "heard"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-304",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hear: ___",
+   "r": [
+    "heard"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-305",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hear: ___",
+   "r": [
+    "heard"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-306",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«heard» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "hear"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-307",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «heard», el past participle es ___.",
+   "r": [
+    "heard"
+   ],
+   "e": "hear – heard – heard · escuchar / oír",
+   "id": "ENIV-308",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «esconder(se)»: ___",
+   "r": [
+    "hide"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-309",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «esconder(se)»: ___",
+   "r": [
+    "hid"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-310",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «esconder(se)»: ___",
+   "r": [
+    "hidden"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-311",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hide: ___",
+   "r": [
+    "hid"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-312",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hide: ___",
+   "r": [
+    "hidden"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-313",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«hid» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "hide"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-314",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«hidden» es el past participle de ___ (escribe el infinitivo).",
+   "r": [
+    "hide"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-315",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «hid», el past participle es ___.",
+   "r": [
+    "hidden"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-316",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past participle es «hidden», el past simple es ___.",
+   "r": [
+    "hid"
+   ],
+   "e": "hide – hid – hidden · esconder(se)",
+   "id": "ENIV-317",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «golpear (a alguien) / chocar (algo)»: ___",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-318",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «golpear (a alguien) / chocar (algo)»: ___",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-319",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «golpear (a alguien) / chocar (algo)»: ___",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-320",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hit: ___",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-321",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hit: ___",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-322",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «hit», el past participle es ___.",
+   "r": [
+    "hit"
+   ],
+   "e": "hit – hit – hit · golpear (a alguien) / chocar (algo)",
+   "id": "ENIV-323",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «agarrar (algo) / organizar (algo)»: ___",
+   "r": [
+    "hold"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-324",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «agarrar (algo) / organizar (algo)»: ___",
+   "r": [
+    "held"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-325",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «agarrar (algo) / organizar (algo)»: ___",
+   "r": [
+    "held"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-326",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hold: ___",
+   "r": [
+    "held"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-327",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hold: ___",
+   "r": [
+    "held"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-328",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«held» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "hold"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-329",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «held», el past participle es ___.",
+   "r": [
+    "held"
+   ],
+   "e": "hold – held – held · agarrar (algo) / organizar (algo)",
+   "id": "ENIV-330",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «herir»: ___",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-331",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «herir»: ___",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-332",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «herir»: ___",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-333",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de hurt: ___",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-334",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de hurt: ___",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-335",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «hurt», el past participle es ___.",
+   "r": [
+    "hurt"
+   ],
+   "e": "hurt – hurt – hurt · herir",
+   "id": "ENIV-336",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Infinitivo de «guardar»: ___",
+   "r": [
+    "keep"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-337",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de «guardar»: ___",
+   "r": [
+    "kept"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-338",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de «guardar»: ___",
+   "r": [
+    "kept"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-339",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past simple de keep: ___",
+   "r": [
+    "kept"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-340",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Past participle de keep: ___",
+   "r": [
+    "kept"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-341",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "«kept» es el past simple de ___ (escribe el infinitivo).",
+   "r": [
+    "keep"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-342",
+   "t": "en-irreg1"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Si el past simple es «kept», el past participle es ___.",
+   "r": [
+    "kept"
+   ],
+   "e": "keep – kept – kept · guardar",
+   "id": "ENIV-343",
+   "t": "en-irreg1"
   }
  ],
  "tarjetas": [
@@ -5655,6 +9197,270 @@
    "t": "gh-roma",
    "f": "Teselas",
    "b": "Piecitas con las que se hacen los mosaicos."
+  },
+  {
+   "id": "ENIV-T01",
+   "t": "en-irreg1",
+   "f": "be /biː/ · ser/estar",
+   "b": "was / were /wɒz/, /wɜː(r)/ · been /biːn/"
+  },
+  {
+   "id": "ENIV-T02",
+   "t": "en-irreg1",
+   "f": "beat /biːt/ · golpear (algo) / vencer (a alguien)",
+   "b": "beat /biːt/ · beaten /ˈbiːtn/"
+  },
+  {
+   "id": "ENIV-T03",
+   "t": "en-irreg1",
+   "f": "become /bɪˈkʌm/ · convertirse",
+   "b": "became /bɪˈkeɪm/ · become /bɪˈkʌm/"
+  },
+  {
+   "id": "ENIV-T04",
+   "t": "en-irreg1",
+   "f": "begin /bɪˈɡɪn/ · comenzar",
+   "b": "began /bɪˈɡæn/ · begun /bɪˈɡʌn/"
+  },
+  {
+   "id": "ENIV-T05",
+   "t": "en-irreg1",
+   "f": "bite /baɪt/ · morder",
+   "b": "bit /bɪt/ · bitten /ˈbɪtn/"
+  },
+  {
+   "id": "ENIV-T06",
+   "t": "en-irreg1",
+   "f": "blow /bləʊ/ · soplar",
+   "b": "blew /bluː/ · blown /bləʊn/"
+  },
+  {
+   "id": "ENIV-T07",
+   "t": "en-irreg1",
+   "f": "break /breɪk/ · romper",
+   "b": "broke /brəʊk/ · broken /ˈbrəʊkən/"
+  },
+  {
+   "id": "ENIV-T08",
+   "t": "en-irreg1",
+   "f": "bring /brɪŋ/ · traer / llevar",
+   "b": "brought /brɔːt/ · brought /brɔːt/"
+  },
+  {
+   "id": "ENIV-T09",
+   "t": "en-irreg1",
+   "f": "burn /bɜːn/ · quemar",
+   "b": "burnt / burned /bɜːnt/, /bɜːnd/ · burnt / burned /bɜːnt/, /bɜːnd/"
+  },
+  {
+   "id": "ENIV-T10",
+   "t": "en-irreg1",
+   "f": "build /bɪld/ · construir",
+   "b": "built /bɪlt/ · built /bɪlt/"
+  },
+  {
+   "id": "ENIV-T11",
+   "t": "en-irreg1",
+   "f": "buy /baɪ/ · comprar",
+   "b": "bought /bɔːt/ · bought /bɔːt/"
+  },
+  {
+   "id": "ENIV-T12",
+   "t": "en-irreg1",
+   "f": "can /kæn/ · poder",
+   "b": "could /kʊd/ · (sin participio)"
+  },
+  {
+   "id": "ENIV-T13",
+   "t": "en-irreg1",
+   "f": "catch /kætʃ/ · coger / agarrar",
+   "b": "caught /kɔːt/ · caught /kɔːt/"
+  },
+  {
+   "id": "ENIV-T14",
+   "t": "en-irreg1",
+   "f": "choose /tʃuːz/ · elegir",
+   "b": "chose /tʃəʊz/ · chosen /ˈtʃəʊzn/"
+  },
+  {
+   "id": "ENIV-T15",
+   "t": "en-irreg1",
+   "f": "come /kʌm/ · venir",
+   "b": "came /keɪm/ · come /kʌm/"
+  },
+  {
+   "id": "ENIV-T16",
+   "t": "en-irreg1",
+   "f": "cost /kɒst/ · costar",
+   "b": "cost /kɒst/ · cost /kɒst/"
+  },
+  {
+   "id": "ENIV-T17",
+   "t": "en-irreg1",
+   "f": "cut /kʌt/ · cortar",
+   "b": "cut /kʌt/ · cut /kʌt/"
+  },
+  {
+   "id": "ENIV-T18",
+   "t": "en-irreg1",
+   "f": "do /duː/ · hacer",
+   "b": "did /dɪd/ · done /dʌn/"
+  },
+  {
+   "id": "ENIV-T19",
+   "t": "en-irreg1",
+   "f": "draw /drɔː/ · dibujar",
+   "b": "drew /druː/ · drawn /drɔːn/"
+  },
+  {
+   "id": "ENIV-T20",
+   "t": "en-irreg1",
+   "f": "dream /driːm/ · soñar",
+   "b": "dreamt / dreamed /dremt/, /driːmd/ · dreamt / dreamed /dremt/, /driːmd/"
+  },
+  {
+   "id": "ENIV-T21",
+   "t": "en-irreg1",
+   "f": "drink /drɪŋk/ · beber",
+   "b": "drank /dræŋk/ · drunk /drʌŋk/"
+  },
+  {
+   "id": "ENIV-T22",
+   "t": "en-irreg1",
+   "f": "drive /draɪv/ · conducir",
+   "b": "drove /drəʊv/ · driven /ˈdrɪvn/"
+  },
+  {
+   "id": "ENIV-T23",
+   "t": "en-irreg1",
+   "f": "eat /iːt/ · comer",
+   "b": "ate /eɪt/, /et/ · eaten /ˈiːtn/"
+  },
+  {
+   "id": "ENIV-T24",
+   "t": "en-irreg1",
+   "f": "fall /fɔːl/ · caer",
+   "b": "fell /fel/ · fallen /ˈfɔːlən/"
+  },
+  {
+   "id": "ENIV-T25",
+   "t": "en-irreg1",
+   "f": "feed /fiːd/ · alimentar",
+   "b": "fed /fed/ · fed /fed/"
+  },
+  {
+   "id": "ENIV-T26",
+   "t": "en-irreg1",
+   "f": "feel /fiːl/ · sentir",
+   "b": "felt /felt/ · felt /felt/"
+  },
+  {
+   "id": "ENIV-T27",
+   "t": "en-irreg1",
+   "f": "fight /faɪt/ · luchar / pelear",
+   "b": "fought /fɔːt/ · fought /fɔːt/"
+  },
+  {
+   "id": "ENIV-T28",
+   "t": "en-irreg1",
+   "f": "find /faɪnd/ · encontrar",
+   "b": "found /faʊnd/ · found /faʊnd/"
+  },
+  {
+   "id": "ENIV-T29",
+   "t": "en-irreg1",
+   "f": "fly /flaɪ/ · volar",
+   "b": "flew /fluː/ · flown /fləʊn/"
+  },
+  {
+   "id": "ENIV-T30",
+   "t": "en-irreg1",
+   "f": "forget /fəˈɡet/ · olvidar",
+   "b": "forgot /fəˈɡɒt/ · forgotten /fəˈɡɒtn/"
+  },
+  {
+   "id": "ENIV-T31",
+   "t": "en-irreg1",
+   "f": "forgive /fəˈɡɪv/ · perdonar",
+   "b": "forgave /fəˈɡeɪv/ · forgiven /fəˈɡɪvn/"
+  },
+  {
+   "id": "ENIV-T32",
+   "t": "en-irreg1",
+   "f": "freeze /friːz/ · congelar",
+   "b": "froze /frəʊz/ · frozen /ˈfrəʊzn/"
+  },
+  {
+   "id": "ENIV-T33",
+   "t": "en-irreg1",
+   "f": "get /ɡet/ · obtener / conseguir",
+   "b": "got /ɡɒt/ · got /ɡɒt/"
+  },
+  {
+   "id": "ENIV-T34",
+   "t": "en-irreg1",
+   "f": "give /ɡɪv/ · dar",
+   "b": "gave /ɡeɪv/ · given /ˈɡɪvn/"
+  },
+  {
+   "id": "ENIV-T35",
+   "t": "en-irreg1",
+   "f": "go /ɡəʊ/ · ir",
+   "b": "went /went/ · gone / been /ɡɒn/, /biːn/"
+  },
+  {
+   "id": "ENIV-T36",
+   "t": "en-irreg1",
+   "f": "grow /ɡrəʊ/ · crecer",
+   "b": "grew /ɡruː/ · grown /ɡrəʊn/"
+  },
+  {
+   "id": "ENIV-T37",
+   "t": "en-irreg1",
+   "f": "hang /hæŋ/ · colgar",
+   "b": "hung /hʌŋ/ · hung /hʌŋ/"
+  },
+  {
+   "id": "ENIV-T38",
+   "t": "en-irreg1",
+   "f": "have /hæv/ · tener",
+   "b": "had /hæd/ · had /hæd/"
+  },
+  {
+   "id": "ENIV-T39",
+   "t": "en-irreg1",
+   "f": "hear /hɪə(r)/ · escuchar / oír",
+   "b": "heard /hɜːd/ · heard /hɜːd/"
+  },
+  {
+   "id": "ENIV-T40",
+   "t": "en-irreg1",
+   "f": "hide /haɪd/ · esconder(se)",
+   "b": "hid /hɪd/ · hidden /ˈhɪdn/"
+  },
+  {
+   "id": "ENIV-T41",
+   "t": "en-irreg1",
+   "f": "hit /hɪt/ · golpear (a alguien) / chocar (algo)",
+   "b": "hit /hɪt/ · hit /hɪt/"
+  },
+  {
+   "id": "ENIV-T42",
+   "t": "en-irreg1",
+   "f": "hold /həʊld/ · agarrar (algo) / organizar (algo)",
+   "b": "held /held/ · held /held/"
+  },
+  {
+   "id": "ENIV-T43",
+   "t": "en-irreg1",
+   "f": "hurt /hɜːt/ · herir",
+   "b": "hurt /hɜːt/ · hurt /hɜːt/"
+  },
+  {
+   "id": "ENIV-T44",
+   "t": "en-irreg1",
+   "f": "keep /kiːp/ · guardar",
+   "b": "kept /kept/ · kept /kept/"
   }
  ],
  "texto": {
@@ -6026,6 +9832,144 @@
    },
    {
     "x": "Aquest dimarts el senyor F. s'ha oblidat de posar el despertador i la Clàudia no li ho ha dit. Abans d'anar-se'n, ella li demana un tros de pastís per a l'Àngels, la seua amiga nova. El senyor F. li dona tot el que queda i li proposa fer galetes junts el dimarts següent, mentre li explica què va passar quan el Nikos i la Dora van tornar a Nova York."
+   }
+  ],
+  "en-irreg1": [
+   {
+    "h": 1,
+    "x": "Irregular verbs: from be to keep"
+   },
+   {
+    "x": "be, was or were, been."
+   },
+   {
+    "x": "beat, beat, beaten."
+   },
+   {
+    "x": "become, became, become."
+   },
+   {
+    "x": "begin, began, begun."
+   },
+   {
+    "x": "bite, bit, bitten."
+   },
+   {
+    "x": "blow, blew, blown."
+   },
+   {
+    "x": "break, broke, broken."
+   },
+   {
+    "x": "bring, brought, brought."
+   },
+   {
+    "x": "burn, burnt or burned, burnt or burned."
+   },
+   {
+    "x": "build, built, built."
+   },
+   {
+    "x": "buy, bought, bought."
+   },
+   {
+    "x": "can, could."
+   },
+   {
+    "x": "catch, caught, caught."
+   },
+   {
+    "x": "choose, chose, chosen."
+   },
+   {
+    "x": "come, came, come."
+   },
+   {
+    "x": "cost, cost, cost."
+   },
+   {
+    "x": "cut, cut, cut."
+   },
+   {
+    "x": "do, did, done."
+   },
+   {
+    "x": "draw, drew, drawn."
+   },
+   {
+    "x": "dream, dreamt or dreamed, dreamt or dreamed."
+   },
+   {
+    "x": "drink, drank, drunk."
+   },
+   {
+    "x": "drive, drove, driven."
+   },
+   {
+    "x": "eat, ate, eaten."
+   },
+   {
+    "x": "fall, fell, fallen."
+   },
+   {
+    "x": "feed, fed, fed."
+   },
+   {
+    "x": "feel, felt, felt."
+   },
+   {
+    "x": "fight, fought, fought."
+   },
+   {
+    "x": "find, found, found."
+   },
+   {
+    "x": "fly, flew, flown."
+   },
+   {
+    "x": "forget, forgot, forgotten."
+   },
+   {
+    "x": "forgive, forgave, forgiven."
+   },
+   {
+    "x": "freeze, froze, frozen."
+   },
+   {
+    "x": "get, got, got."
+   },
+   {
+    "x": "give, gave, given."
+   },
+   {
+    "x": "go, went, gone or been."
+   },
+   {
+    "x": "grow, grew, grown."
+   },
+   {
+    "x": "hang, hung, hung."
+   },
+   {
+    "x": "have, had, had."
+   },
+   {
+    "x": "hear, heard, heard."
+   },
+   {
+    "x": "hide, hid, hidden."
+   },
+   {
+    "x": "hit, hit, hit."
+   },
+   {
+    "x": "hold, held, held."
+   },
+   {
+    "x": "hurt, hurt, hurt."
+   },
+   {
+    "x": "keep, kept, kept."
    }
   ]
  }

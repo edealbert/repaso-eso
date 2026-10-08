@@ -549,7 +549,7 @@ function speakFrom(pi, ci){
     if(tok !== A.token || !A.playing) return;
     if(A.ci >= A.chunks.length){ speakFrom(audPos(S.tema) + 1, 0); return; }
     const u = new SpeechSynthesisUtterance(A.chunks[A.ci]); const vs = vocesPara(lang);
-    const v = vs.find(x => x.voiceURI === voice) || vs[0]; if(v){ u.voice = v; u.lang = v.lang; } else u.lang = lang === "ca" ? "ca-ES" : "es-ES";
+    const v = vs.find(x => x.voiceURI === voice) || vs[0]; if(v){ u.voice = v; u.lang = v.lang; } else u.lang = ({ca:"ca-ES", en:"en-GB"})[lang] || "es-ES";
     u.rate = A.rate;
     u.onend = () => { if(tok === A.token){ A.ci++; next(); } };
     u.onerror = e => { if(tok !== A.token || e.error === "interrupted" || e.error === "canceled") return; A.ci++; next(); };
