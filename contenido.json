@@ -1,5 +1,5 @@
 {
- "v": 5,
+ "v": 6,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -84,7 +84,14 @@
    "asig": "gh",
    "numero": "1",
    "titulo": "La civilización romana",
-   "resumen": "Orígenes, Monarquía, República e Imperio, el ejército, las ciudades y el arte romano."
+   "resumen": "Orígenes, Monarquía, República e Imperio, el ejército, las ciudades y el arte romano y los tipos de columnas."
+  },
+  {
+   "id": "gh-bizancio",
+   "asig": "gh",
+   "numero": "2",
+   "titulo": "El Imperio bizantino",
+   "resumen": "Constantinopla, Justiniano y su Código, la Segunda Edad de Oro y la caída en 1453."
   },
   {
    "id": "en-irreg1",
@@ -8049,6 +8056,624 @@
    "e": "keep – kept – kept · guardar",
    "id": "ENIV-343",
    "t": "en-irreg1"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cómo se llama la parte de arriba de la columna, la que permite distinguir cada orden?",
+   "o": [
+    "Capitel",
+    "Fuste",
+    "Basa",
+    "Friso"
+   ],
+   "e": "El capitel corona la columna y su decoración indica el orden.",
+   "id": "GH1-065",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuál es el orden con el capitel más sencillo, sin apenas decoración?",
+   "o": [
+    "Dórico",
+    "Jónico",
+    "Corintio",
+    "Compuesto"
+   ],
+   "e": "El dórico tiene un capitel liso: una moldura redondeada y una losa cuadrada.",
+   "id": "GH1-066",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué orden tiene un capitel con dos volutas (espirales) a los lados?",
+   "o": [
+    "Jónico",
+    "Dórico",
+    "Corintio",
+    "Toscano"
+   ],
+   "e": "Las volutas en espiral son la marca del orden jónico.",
+   "id": "GH1-067",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué orden tiene el capitel decorado con hojas de acanto?",
+   "o": [
+    "Corintio",
+    "Dórico",
+    "Jónico",
+    "Toscano"
+   ],
+   "e": "Las hojas de acanto caracterizan el capitel corintio.",
+   "id": "GH1-068",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cómo es el capitel del orden compuesto?",
+   "o": [
+    "Mezcla hojas de acanto y volutas",
+    "Es totalmente liso",
+    "Solo tiene volutas",
+    "Solo tiene hojas de acanto"
+   ],
+   "e": "El compuesto une el corintio (hojas) y el jónico (volutas). Es el más recargado.",
+   "id": "GH1-069",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué dos órdenes se mezclan en el orden compuesto?",
+   "o": [
+    "Jónico y corintio",
+    "Dórico y toscano",
+    "Dórico y jónico",
+    "Toscano y corintio"
+   ],
+   "e": "Volutas del jónico + hojas de acanto del corintio.",
+   "id": "GH1-070",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuál de estos órdenes es una creación romana?",
+   "o": [
+    "Compuesto",
+    "Jónico",
+    "Corintio",
+    "Dórico"
+   ],
+   "e": "Los romanos añadieron el toscano y el compuesto.",
+   "id": "GH1-071",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué orden romano se parece al dórico pero es aún más simple?",
+   "o": [
+    "Toscano",
+    "Compuesto",
+    "Jónico",
+    "Corintio"
+   ],
+   "e": "El toscano es como un dórico simplificado, normalmente con fuste liso.",
+   "id": "GH1-072",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "Ves una columna cuyo capitel tiene espirales y además hojas. ¿De qué orden es?",
+   "o": [
+    "Compuesto",
+    "Jónico",
+    "Corintio",
+    "Dórico"
+   ],
+   "e": "Espirales + hojas = compuesto.",
+   "id": "GH1-073",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "vf",
+   "p": "El orden dórico es el más decorado de todos.",
+   "v": false,
+   "e": "Es el más sencillo; el más recargado es el compuesto.",
+   "id": "GH1-074",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "vf",
+   "p": "Los órdenes dórico, jónico y corintio los tomaron los romanos de los griegos.",
+   "v": true,
+   "e": "Son los órdenes clásicos griegos.",
+   "id": "GH1-075",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "vf",
+   "p": "El orden jónico se reconoce por las hojas de acanto de su capitel.",
+   "v": false,
+   "e": "El jónico tiene volutas; las hojas son del corintio.",
+   "id": "GH1-076",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "vf",
+   "p": "El capitel es la parte superior de la columna.",
+   "v": true,
+   "e": "Corona la columna, sobre el fuste.",
+   "id": "GH1-077",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La parte superior de una columna se llama ___.",
+   "r": [
+    "capitel"
+   ],
+   "e": "El capitel permite distinguir los órdenes.",
+   "id": "GH1-078",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Las espirales del capitel jónico se llaman ___.",
+   "r": [
+    "volutas",
+    "voluta"
+   ],
+   "e": "Volutas = espirales.",
+   "id": "GH1-079",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El capitel corintio está decorado con hojas de ___.",
+   "r": [
+    "acanto"
+   ],
+   "e": "Hojas de acanto.",
+   "id": "GH1-080",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El orden que mezcla el jónico y el corintio se llama ___.",
+   "r": [
+    "compuesto"
+   ],
+   "e": "Es una aportación romana.",
+   "id": "GH1-081",
+   "t": "gh-roma"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué era el Imperio bizantino?",
+   "o": [
+    "El Imperio romano de Oriente",
+    "Un reino germánico",
+    "El Imperio romano de Occidente",
+    "Un imperio turco"
+   ],
+   "e": "Es la parte oriental del Imperio romano, que sobrevivió a las invasiones.",
+   "id": "GH2-001",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cómo era el Imperio romano de Oriente comparado con el de Occidente?",
+   "o": [
+    "Más poblado y más rico",
+    "Más pequeño y pobre",
+    "Igual de débil",
+    "Sin ciudades importantes"
+   ],
+   "e": "Era la parte más poblada y rica, y por eso resistió.",
+   "id": "GH2-002",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué hicieron los emperadores de Oriente para mantener la paz con los bárbaros?",
+   "o": [
+    "Pagarles tributos y firmar tratados",
+    "Construir una gran muralla en Germania",
+    "Darles la ciudadanía a todos",
+    "Rendirse sin luchar"
+   ],
+   "e": "Pagaron tributos y firmaron tratados para evitar las invasiones.",
+   "id": "GH2-003",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuánto tiempo duró el Imperio bizantino?",
+   "o": [
+    "Unos diez siglos, del V al XV",
+    "Dos siglos",
+    "Del siglo I al V",
+    "Solo cien años"
+   ],
+   "e": "Se mantuvo desde el siglo V hasta 1453, en el siglo XV.",
+   "id": "GH2-004",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuál era la capital del Imperio bizantino?",
+   "o": [
+    "Constantinopla",
+    "Roma",
+    "Atenas",
+    "Rávena"
+   ],
+   "e": "Constantinopla, la actual Estambul.",
+   "id": "GH2-005",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién fundó Constantinopla?",
+   "o": [
+    "El emperador Constantino",
+    "Justiniano",
+    "Teodosio",
+    "Augusto"
+   ],
+   "e": "Constantino la fundó en el año 330.",
+   "id": "GH2-006",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Sobre qué antigua ciudad se fundó Constantinopla?",
+   "o": [
+    "Bizancio, una colonia griega",
+    "Cartago",
+    "Troya",
+    "Alejandría"
+   ],
+   "e": "De Bizancio viene el nombre de «Imperio bizantino».",
+   "id": "GH2-007",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿En qué año se fundó Constantinopla?",
+   "o": [
+    "330",
+    "476",
+    "395",
+    "1453"
+   ],
+   "e": "Constantino la fundó en el 330.",
+   "id": "GH2-008",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Por qué era importante la situación de Constantinopla?",
+   "o": [
+    "Era un punto estratégico militar y comercial",
+    "Estaba en el centro de Italia",
+    "Era la ciudad más fría",
+    "Estaba aislada de las rutas"
+   ],
+   "e": "Controlaba el paso entre Europa y Asia y entre dos mares.",
+   "id": "GH2-009",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué emperador bizantino quiso restaurar el Imperio romano?",
+   "o": [
+    "Justiniano",
+    "Constantino",
+    "Rómulo Augústulo",
+    "Julio César"
+   ],
+   "e": "Justiniano reconquistó algunas provincias de Occidente.",
+   "id": "GH2-010",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué hizo Justiniano para intentar restaurar el Imperio romano?",
+   "o": [
+    "Conquistó algunas provincias occidentales",
+    "Trasladó la capital a Roma",
+    "Dividió el Imperio en dos",
+    "Se alió con los turcos"
+   ],
+   "e": "Recuperó territorios del antiguo Imperio de Occidente.",
+   "id": "GH2-011",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué tradición romana mantuvo Justiniano en su corte?",
+   "o": [
+    "Ser aclamado por el Senado",
+    "Elegir a los magistrados en comicios",
+    "Volver a la monarquía de Rómulo",
+    "Abolir el Senado"
+   ],
+   "e": "Además concentró en su persona el poder político, militar y religioso.",
+   "id": "GH2-012",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué poderes concentraba Justiniano?",
+   "o": [
+    "Político, militar y religioso",
+    "Solo el religioso",
+    "Solo el militar",
+    "Ninguno: gobernaba el Senado"
+   ],
+   "e": "Reunía los tres poderes, como los emperadores romanos.",
+   "id": "GH2-013",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué fue el Código de Justiniano?",
+   "o": [
+    "Una recopilación de las leyes romanas",
+    "Un libro de recetas",
+    "Un tratado de paz con los turcos",
+    "Un mapa del Imperio"
+   ],
+   "e": "Recopiló y adaptó las leyes romanas en 12 libros.",
+   "id": "GH2-014",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Por qué la época de Justiniano fue la más próspera?",
+   "o": [
+    "Por la agricultura, la artesanía de lujo y el comercio",
+    "Por las minas de oro de Hispania",
+    "Porque no pagaba impuestos nadie",
+    "Por el turismo"
+   ],
+   "e": "Agricultura, artesanía de lujo y un comercio floreciente.",
+   "id": "GH2-015",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué ocurrió a partir del siglo VII?",
+   "o": [
+    "Bizancio perdió parte de las conquistas de Justiniano",
+    "Bizancio conquistó Roma",
+    "Cayó Constantinopla",
+    "Se fundó Constantinopla"
+   ],
+   "e": "Empezó a perder los territorios recuperados por Justiniano.",
+   "id": "GH2-016",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué fue la Segunda Edad de Oro bizantina?",
+   "o": [
+    "Una etapa en que una nueva dinastía recuperó la prosperidad",
+    "La época de Justiniano",
+    "La fundación de Constantinopla",
+    "La conquista turca"
+   ],
+   "e": "Una nueva dinastía devolvió a Bizancio su antigua prosperidad.",
+   "id": "GH2-017",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Desde qué siglo se debilitó definitivamente el Imperio bizantino?",
+   "o": [
+    "Siglo XI",
+    "Siglo V",
+    "Siglo VII",
+    "Siglo XV"
+   ],
+   "e": "A partir del siglo XI empieza su debilitamiento.",
+   "id": "GH2-018",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué pueblo conquistó la mayor parte de los territorios bizantinos?",
+   "o": [
+    "Los turcos otomanos",
+    "Los germanos",
+    "Los cartagineses",
+    "Los etruscos"
+   ],
+   "e": "Los turcos otomanos, un pueblo musulmán.",
+   "id": "GH2-019",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿En qué año los turcos se apoderaron de Constantinopla?",
+   "o": [
+    "1453",
+    "476",
+    "330",
+    "1492"
+   ],
+   "e": "En 1453 cae Constantinopla y termina el Imperio bizantino.",
+   "id": "GH2-020",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Por qué se dice que Bizancio fue una continuidad de Roma?",
+   "o": [
+    "Mantuvo las leyes, el Senado y la idea de Imperio romano",
+    "Porque su capital era Roma",
+    "Porque hablaban latín los turcos",
+    "Porque lo fundó Rómulo"
+   ],
+   "e": "Conservó instituciones y leyes romanas durante mil años.",
+   "id": "GH2-021",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Imperio romano de Oriente cayó en el año 476.",
+   "v": false,
+   "e": "En el 476 cayó el de Occidente; el de Oriente duró hasta 1453.",
+   "id": "GH2-022",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "Constantinopla se fundó sobre una antigua colonia griega llamada Bizancio.",
+   "v": true,
+   "e": "De ahí el nombre de Imperio bizantino.",
+   "id": "GH2-023",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "Constantinopla es la actual Estambul.",
+   "v": true,
+   "e": "Hoy es Estambul, en Turquía.",
+   "id": "GH2-024",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "Justiniano quería separarse por completo de la tradición romana.",
+   "v": false,
+   "e": "Al contrario: quería restaurar el Imperio romano.",
+   "id": "GH2-025",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Código de Justiniano recopilaba y adaptaba las leyes romanas.",
+   "v": true,
+   "e": "Lo formaban 12 libros.",
+   "id": "GH2-026",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "Los turcos otomanos eran un pueblo cristiano.",
+   "v": false,
+   "e": "Eran un pueblo musulmán.",
+   "id": "GH2-027",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "La época de Justiniano fue muy pobre económicamente.",
+   "v": false,
+   "e": "Fue la etapa más próspera.",
+   "id": "GH2-028",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "vf",
+   "p": "El Imperio bizantino se mantuvo unos diez siglos.",
+   "v": true,
+   "e": "Del siglo V al XV.",
+   "id": "GH2-029",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La capital del Imperio bizantino era ___.",
+   "r": [
+    "Constantinopla"
+   ],
+   "e": "Fundada por Constantino en el 330.",
+   "id": "GH2-030",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Constantinopla fue fundada por el emperador ___.",
+   "r": [
+    "Constantino"
+   ],
+   "e": "En el año 330.",
+   "id": "GH2-031",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Constantinopla se fundó en el año ___.",
+   "r": [
+    "330"
+   ],
+   "e": "Año 330.",
+   "id": "GH2-032",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La antigua colonia griega sobre la que se fundó Constantinopla se llamaba ___.",
+   "r": [
+    "Bizancio"
+   ],
+   "e": "De ahí «bizantino».",
+   "id": "GH2-033",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El emperador que quiso restaurar el Imperio romano fue ___.",
+   "r": [
+    "Justiniano"
+   ],
+   "e": "Siglo VI.",
+   "id": "GH2-034",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La recopilación de leyes romanas de Justiniano se llama Código de ___.",
+   "r": [
+    "Justiniano"
+   ],
+   "e": "Código de Justiniano.",
+   "id": "GH2-035",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Los turcos ___ conquistaron el Imperio bizantino.",
+   "r": [
+    "otomanos",
+    "otomano"
+   ],
+   "e": "Pueblo musulmán.",
+   "id": "GH2-036",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Constantinopla cayó en manos de los turcos en el año ___.",
+   "r": [
+    "1453"
+   ],
+   "e": "Fin del Imperio bizantino.",
+   "id": "GH2-037",
+   "t": "gh-bizancio"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La etapa de recuperación tras Justiniano se llama Segunda Edad de ___ bizantina.",
+   "r": [
+    "Oro"
+   ],
+   "e": "Segunda Edad de Oro.",
+   "id": "GH2-038",
+   "t": "gh-bizancio"
   }
  ],
  "tarjetas": [
@@ -9461,6 +10086,132 @@
    "t": "en-irreg1",
    "f": "keep /kiːp/ · guardar",
    "b": "kept /kept/ · kept /kept/"
+  },
+  {
+   "id": "GH1-T30",
+   "t": "gh-roma",
+   "f": "Capitel",
+   "b": "Parte superior de la columna. Su decoración permite distinguir el orden."
+  },
+  {
+   "id": "GH1-T31",
+   "t": "gh-roma",
+   "f": "Orden dórico",
+   "b": "Griego. Capitel sencillo, sin decoración: moldura redondeada y losa cuadrada."
+  },
+  {
+   "id": "GH1-T32",
+   "t": "gh-roma",
+   "f": "Orden jónico",
+   "b": "Griego. Capitel con dos volutas (espirales)."
+  },
+  {
+   "id": "GH1-T33",
+   "t": "gh-roma",
+   "f": "Orden corintio",
+   "b": "Griego. Capitel decorado con hojas de acanto."
+  },
+  {
+   "id": "GH1-T34",
+   "t": "gh-roma",
+   "f": "Orden toscano",
+   "b": "Romano. Como el dórico pero más simple, con fuste liso."
+  },
+  {
+   "id": "GH1-T35",
+   "t": "gh-roma",
+   "f": "Orden compuesto",
+   "b": "Romano. Mezcla hojas de acanto (corintio) y volutas (jónico). El más recargado."
+  },
+  {
+   "id": "GH2-T01",
+   "t": "gh-bizancio",
+   "f": "Imperio bizantino",
+   "b": "El Imperio romano de Oriente. Duró del siglo V al XV."
+  },
+  {
+   "id": "GH2-T02",
+   "t": "gh-bizancio",
+   "f": "Constantinopla",
+   "b": "Capital bizantina, fundada por Constantino en el 330 sobre Bizancio. Hoy Estambul."
+  },
+  {
+   "id": "GH2-T03",
+   "t": "gh-bizancio",
+   "f": "Bizancio",
+   "b": "Antigua colonia griega sobre la que se fundó Constantinopla."
+  },
+  {
+   "id": "GH2-T04",
+   "t": "gh-bizancio",
+   "f": "330",
+   "b": "Constantino funda Constantinopla."
+  },
+  {
+   "id": "GH2-T05",
+   "t": "gh-bizancio",
+   "f": "Por qué resistió Oriente",
+   "b": "Era más poblado y rico; pagó tributos a los bárbaros y firmó tratados."
+  },
+  {
+   "id": "GH2-T06",
+   "t": "gh-bizancio",
+   "f": "Justiniano",
+   "b": "Emperador del siglo VI que quiso restaurar el Imperio romano y reconquistó provincias de Occidente."
+  },
+  {
+   "id": "GH2-T07",
+   "t": "gh-bizancio",
+   "f": "Código de Justiniano",
+   "b": "Recopilación y adaptación de las leyes romanas en 12 libros."
+  },
+  {
+   "id": "GH2-T08",
+   "t": "gh-bizancio",
+   "f": "Tradiciones romanas de Justiniano",
+   "b": "Ser aclamado por el Senado y concentrar el poder político, militar y religioso."
+  },
+  {
+   "id": "GH2-T09",
+   "t": "gh-bizancio",
+   "f": "Prosperidad con Justiniano",
+   "b": "Agricultura, artesanía de productos de lujo y comercio floreciente."
+  },
+  {
+   "id": "GH2-T10",
+   "t": "gh-bizancio",
+   "f": "Siglo VII",
+   "b": "Bizancio pierde parte de las conquistas de Justiniano."
+  },
+  {
+   "id": "GH2-T11",
+   "t": "gh-bizancio",
+   "f": "Segunda Edad de Oro bizantina",
+   "b": "Una nueva dinastía recupera la prosperidad de Bizancio."
+  },
+  {
+   "id": "GH2-T12",
+   "t": "gh-bizancio",
+   "f": "Siglo XI",
+   "b": "Comienza el debilitamiento definitivo del Imperio."
+  },
+  {
+   "id": "GH2-T13",
+   "t": "gh-bizancio",
+   "f": "Turcos otomanos",
+   "b": "Pueblo musulmán que conquistó el Imperio bizantino."
+  },
+  {
+   "id": "GH2-T14",
+   "t": "gh-bizancio",
+   "f": "1453",
+   "b": "Los turcos toman Constantinopla. Fin del Imperio bizantino."
+  },
+  {
+   "id": "GH2-T15",
+   "t": "gh-bizancio",
+   "f": "¿Continuidad de Roma?",
+   "b": "Sí: mantuvo leyes, instituciones y la idea de Imperio romano durante mil años."
   }
  ],
  "texto": {
@@ -9718,6 +10469,16 @@
    },
    {
     "x": "Las paredes se decoraban con pinturas, muchas conservadas en Pompeya y Herculano, que imitaban mármoles o mostraban arquitecturas, plantas y escenas religiosas, mitológicas o cotidianas. Los mosaicos, hechos con pequeñas piezas llamadas teselas, decoraban paredes, techos y suelos."
+   },
+   {
+    "h": 1,
+    "x": "Los órdenes o tipos de columnas"
+   },
+   {
+    "x": "La parte superior de una columna se llama capitel, y su decoración permite distinguir cada orden. De los griegos, los romanos tomaron tres órdenes. El dórico es el más sencillo: su capitel no tiene decoración, solo una moldura redondeada y una losa cuadrada encima. El jónico se reconoce por sus dos volutas, unas espirales a los lados del capitel. El corintio tiene el capitel decorado con hojas de acanto."
+   },
+   {
+    "x": "Los romanos añadieron dos órdenes más. El toscano es parecido al dórico pero aún más simple, normalmente con el fuste liso. El compuesto mezcla las hojas de acanto del corintio con las volutas del jónico, y es el más recargado de todos. Un truco para recordarlo: dórico, sencillo; jónico, espirales; corintio, hojas; compuesto, hojas y espirales."
    }
   ],
   "val-llibre3": [
@@ -9970,6 +10731,39 @@
    },
    {
     "x": "keep, kept, kept."
+   }
+  ],
+  "gh-bizancio": [
+   {
+    "h": 1,
+    "x": "¿Fue el Imperio bizantino una continuidad del romano?"
+   },
+   {
+    "h": 1,
+    "x": "El Imperio de Oriente resistió las invasiones"
+   },
+   {
+    "x": "El Imperio romano de Oriente era el más poblado y rico, y logró sobrevivir a las guerras y a las invasiones. Sus emperadores pagaron tributos a los bárbaros y firmaron tratados para mantener la paz con ellos."
+   },
+   {
+    "x": "La parte de Oriente se mantuvo unos diez siglos, desde el quinto hasta el quince, con el nombre de Imperio bizantino. Su capital estaba sobre una antigua colonia griega llamada Bizancio, donde el emperador Constantino había fundado en el año 330 una nueva ciudad: Constantinopla, la actual Estambul. Era un lugar estratégico, tanto para la guerra como para el comercio."
+   },
+   {
+    "h": 1,
+    "x": "Justiniano quiso restaurar el Imperio"
+   },
+   {
+    "x": "En el siglo sexto, el emperador Justiniano quiso restaurar el Imperio romano y, para ello, conquistó algunas provincias de Occidente. Mantuvo en su corte tradiciones romanas: ser aclamado por el Senado y concentrar en su persona el poder político, militar y religioso. Además, recopiló y adaptó las leyes romanas en doce libros, que formaron el Código de Justiniano."
+   },
+   {
+    "x": "Fue la etapa más próspera, gracias a la agricultura, a una artesanía que fabricaba productos de lujo y a un comercio floreciente."
+   },
+   {
+    "h": 1,
+    "x": "Un lento declive"
+   },
+   {
+    "x": "A partir del siglo séptimo, Bizancio perdió parte de las conquistas de Justiniano. En los siglos siguientes, una nueva dinastía logró que recuperara su prosperidad: es la Segunda Edad de Oro bizantina. Pero desde el siglo once el Imperio se debilitó. Los turcos otomanos, un pueblo musulmán, conquistaron la mayor parte de sus territorios y, en el año 1453, se apoderaron de Constantinopla. Así terminó el Imperio bizantino, que durante mil años había mantenido vivas las leyes, las instituciones y la idea del Imperio romano."
    }
   ]
  }
