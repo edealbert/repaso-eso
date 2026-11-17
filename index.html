@@ -114,6 +114,11 @@ h2{font-size:1.15rem;margin:22px 0 10px;font-weight:900}
 .prog i{display:block;height:100%;background:var(--me);transition:width .3s}
 .score{font-size:4rem;font-weight:900;line-height:1;font-family:var(--mono);color:var(--me)}
 .fails{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+.capsule{background:var(--me-soft);border:1.5px solid var(--me);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:10px}
+.capsule .tag{font-size:.78rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--me)}
+.capsule ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;line-height:1.5}
+.capsule .clave{background:var(--surface);border-radius:12px;padding:10px 12px;font-weight:700}
+.capsule img{max-width:100%;border-radius:12px;background:#fff}
 .fails li{background:var(--surface);border:1.5px solid var(--line);border-left:5px solid var(--bad);border-radius:12px;padding:10px 12px;font-size:.95rem}
 /* tarjetas */
 .flash{perspective:1000px;height:260px;cursor:pointer}
@@ -200,7 +205,7 @@ async function hashPin(id, pin){
 /* ================= Datos ================= */
 let C = null;                         // contenido: asignaturas, temas, ejercicios, tarjetas, texto
 const EJ = {}, TJ = {};
-const vacio = () => ({upd:0, pin:null, pinU:0, ses:[], st:{}, tar:{}, aud:{}});
+const vacio = () => ({upd:0, pin:null, pinU:0, ses:[], st:{}, tar:{}, aud:{}, rut:{}});
 const D = {};                         // datos de cada perfil
 PERFILES.forEach(p => D[p.id] = Object.assign(vacio(), LS.get("re.p." + p.id, {})));
 function merge(a, b){
@@ -208,7 +213,7 @@ function merge(a, b){
   o.upd = Math.max(a.upd || 0, b.upd || 0);
   if((b.pinU || 0) > (a.pinU || 0)){ o.pin = b.pin; o.pinU = b.pinU; } else { o.pin = a.pin; o.pinU = a.pinU || 0; }
   const ses = new Map(); [...(a.ses || []), ...(b.ses || [])].forEach(s => ses.set(String(s.f), s)); o.ses = [...ses.values()].sort((x, y) => x.f - y.f);
-  ["st", "tar", "aud"].forEach(k => { o[k] = Object.assign({}, a[k]); Object.entries(b[k] || {}).forEach(([id, v]) => { if(!o[k][id] || (v.u || 0) > (o[k][id].u || 0)) o[k][id] = v; }); });
+  ["st", "tar", "aud", "rut"].forEach(k => { o[k] = Object.assign({}, a[k]); Object.entries(b[k] || {}).forEach(([id, v]) => { if(!o[k][id] || (v.u || 0) > (o[k][id].u || 0)) o[k][id] = v; }); });
   return o;
 }
 function guardar(id){ D[id].upd = Date.now(); LS.set("re.p." + id, D[id]); push(id); }
@@ -289,7 +294,7 @@ function render(){
   let html;
   if(!p) html = S.pinFor ? vPin() : vLogin();
   else if(p.admin) html = vPanel();
-  else html = ({inicio:vInicio, asig:vAsig, prac:vPrac, ses:vSes, res:vRes, tj:vTj, esc:vEsc}[S.view] || vInicio)();
+  else html = ({inicio:vInicio, asig:vAsig, ruta:vRuta, prac:vPrac, ses:vSes, res:vRes, tj:vTj, esc:vEsc}[S.view] || vInicio)();
   $("#main").innerHTML = html;
   if(S.view === "esc" && p && !p.admin) audioPaint(true);
   miniPaint();
@@ -362,13 +367,14 @@ function vAsig(){
   const fila = t => { const s = statsTema(d, t.id);
     return `<div class="tema" style="--sc:${a.color}">
       <div><div class="t">${esc(t.libro ? t.titulo : "Tema " + t.numero + " · " + t.titulo)}</div>${t.resumen ? `<div class="hint">${esc(t.resumen)}</div>` : ""}</div>
-      <div class="meters">
+      <div class="meters">${lecc(t.id).length ? `<div>Ruta ${Math.min(rutI(d, t.id), lecc(t.id).length)}/${lecc(t.id).length} lecciones<div class="bar"><i style="width:${pct(Math.min(rutI(d, t.id), lecc(t.id).length), lecc(t.id).length)}%"></i></div></div>` : ""}
         <div>Ejercicios ${s.dom}/${s.total}${s.pct !== null ? " · " + s.pct + "% aciertos" : ""}<div class="bar"><i style="width:${pct(s.dom, s.total)}%"></i></div></div>
         <div>Tarjetas ${s.td}/${s.tj}<div class="bar"><i style="width:${pct(s.td, s.tj)}%"></i></div></div>
         <div>Escuchado ${s.au}%<div class="bar"><i style="width:${s.au}%"></i></div></div>
       </div>
       <div class="row">
-        ${s.total ? `<button class="btn pri sm" data-act="prac" data-id="${t.id}">Practicar</button>` : ""}
+        ${lecc(t.id).length ? `<button class="btn pri sm" data-act="ruta" data-id="${t.id}">Ruta guiada</button>` : ""}
+        ${s.total ? `<button class="btn ${lecc(t.id).length ? "" : "pri "}sm" data-act="prac" data-id="${t.id}">Practicar</button>` : ""}
         ${s.tj ? `<button class="btn sm" data-act="tj" data-id="${t.id}">Tarjetas</button>` : ""}
         ${s.tx ? `<button class="btn sm" data-act="esc" data-id="${t.id}">${t.libro ? "Escuchar el resumen" : "Escuchar"}</button>` : ""}
       </div></div>`; };
@@ -380,6 +386,27 @@ function vAsig(){
     <section><h1>${a.icono || ""} ${esc(a.nombre)}</h1></section>
     ${ts || `<p class="muted">Todavía no hay temas.</p>`}
   </div>`;
+}
+
+/* ---------- Ruta guiada: lección corta → preguntas de esa lección → siguiente ---------- */
+const lecc = id => (C.lecciones && C.lecciones[id]) || [];
+const rutI = (d, id) => (d.rut[id] || {}).i || 0;
+const negrita = s => esc(s).replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+function vRuta(){
+  const t = temaById(S.tema), a = asigById(t.asig), ls = lecc(t.id), i = S.rutaI, l = ls[i];
+  const head = `<div class="crumb"><button data-act="home">Inicio</button> › <button data-act="asig" data-id="${a.id}">${esc(a.nombre)}</button> › Ruta guiada</div>`;
+  if(!l) return `<div class="stack">${head}<div class="card" style="text-align:center"><div style="font-size:3rem">🏁</div><div style="font-weight:900;font-size:1.2rem">¡Ruta terminada!</div><div class="muted">Has hecho las ${ls.length} lecciones de ${esc(temaNom(t))}.</div></div>
+    <div class="row"><button class="btn pri" data-act="prac" data-id="${t.id}">Practicar todo el tema</button><button class="btn" data-act="tj" data-id="${t.id}">Tarjetas</button><button class="btn" data-act="ruta-ir" data-i="0">Empezar de nuevo</button></div></div>`;
+  return `<div class="stack">${head}
+    <div class="prog"><i style="width:${pct(i, ls.length)}%"></i></div>
+    <section class="capsule"><span class="tag">Lección ${i + 1} de ${ls.length} · ${esc(temaNom(t))}</span><h2 style="margin:0">${esc(l.titulo)}</h2>
+      <ul>${l.puntos.map(p => `<li>${negrita(p)}</li>`).join("")}</ul>
+      ${l.img ? `<img src="${esc(l.img)}" alt="${esc(l.alt || "")}">` : ""}
+      ${l.clave ? `<div class="clave">${negrita(l.clave)}</div>` : ""}</section>
+    <div class="row" style="justify-content:space-between">
+      <div class="row">${i > 0 ? `<button class="btn" data-act="ruta-ir" data-i="${i - 1}">← Anterior</button>` : ""}<button class="btn" data-act="ruta-ir" data-i="${i + 1}">Saltar</button></div>
+      <button class="btn pri" data-act="ruta-q" ${l.ej.length ? "" : "disabled"}>Entendido, pregúntame (${l.ej.length})</button>
+    </div></div>`;
 }
 
 /* ---------- Práctica ---------- */
@@ -474,6 +501,7 @@ function siguiente(){
   const ok = s.ok.filter(Boolean).length, d = D[S.user];
   d.ses.push({f: s.f, d: Date.now() - s.f, k: s.k, t: [...new Set(s.qs.map(q => q.t))], n: s.qs.length, ok});
   guardar(S.user);
+  if(s.k === "ruta"){ const r = d.rut[S.tema] || {i:0}; d.rut[S.tema] = {i: Math.max(r.i || 0, S.rutaI + 1), u: Date.now()}; guardar(S.user); }
   S.res = {ok, n: s.qs.length, fails: s.qs.filter((q, i) => !s.ok[i]), k: s.k, tema: S.tema};
   S.ses = null; S.view = "res"; render(); scrollTo(0, 0);
 }
@@ -486,7 +514,7 @@ function vRes(){
     ${r.fails.length ? `<h2>Para repasar</h2><ul class="fails">${r.fails.map(q => `<li><b>${esc(q.p)}</b><div class="hint">${q.tipo === "test" ? "Respuesta: " + esc(q.o[0]) : q.tipo === "vf" ? "Era " + (q.v ? "verdadero" : "falso") : q.tipo === "hueco" ? "Respuesta: " + esc(q.r[0]) : "Solución: " + String(q.r).replace(".", ",") + " " + esc(q.u || "")}</div></li>`).join("")}</ul>` : ""}
     <div class="row">
       ${r.fails.length ? `<button class="btn pri" data-act="refail">Repetir las falladas</button>` : ""}
-      ${t ? `<button class="btn" data-act="prac" data-id="${t.id}">Otra práctica</button>` : ""}
+      ${r.k === "ruta" ? `<button class="btn pri" data-act="ruta-ir" data-i="${S.rutaI + 1}">${S.rutaI + 1 < lecc(r.tema).length ? "Siguiente lección" : "Terminar la ruta"}</button>` : t ? `<button class="btn" data-act="prac" data-id="${t.id}">Otra práctica</button>` : ""}
       <button class="btn" data-act="home">Inicio</button>
     </div>
   </div>`;
@@ -618,7 +646,7 @@ function vPanel(){
   const flojos = C.temas.map(t => ({t, s: statsTema(d, t.id)})).filter(x => x.s.resp >= 5 && x.s.pct < 60).sort((a, b) => a.s.pct - b.s.pct);
   const fallEj = C.ejercicios.filter(e => d.st[e.id] && d.st[e.id].r === 0);
   const rec = d.ses.slice(-12).reverse().map(s => { const nota = s.k === "tarjetas" ? null : Math.round(s.ok / s.n * 100) / 10;
-    return `<tr><td class="n">${fecha(s.f)}</td><td>${s.t.map(id => { const t = temaById(id); return t ? esc(asigById(t.asig).nombre + " · " + temaCorto(t)) : ""; }).join(", ")}</td><td>${s.k === "tarjetas" ? "Tarjetas" : s.k === "repaso" ? "Repaso de fallos" : "Práctica"}</td><td class="n">${s.ok}/${s.n}${nota !== null ? ` <span class="pill ${nota >= 7 ? "ok" : nota >= 5 ? "mid" : "ko"}">${String(nota).replace(".", ",")}</span>` : ""}</td><td class="n">${Math.max(1, Math.round((s.d || 0) / 60000))} min</td></tr>`; }).join("");
+    return `<tr><td class="n">${fecha(s.f)}</td><td>${s.t.map(id => { const t = temaById(id); return t ? esc(asigById(t.asig).nombre + " · " + temaCorto(t)) : ""; }).join(", ")}</td><td>${s.k === "tarjetas" ? "Tarjetas" : s.k === "repaso" ? "Repaso de fallos" : s.k === "ruta" ? "Ruta guiada" : "Práctica"}</td><td class="n">${s.ok}/${s.n}${nota !== null ? ` <span class="pill ${nota >= 7 ? "ok" : nota >= 5 ? "mid" : "ko"}">${String(nota).replace(".", ",")}</span>` : ""}</td><td class="n">${Math.max(1, Math.round((s.d || 0) / 60000))} min</td></tr>`; }).join("");
   return `<div class="stack">
     <section class="row" style="justify-content:space-between"><div><h1>Progreso</h1><p class="muted">Cómo van tus hijas con el repaso.</p></div>${sb ? `<button class="btn sm" data-act="refresh">Actualizar</button>` : ""}</section>
     ${sb ? "" : `<div class="note">La sincronización no está activada: aquí solo ves lo que se ha hecho en <b>este</b> dispositivo. Para ver lo que hacen en sus móviles, configura Supabase (mira el README).</div>`}
@@ -656,6 +684,9 @@ document.addEventListener("click", e => {
     case "salir": salir(); break;
     case "home": S.view = "inicio"; render(); scrollTo(0, 0); break;
     case "asig": S.asig = id; S.view = "asig"; render(); scrollTo(0, 0); break;
+    case "ruta": { S.tema = id; S.asig = temaById(id).asig; const n = lecc(id).length, k = rutI(D[S.user], id); S.rutaI = k >= n ? 0 : k; S.view = "ruta"; render(); scrollTo(0, 0); break; }
+    case "ruta-ir": S.rutaI = Math.max(0, Number(el.dataset.i)); S.view = "ruta"; render(); scrollTo(0, 0); break;
+    case "ruta-q": startSes(shuffle(lecc(S.tema)[S.rutaI].ej.map(x => EJ[x]).filter(Boolean)), "ruta"); break;
     case "prac": S.tema = id; S.asig = temaById(id).asig; S.view = "prac"; render(); scrollTo(0, 0); break;
     case "ptipo": { const k = el.dataset.k, s = new Set(S.prac.tipos); s.has(k) ? s.delete(k) : s.add(k); S.prac.tipos = [...s]; render(); break; }
     case "pn": S.prac.n = Number(el.dataset.n); render(); break;

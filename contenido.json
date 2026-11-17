@@ -1,5 +1,5 @@
 {
- "v": 7,
+ "v": 8,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -8688,6 +8688,772 @@
    "e": "Segunda Edad de Oro.",
    "id": "GH2-038",
    "t": "gh-bizancio"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Dónde se instalaron los suevos?",
+   "o": [
+    "En la actual Galicia",
+    "En Britania",
+    "En el norte de África",
+    "En la actual Italia"
+   ],
+   "e": "Los suevos ocuparon la actual Galicia.",
+   "id": "GH3-001",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué pueblo acabó en el norte de África después de atravesar Hispania?",
+   "o": [
+    "Los vándalos",
+    "Los ostrogodos",
+    "Los francos",
+    "Los alamanes"
+   ],
+   "e": "Los vándalos cruzaron Hispania y se instalaron en el norte de África.",
+   "id": "GH3-002",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué conservaron los reinos germánicos de Roma?",
+   "o": [
+    "El latín, muchas leyes romanas y el cristianismo",
+    "El griego y los dioses germánicos",
+    "Solo el ejército romano",
+    "Nada: todo cambió"
+   ],
+   "e": "El latín siguió siendo la lengua oficial, adoptaron leyes romanas y el cristianismo fue la religión oficial.",
+   "id": "GH3-003",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quiénes se convirtieron en la nueva élite dominante?",
+   "o": [
+    "Los germanos",
+    "Los ciudadanos romanos",
+    "Los monjes",
+    "Los campesinos"
+   ],
+   "e": "Los germanos se impusieron sobre la población.",
+   "id": "GH3-004",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Dónde se mantuvo la cultura?",
+   "o": [
+    "En los monasterios",
+    "En las escuelas públicas",
+    "En los mercados",
+    "En los campamentos del ejército"
+   ],
+   "e": "Clérigos y monjes crearon monasterios para dedicarse a la cultura y la oración.",
+   "id": "GH3-005",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cómo se llamaba el primer reino visigodo, en el sur de la Galia?",
+   "o": [
+    "Reino de Tolosa",
+    "Reino de Toledo",
+    "Reino de Aquisgrán",
+    "Reino de Verdún"
+   ],
+   "e": "Antes de llegar a Hispania formaron el reino de Tolosa.",
+   "id": "GH3-006",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué pasó en la batalla de Vouillé (507)?",
+   "o": [
+    "Los francos vencieron a los visigodos y los empujaron a Hispania",
+    "Los visigodos vencieron a los francos",
+    "Los musulmanes entraron en Hispania",
+    "Coronaron a Carlomagno"
+   ],
+   "e": "Tras perder en Vouillé, los visigodos pasaron al sur de los Pirineos.",
+   "id": "GH3-007",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuánto duró el reino visigodo de Toledo?",
+   "o": [
+    "Del 554 al 711",
+    "Del 507 al 843",
+    "Del 711 al 1453",
+    "Del 622 al 732"
+   ],
+   "e": "Se creó en el 554 y terminó en el 711 con la llegada de los musulmanes.",
+   "id": "GH3-008",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿En qué dos asambleas se apoyaba el rey visigodo?",
+   "o": [
+    "El Aula Regia y los Concilios de Toledo",
+    "El Senado y los Comicios",
+    "Los missi dominici y los condes",
+    "Los ulemas y los cadíes"
+   ],
+   "e": "Aula Regia y Concilios de Toledo.",
+   "id": "GH3-009",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué rey visigodo se convirtió al catolicismo?",
+   "o": [
+    "Recaredo",
+    "Recesvinto",
+    "Rodrigo",
+    "Witiza"
+   ],
+   "e": "Recaredo: así visigodos e hispanorromanos tuvieron la misma religión.",
+   "id": "GH3-010",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué era el Liber Iudiciorum?",
+   "o": [
+    "Un libro de leyes común para visigodos e hispanorromanos",
+    "Un libro religioso de los monjes",
+    "Un tratado de paz con los francos",
+    "La lista de los reyes visigodos"
+   ],
+   "e": "Lo promulgó Recesvinto para que todos tuvieran las mismas leyes.",
+   "id": "GH3-011",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién venció a los musulmanes en Poitiers (732)?",
+   "o": [
+    "Carlos Martel",
+    "Carlomagno",
+    "Pipino el Breve",
+    "Lotario"
+   ],
+   "e": "Carlos Martel, un noble franco, los frenó en Poitiers.",
+   "id": "GH3-012",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién fundó la dinastía carolingia?",
+   "o": [
+    "Pipino el Breve",
+    "Carlos Martel",
+    "Luis el Piadoso",
+    "El papa León III"
+   ],
+   "e": "Pipino el Breve, hijo de Carlos Martel, se hizo rey de los francos.",
+   "id": "GH3-013",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué ocurrió en el año 800?",
+   "o": [
+    "El papa León III coronó emperador a Carlomagno",
+    "Se firmó el Tratado de Verdún",
+    "Los francos ganaron en Vouillé",
+    "Murió Mahoma"
+   ],
+   "e": "Carlomagno fue coronado emperador de Occidente en el 800.",
+   "id": "GH3-014",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Dónde tenía Carlomagno su corte?",
+   "o": [
+    "En Aquisgrán",
+    "En Toledo",
+    "En Roma",
+    "En Constantinopla"
+   ],
+   "e": "Estableció su corte en Aquisgrán.",
+   "id": "GH3-015",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién mandaba en una marca?",
+   "o": [
+    "Un marqués",
+    "Un conde",
+    "Un missus dominicus",
+    "Un obispo"
+   ],
+   "e": "Las marcas eran territorios de frontera dirigidos por un marqués.",
+   "id": "GH3-016",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué hacían los missi dominici?",
+   "o": [
+    "Vigilaban a condes y marqueses en nombre del emperador",
+    "Dirigían la oración",
+    "Gobernaban los condados",
+    "Defendían las fronteras"
+   ],
+   "e": "Eran los «enviados del señor»: llevaban sus órdenes y vigilaban.",
+   "id": "GH3-017",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué supuso el Tratado de Verdún (843)?",
+   "o": [
+    "El imperio se dividió en reinos independientes",
+    "La coronación de Carlomagno",
+    "La llegada de los visigodos a Hispania",
+    "La unión de todos los reinos germánicos"
+   ],
+   "e": "Lotario, Luis y Carlos se quedaron cada uno con un reino independiente.",
+   "id": "GH3-018",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuál es el gran ejemplo del arte bizantino?",
+   "o": [
+    "Santa Sofía de Estambul",
+    "La mezquita de Córdoba",
+    "La catedral de Toledo",
+    "El palacio de Aquisgrán"
+   ],
+   "e": "La basílica de Santa Sofía, en Estambul.",
+   "id": "GH3-019",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cómo se llaman las piezas pequeñas de colores de un mosaico?",
+   "o": [
+    "Teselas",
+    "Iconos",
+    "Suras",
+    "Marcas"
+   ],
+   "e": "Los mosaicos se hacían con teselas.",
+   "id": "GH3-020",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué arco es típico del arte visigodo?",
+   "o": [
+    "El arco de herradura",
+    "El arco de medio punto",
+    "El arco apuntado",
+    "El arco lobulado"
+   ],
+   "e": "Las iglesias visigodas usaban el arco de herradura.",
+   "id": "GH3-021",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué es un icono bizantino?",
+   "o": [
+    "Una imagen religiosa pintada sobre madera",
+    "Un mosaico de teselas",
+    "Una corona de oro",
+    "Una iglesia pequeña"
+   ],
+   "e": "Suelen mostrar a la Virgen con el Niño, a Cristo en majestad o escenas bíblicas.",
+   "id": "GH3-022",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La capital del reino visigodo de Hispania estaba en ___.",
+   "r": [
+    "Toledo"
+   ],
+   "e": "Toledo fue la capital del reino visigodo.",
+   "id": "GH3-023",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El primer reino visigodo, en el sur de la Galia, fue el reino de ___.",
+   "r": [
+    "Tolosa"
+   ],
+   "e": "Reino de Tolosa.",
+   "id": "GH3-024",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Los francos vencieron a los visigodos en Vouillé en el año ___.",
+   "r": [
+    "507"
+   ],
+   "e": "Batalla de Vouillé, 507.",
+   "id": "GH3-025",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El rey visigodo ___ se convirtió al catolicismo.",
+   "r": [
+    "Recaredo"
+   ],
+   "e": "Recaredo.",
+   "id": "GH3-026",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "Carlomagno fue coronado emperador en el año ___.",
+   "r": [
+    "800"
+   ],
+   "e": "Lo coronó el papa León III en el 800.",
+   "id": "GH3-027",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La corte de Carlomagno estaba en ___.",
+   "r": [
+    "Aquisgrán",
+    "Aquisgran"
+   ],
+   "e": "Aquisgrán.",
+   "id": "GH3-028",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El imperio de Carlomagno se dividió con el Tratado de ___.",
+   "r": [
+    "Verdún",
+    "Verdun"
+   ],
+   "e": "Tratado de Verdún, 843.",
+   "id": "GH3-029",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "vf",
+   "p": "Tras la caída de Roma, los reinos germánicos dejaron de usar el latín.",
+   "v": false,
+   "e": "El latín siguió siendo la lengua oficial.",
+   "id": "GH3-030",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "vf",
+   "p": "Los missi dominici vigilaban a los condes y a los marqueses.",
+   "v": true,
+   "e": "Eran los «enviados del señor».",
+   "id": "GH3-031",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "vf",
+   "p": "El arco de herradura es típico del arte bizantino.",
+   "v": false,
+   "e": "Es típico del arte visigodo.",
+   "id": "GH3-032",
+   "t": "gh-germanicos"
+  },
+  {
+   "tipo": "test",
+   "p": "¿A qué se dedicaba Mahoma?",
+   "o": [
+    "Era caravanero (comerciante)",
+    "Era imán",
+    "Era califa",
+    "Era soldado bereber"
+   ],
+   "e": "Mahoma era un caravanero que vivía en La Meca.",
+   "id": "GH4-001",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué es la Hégira?",
+   "o": [
+    "La huida de Mahoma de La Meca a Medina en 622",
+    "La peregrinación a La Meca",
+    "La muerte de Mahoma",
+    "El mes de ayuno"
+   ],
+   "e": "En 622 Mahoma tuvo que huir porque lo perseguían.",
+   "id": "GH4-002",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué marca la Hégira?",
+   "o": [
+    "El comienzo de la era musulmana",
+    "El fin del Imperio romano",
+    "La conquista de Hispania",
+    "La división entre chiíes y suníes"
+   ],
+   "e": "Los musulmanes cuentan los años desde la Hégira.",
+   "id": "GH4-003",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿En qué año murió Mahoma?",
+   "o": [
+    "632",
+    "622",
+    "711",
+    "661"
+   ],
+   "e": "Murió en 632, diez años después de la Hégira.",
+   "id": "GH4-004",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuántas suras tiene el Corán?",
+   "o": [
+    "114",
+    "5",
+    "12",
+    "99"
+   ],
+   "e": "El Corán está dividido en 114 suras o capítulos.",
+   "id": "GH4-005",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quiénes son los jueces en el islam?",
+   "o": [
+    "Los cadíes",
+    "Los ulemas",
+    "Los imanes",
+    "Los califas"
+   ],
+   "e": "Imán = oración, ulemas = textos, cadíes = jueces.",
+   "id": "GH4-006",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quiénes interpretan los textos sagrados?",
+   "o": [
+    "Los ulemas",
+    "Los cadíes",
+    "Los bereberes",
+    "Los marqueses"
+   ],
+   "e": "Los ulemas interpretan los textos sagrados.",
+   "id": "GH4-007",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué pilar consiste en dar limosna a los pobres?",
+   "o": [
+    "La caridad (zakat)",
+    "El ayuno",
+    "La oración",
+    "La fe"
+   ],
+   "e": "La caridad se llama zakat.",
+   "id": "GH4-008",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Cuántas veces al día rezan los musulmanes?",
+   "o": [
+    "Cinco",
+    "Tres",
+    "Una",
+    "Siete"
+   ],
+   "e": "Cinco veces al día, mirando hacia La Meca.",
+   "id": "GH4-009",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué prohíbe el islam?",
+   "o": [
+    "El alcohol, la carne de cerdo y los juegos de azar",
+    "La carne de ternera y el pescado",
+    "Viajar a La Meca",
+    "Leer el Corán en voz alta"
+   ],
+   "e": "Son las tres normas de comportamiento de los apuntes.",
+   "id": "GH4-010",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué es la quibla?",
+   "o": [
+    "El muro orientado hacia La Meca",
+    "La torre desde la que se llama a la oración",
+    "El púlpito del imán",
+    "La fuente del patio"
+   ],
+   "e": "La quibla marca la dirección de La Meca.",
+   "id": "GH4-011",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué es el mihrab?",
+   "o": [
+    "Un nicho en el muro de la quibla",
+    "La sala de oraciones",
+    "La torre",
+    "El patio"
+   ],
+   "e": "El mihrab está en el muro de la quibla.",
+   "id": "GH4-012",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Desde dónde se llama a la oración?",
+   "o": [
+    "Desde el minarete",
+    "Desde el minbar",
+    "Desde el mihrab",
+    "Desde la fuente"
+   ],
+   "e": "El minarete es la torre.",
+   "id": "GH4-013",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Para qué sirve la fuente del patio?",
+   "o": [
+    "Para las abluciones: lavarse antes de rezar",
+    "Para beber durante el Ramadán",
+    "Para regar los árboles",
+    "Para bautizar"
+   ],
+   "e": "Las abluciones son el lavado antes de rezar.",
+   "id": "GH4-014",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué dinastía tuvo su capital en Damasco?",
+   "o": [
+    "La omeya",
+    "La abasí",
+    "La otomana",
+    "La carolingia"
+   ],
+   "e": "Los omeyas venían de Siria; su capital fue Damasco.",
+   "id": "GH4-015",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Con qué dinastía se produjo la mayor expansión territorial?",
+   "o": [
+    "La omeya",
+    "La abasí",
+    "La otomana",
+    "Los cuatro primeros califas"
+   ],
+   "e": "Los omeyas protagonizaron la mayor etapa de expansión.",
+   "id": "GH4-016",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿A dónde llevaron la capital los abasíes?",
+   "o": [
+    "A Bagdad",
+    "A Damasco",
+    "A La Meca",
+    "A Córdoba"
+   ],
+   "e": "Los abasíes trasladaron la capital a Bagdad.",
+   "id": "GH4-017",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué ramas enfrentadas surgieron con los primeros califas?",
+   "o": [
+    "Chiíes y suníes",
+    "Omeyas y abasíes",
+    "Ulemas y cadíes",
+    "Bereberes y árabes"
+   ],
+   "e": "Se disputaban la sucesión de Mahoma.",
+   "id": "GH4-018",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién conquistó Constantinopla en 1453?",
+   "o": [
+    "Los turcos otomanos",
+    "Los abasíes",
+    "Los omeyas",
+    "Los visigodos"
+   ],
+   "e": "El Imperio otomano conquistó Constantinopla en 1453.",
+   "id": "GH4-019",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Por qué llegaron los musulmanes a la península en 711?",
+   "o": [
+    "Por una guerra civil visigoda: los partidarios de Ágila pidieron ayuda",
+    "Porque los francos los expulsaron de la Galia",
+    "Porque había muerto Mahoma",
+    "Por la división del Imperio carolingio"
+   ],
+   "e": "Tras la muerte de Witiza, los de Ágila pidieron ayuda a los musulmanes del norte de África.",
+   "id": "GH4-020",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Quién cruzó el estrecho de Gibraltar en 711?",
+   "o": [
+    "Tariq",
+    "Rodrigo",
+    "Ágila",
+    "Carlos Martel"
+   ],
+   "e": "Tariq, con un ejército bereber.",
+   "id": "GH4-021",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿En qué batalla perdió el rey Rodrigo?",
+   "o": [
+    "Guadalete",
+    "Poitiers",
+    "Vouillé",
+    "Verdún"
+   ],
+   "e": "Tariq derrotó a Rodrigo en la batalla de Guadalete.",
+   "id": "GH4-022",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "test",
+   "p": "¿Qué parte de la península quedó libre?",
+   "o": [
+    "Una franja montañosa en el norte",
+    "Todo el sur",
+    "Las islas Baleares",
+    "Toledo"
+   ],
+   "e": "Fue el núcleo de resistencia hispanovisigoda.",
+   "id": "GH4-023",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "En la Hégira, Mahoma huyó de La Meca a ___.",
+   "r": [
+    "Medina"
+   ],
+   "e": "Huyó a Medina en el año 622.",
+   "id": "GH4-024",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La Hégira ocurrió en el año ___.",
+   "r": [
+    "622"
+   ],
+   "e": "622: comienzo de la era musulmana.",
+   "id": "GH4-025",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "El Corán está dividido en ___ suras.",
+   "r": [
+    "114",
+    "ciento catorce"
+   ],
+   "e": "114 suras o capítulos.",
+   "id": "GH4-026",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La capital de los abasíes fue ___.",
+   "r": [
+    "Bagdad"
+   ],
+   "e": "Los abasíes trasladaron la capital a Bagdad.",
+   "id": "GH4-027",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "La capital de los omeyas fue ___.",
+   "r": [
+    "Damasco"
+   ],
+   "e": "Los omeyas gobernaron desde Damasco.",
+   "id": "GH4-028",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "hueco",
+   "p": "En 711, Tariq venció al rey Rodrigo en la batalla de ___.",
+   "r": [
+    "Guadalete"
+   ],
+   "e": "Batalla de Guadalete.",
+   "id": "GH4-029",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "vf",
+   "p": "La mayor expansión territorial del islam fue con la dinastía abasí.",
+   "v": false,
+   "e": "Fue con los omeyas; con los abasíes se frenó.",
+   "id": "GH4-030",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "vf",
+   "p": "Tras la conquista musulmana solo quedó libre una franja montañosa en el norte.",
+   "v": true,
+   "e": "Fue el núcleo de resistencia hispanovisigoda.",
+   "id": "GH4-031",
+   "t": "gh-andalusi"
+  },
+  {
+   "tipo": "vf",
+   "p": "El minarete es la torre desde la que se llama a la oración.",
+   "v": true,
+   "e": "El minbar es el púlpito y el mihrab el nicho.",
+   "id": "GH4-032",
+   "t": "gh-andalusi"
   }
  ],
  "tarjetas": [
@@ -10226,6 +10992,240 @@
    "t": "gh-bizancio",
    "f": "¿Continuidad de Roma?",
    "b": "Sí: mantuvo leyes, instituciones y la idea de Imperio romano durante mil años."
+  },
+  {
+   "id": "GH3-T01",
+   "t": "gh-germanicos",
+   "f": "507",
+   "b": "Batalla de Vouillé: los francos echan a los visigodos hacia Hispania"
+  },
+  {
+   "id": "GH3-T02",
+   "t": "gh-germanicos",
+   "f": "554 – 711",
+   "b": "Reino visigodo con capital en Toledo"
+  },
+  {
+   "id": "GH3-T03",
+   "t": "gh-germanicos",
+   "f": "732",
+   "b": "Batalla de Poitiers: Carlos Martel frena a los musulmanes"
+  },
+  {
+   "id": "GH3-T04",
+   "t": "gh-germanicos",
+   "f": "800",
+   "b": "El papa León III corona emperador a Carlomagno"
+  },
+  {
+   "id": "GH3-T05",
+   "t": "gh-germanicos",
+   "f": "843",
+   "b": "Tratado de Verdún: el imperio se divide en reinos"
+  },
+  {
+   "id": "GH3-T06",
+   "t": "gh-germanicos",
+   "f": "Reino de Tolosa",
+   "b": "Primer reino visigodo, en el sur de la Galia"
+  },
+  {
+   "id": "GH3-T07",
+   "t": "gh-germanicos",
+   "f": "Aula Regia",
+   "b": "Asamblea que ayudaba al rey visigodo"
+  },
+  {
+   "id": "GH3-T08",
+   "t": "gh-germanicos",
+   "f": "Concilios de Toledo",
+   "b": "Asambleas de obispos convocadas por el rey: asuntos religiosos y civiles"
+  },
+  {
+   "id": "GH3-T09",
+   "t": "gh-germanicos",
+   "f": "Recaredo",
+   "b": "Rey visigodo que se convirtió al catolicismo"
+  },
+  {
+   "id": "GH3-T10",
+   "t": "gh-germanicos",
+   "f": "Recesvinto",
+   "b": "Rey visigodo que promulgó el Liber Iudiciorum"
+  },
+  {
+   "id": "GH3-T11",
+   "t": "gh-germanicos",
+   "f": "Liber Iudiciorum",
+   "b": "Libro de leyes común para visigodos e hispanorromanos"
+  },
+  {
+   "id": "GH3-T12",
+   "t": "gh-germanicos",
+   "f": "Pipino el Breve",
+   "b": "Fundador de la dinastía carolingia"
+  },
+  {
+   "id": "GH3-T13",
+   "t": "gh-germanicos",
+   "f": "Aquisgrán",
+   "b": "Ciudad donde estaba la corte de Carlomagno"
+  },
+  {
+   "id": "GH3-T14",
+   "t": "gh-germanicos",
+   "f": "Marca",
+   "b": "Territorio de frontera con tropas, dirigido por un marqués"
+  },
+  {
+   "id": "GH3-T15",
+   "t": "gh-germanicos",
+   "f": "Missi dominici",
+   "b": "«Enviados del señor» que vigilaban a condes y marqueses"
+  },
+  {
+   "id": "GH3-T16",
+   "t": "gh-germanicos",
+   "f": "Teselas",
+   "b": "Piezas pequeñas de colores de los mosaicos"
+  },
+  {
+   "id": "GH3-T17",
+   "t": "gh-germanicos",
+   "f": "Icono",
+   "b": "Imagen religiosa pintada sobre madera"
+  },
+  {
+   "id": "GH3-T18",
+   "t": "gh-germanicos",
+   "f": "Santa Sofía",
+   "b": "Basílica bizantina de Estambul"
+  },
+  {
+   "id": "GH3-T19",
+   "t": "gh-germanicos",
+   "f": "Arte visigodo",
+   "b": "Iglesias rurales pequeñas, muros gruesos, pocas ventanas, arco de herradura"
+  },
+  {
+   "id": "GH4-T01",
+   "t": "gh-andalusi",
+   "f": "622",
+   "b": "Hégira: Mahoma huye de La Meca a Medina; empieza la era musulmana"
+  },
+  {
+   "id": "GH4-T02",
+   "t": "gh-andalusi",
+   "f": "632",
+   "b": "Muere Mahoma"
+  },
+  {
+   "id": "GH4-T03",
+   "t": "gh-andalusi",
+   "f": "661 – 750",
+   "b": "Dinastía omeya, capital Damasco"
+  },
+  {
+   "id": "GH4-T04",
+   "t": "gh-andalusi",
+   "f": "750 – 1258",
+   "b": "Dinastía abasí, capital Bagdad"
+  },
+  {
+   "id": "GH4-T05",
+   "t": "gh-andalusi",
+   "f": "711",
+   "b": "Tariq cruza el estrecho y vence a Rodrigo en Guadalete"
+  },
+  {
+   "id": "GH4-T06",
+   "t": "gh-andalusi",
+   "f": "1453",
+   "b": "Los otomanos conquistan Constantinopla"
+  },
+  {
+   "id": "GH4-T07",
+   "t": "gh-andalusi",
+   "f": "Corán",
+   "b": "Libro sagrado del islam, con 114 suras"
+  },
+  {
+   "id": "GH4-T08",
+   "t": "gh-andalusi",
+   "f": "Imán",
+   "b": "Dirige la oración"
+  },
+  {
+   "id": "GH4-T09",
+   "t": "gh-andalusi",
+   "f": "Ulemas",
+   "b": "Interpretan los textos sagrados"
+  },
+  {
+   "id": "GH4-T10",
+   "t": "gh-andalusi",
+   "f": "Cadíes",
+   "b": "Jueces"
+  },
+  {
+   "id": "GH4-T11",
+   "t": "gh-andalusi",
+   "f": "Zakat",
+   "b": "Limosna a los pobres: pilar de la caridad"
+  },
+  {
+   "id": "GH4-T12",
+   "t": "gh-andalusi",
+   "f": "Ramadán",
+   "b": "Mes de ayuno"
+  },
+  {
+   "id": "GH4-T13",
+   "t": "gh-andalusi",
+   "f": "Abluciones",
+   "b": "Lavarse antes de rezar"
+  },
+  {
+   "id": "GH4-T14",
+   "t": "gh-andalusi",
+   "f": "Quibla",
+   "b": "Muro de la mezquita orientado hacia La Meca"
+  },
+  {
+   "id": "GH4-T15",
+   "t": "gh-andalusi",
+   "f": "Mihrab",
+   "b": "Nicho en el muro de la quibla"
+  },
+  {
+   "id": "GH4-T16",
+   "t": "gh-andalusi",
+   "f": "Minbar",
+   "b": "Púlpito desde el que el imán dirige la oración"
+  },
+  {
+   "id": "GH4-T17",
+   "t": "gh-andalusi",
+   "f": "Minarete",
+   "b": "Torre desde la que se llama a la oración"
+  },
+  {
+   "id": "GH4-T18",
+   "t": "gh-andalusi",
+   "f": "Chiíes y suníes",
+   "b": "Las dos ramas que se disputaron la sucesión de Mahoma"
+  },
+  {
+   "id": "GH4-T19",
+   "t": "gh-andalusi",
+   "f": "Tariq",
+   "b": "Jefe del ejército bereber que cruzó el estrecho en 711"
+  },
+  {
+   "id": "GH4-T20",
+   "t": "gh-andalusi",
+   "f": "Al-Ándalus",
+   "b": "Estado musulmán de la península ibérica, desde el siglo VIII"
   }
  ],
  "texto": {
@@ -11035,6 +12035,220 @@
    },
    {
     "x": "Solo quedó libre una franja montañosa en el norte, que fue el núcleo de resistencia hispanovisigoda."
+   }
+  ]
+ },
+ "lecciones": {
+  "gh-germanicos": [
+   {
+    "titulo": "Europa se rompe en reinos",
+    "puntos": [
+     "Tras caer Roma, Europa se dividió en **reinos germánicos** independientes.",
+     "**Visigodos**: sur de la Galia e Hispania. **Suevos**: Galicia. **Francos**: norte de la Galia. **Burgundios**: este de la Galia.",
+     "**Alamanes**: zona del Rin. **Anglosajones**: Britania. **Ostrogodos**: Italia. **Vándalos**: norte de África, tras cruzar Hispania.",
+     "De Roma se quedaron el **latín**, muchas **leyes romanas** y el **cristianismo**."
+    ],
+    "clave": "Truco: los vándalos son los que más viajaron: cruzaron Hispania y acabaron en África.",
+    "ej": [
+     "GH3-001",
+     "GH3-002",
+     "GH3-003",
+     "GH3-030"
+    ]
+   },
+   {
+    "titulo": "Una sociedad nueva",
+    "puntos": [
+     "Muchos romanos conservaron sus tierras, pero los **germanos** pasaron a ser la nueva **élite dominante**.",
+     "La cultura era un lujo: casi nadie sabía leer ni escribir.",
+     "Solo clérigos y monjes mantenían la cultura, en los **monasterios**, dedicados a la cultura y la oración."
+    ],
+    "clave": "Idea clave: la cultura sobrevivió gracias a los monasterios.",
+    "ej": [
+     "GH3-004",
+     "GH3-005"
+    ]
+   },
+   {
+    "titulo": "Nace el reino visigodo",
+    "puntos": [
+     "Los visigodos formaron primero el **reino de Tolosa**, en el sur de la Galia.",
+     "**507 · Batalla de Vouillé**: los francos los vencen y los empujan a Hispania.",
+     "Allí fundan el reino visigodo con **capital en Toledo**.",
+     "Duró del **554** al **711**, cuando llegaron los musulmanes."
+    ],
+    "clave": "Fechas: 507 Vouillé · 554 empieza el reino de Toledo · 711 termina.",
+    "ej": [
+     "GH3-006",
+     "GH3-007",
+     "GH3-008",
+     "GH3-023",
+     "GH3-024",
+     "GH3-025"
+    ]
+   },
+   {
+    "titulo": "Cómo se gobernaba el reino visigodo",
+    "puntos": [
+     "**Monarquía fuerte y hereditaria**, con buen control de la península.",
+     "El rey se apoyaba en el **Aula Regia** y en los **Concilios de Toledo**: asambleas de obispos convocadas por el rey para asuntos religiosos y civiles.",
+     "Igualdad entre hispanorromanos y visigodos: **Recaredo** se hizo católico y **Recesvinto** promulgó el **Liber Iudiciorum**, leyes comunes para todos."
+    ],
+    "clave": "Recaredo = Religión (las dos con R-E). Recesvinto = leyes.",
+    "ej": [
+     "GH3-009",
+     "GH3-010",
+     "GH3-011",
+     "GH3-026"
+    ]
+   },
+   {
+    "titulo": "Los francos y Carlomagno",
+    "puntos": [
+     "**Carlos Martel** venció a los musulmanes en **Poitiers (732)**.",
+     "Su hijo **Pipino el Breve** fue rey y fundó la **dinastía carolingia**.",
+     "El hijo de Pipino, **Carlomagno**, cristianizó a sus pueblos y quiso rehacer el Imperio romano de Occidente.",
+     "En el año **800** el papa **León III** lo coronó emperador. Su corte estaba en **Aquisgrán**."
+    ],
+    "clave": "Abuelo, padre e hijo: Carlos Martel → Pipino el Breve → Carlomagno.",
+    "ej": [
+     "GH3-012",
+     "GH3-013",
+     "GH3-014",
+     "GH3-015",
+     "GH3-027",
+     "GH3-028"
+    ]
+   },
+   {
+    "titulo": "Gobernar el imperio y su final",
+    "puntos": [
+     "**Condados** gobernados por **condes** en nombre del emperador.",
+     "En las fronteras, las **marcas**, con muchas tropas al mando de un **marqués**.",
+     "Los **missi dominici** («enviados del señor») vigilaban a condes y marqueses.",
+     "**Luis el Piadoso** repartió el imperio entre Lotario, Luis y Carlos. Lotario, emperador, quiso mandar sobre todos; sus hermanos lo vencieron y en el **Tratado de Verdún (843)** cada parte se hizo un reino independiente."
+    ],
+    "clave": "Marca → marqués (suenan igual). Conde → condado.",
+    "ej": [
+     "GH3-016",
+     "GH3-017",
+     "GH3-018",
+     "GH3-029",
+     "GH3-031"
+    ]
+   },
+   {
+    "titulo": "Arte bizantino y arte visigodo",
+    "puntos": [
+     "**Bizantino**: arte religioso, grandes templos de mármol con planta de cruz griega o basilical. Ejemplo: **Santa Sofía** (Estambul).",
+     "**Mosaicos** hechos con **teselas** de colores e **iconos**: imágenes religiosas pintadas sobre madera.",
+     "**Visigodo**: pequeñas iglesias rurales, bajas, de muros gruesos y pocas ventanas, con **arcos de herradura**.",
+     "La **orfebrería** visigoda fue muy importante: fundición, repujado, grabado, dorado al fuego, soldadura e incrustaciones."
+    ],
+    "clave": "Bizantino = grande y lujoso. Visigodo = pequeño y rural, con arco de herradura.",
+    "ej": [
+     "GH3-019",
+     "GH3-020",
+     "GH3-021",
+     "GH3-022",
+     "GH3-032"
+    ]
+   }
+  ],
+  "gh-andalusi": [
+   {
+    "titulo": "Mahoma y el origen del islam",
+    "puntos": [
+     "**Mahoma** era caravanero (comerciante) en **La Meca**.",
+     "Meditando en una cueva se le apareció el **arcángel Gabriel**: era el profeta elegido por Alá para predicar el **islam**, una religión monoteísta.",
+     "**622 · Hégira**: perseguido, huye de La Meca a **Medina**. Es el **comienzo de la era musulmana**.",
+     "**632**: muere Mahoma. La mayoría de los árabes ya eran musulmanes."
+    ],
+    "clave": "Hégira = huida (las dos con H). 622 → 632: diez años después muere Mahoma.",
+    "ej": [
+     "GH4-001",
+     "GH4-002",
+     "GH4-003",
+     "GH4-004",
+     "GH4-024",
+     "GH4-025"
+    ]
+   },
+   {
+    "titulo": "La religión islámica",
+    "puntos": [
+     "Un solo Dios, **Alá**. Libro sagrado: el **Corán**, dividido en **114 suras**.",
+     "El **imán** dirige la oración, los **ulemas** interpretan los textos y los **cadíes** son los jueces.",
+     "Prohibido: bebidas alcohólicas, carne de cerdo y juegos de azar.",
+     "**5 pilares**: fe, oración (5 veces al día mirando a La Meca), caridad o zakat, ayuno en **Ramadán** y peregrinación a La Meca una vez en la vida."
+    ],
+    "clave": "Pilares con la palabra F-O-C-A-P: Fe, Oración, Caridad, Ayuno, Peregrinación.",
+    "ej": [
+     "GH4-005",
+     "GH4-006",
+     "GH4-007",
+     "GH4-008",
+     "GH4-009",
+     "GH4-010",
+     "GH4-026"
+    ]
+   },
+   {
+    "titulo": "La mezquita",
+    "puntos": [
+     "Lugar de oración, de reunión y de estudio del Corán.",
+     "**Patio** con árboles y **fuente** para las **abluciones** (lavarse antes de rezar).",
+     "**Sala de oraciones** dividida en naves por columnas y arcos.",
+     "**Quibla**: muro hacia La Meca. En él, el **mihrab**, un nicho. **Minbar**: púlpito del imán. **Minarete**: torre desde la que se llama a la oración."
+    ],
+    "clave": "Minarete = torre alta. Minbar = púlpito. Mihrab = nicho en la quibla.",
+    "ej": [
+     "GH4-011",
+     "GH4-012",
+     "GH4-013",
+     "GH4-014",
+     "GH4-032"
+    ],
+    "img": "mezquita.jpg",
+    "alt": "Dibujo de una mezquita con sus partes: patio, fuente, sala de oraciones, quibla, mihrab, minbar y minarete"
+   },
+   {
+    "titulo": "Un gran imperio islámico",
+    "puntos": [
+     "**632–661 · Cuatro primeros califas**, parientes y compañeros de Mahoma. Se separan **chiíes y suníes**.",
+     "**661–750 · Omeyas**, de Siria, capital **Damasco**: la **mayor expansión territorial**.",
+     "**750–1258 · Abasíes**: vencen a los omeyas, capital **Bagdad**. Mayor esplendor; al-Ándalus y Egipto se independizan.",
+     "**Desde el siglo XIII · Otomanos** (turcos): conquistan **Constantinopla en 1453**."
+    ],
+    "clave": "Omeyas → Damasco → expansión. Abasíes → Bagdad → esplendor.",
+    "ej": [
+     "GH4-015",
+     "GH4-016",
+     "GH4-017",
+     "GH4-018",
+     "GH4-019",
+     "GH4-027",
+     "GH4-028",
+     "GH4-030"
+    ]
+   },
+   {
+    "titulo": "Así nació al-Ándalus",
+    "puntos": [
+     "**Al-Ándalus**: el estado musulmán de la península ibérica, creado en el siglo VIII.",
+     "**Causa (710)**: guerra civil visigoda entre los partidarios de **Ágila** y el rey **Rodrigo** tras morir Witiza. Los de Ágila piden ayuda a los musulmanes del norte de África.",
+     "**711**: **Tariq** cruza el estrecho de Gibraltar con un ejército bereber y vence a Rodrigo en **Guadalete**.",
+     "Hasta el **722** ocupan casi toda la península. Solo queda libre una **franja montañosa en el norte**."
+    ],
+    "clave": "Une los dos temas: el reino visigodo termina en 711 por la conquista musulmana.",
+    "ej": [
+     "GH4-020",
+     "GH4-021",
+     "GH4-022",
+     "GH4-023",
+     "GH4-029",
+     "GH4-031"
+    ]
    }
   ]
  }
