@@ -1,5 +1,5 @@
 {
- "v": 6,
+ "v": 7,
  "curso": "2º ESO",
  "asignaturas": [
   {
@@ -92,6 +92,20 @@
    "numero": "2",
    "titulo": "El Imperio bizantino",
    "resumen": "Constantinopla, Justiniano y su Código, la Segunda Edad de Oro y la caída en 1453."
+  },
+  {
+   "id": "gh-germanicos",
+   "asig": "gh",
+   "numero": "3",
+   "titulo": "Los reinos germánicos",
+   "resumen": "La transformación de Europa, el reino visigodo, los francos y el Imperio carolingio, y el arte bizantino y visigodo."
+  },
+  {
+   "id": "gh-andalusi",
+   "asig": "gh",
+   "numero": "4",
+   "titulo": "La huella andalusí",
+   "resumen": "El origen del islam, la religión islámica y la mezquita, la expansión del islam y el origen de al-Ándalus."
   },
   {
    "id": "en-irreg1",
@@ -10764,6 +10778,263 @@
    },
    {
     "x": "A partir del siglo séptimo, Bizancio perdió parte de las conquistas de Justiniano. En los siglos siguientes, una nueva dinastía logró que recuperara su prosperidad: es la Segunda Edad de Oro bizantina. Pero desde el siglo once el Imperio se debilitó. Los turcos otomanos, un pueblo musulmán, conquistaron la mayor parte de sus territorios y, en el año 1453, se apoderaron de Constantinopla. Así terminó el Imperio bizantino, que durante mil años había mantenido vivas las leyes, las instituciones y la idea del Imperio romano."
+   }
+  ],
+  "gh-germanicos": [
+   {
+    "h": 1,
+    "x": "Los reinos germánicos"
+   },
+   {
+    "h": 1,
+    "x": "¿Cómo transforman Europa los reinos germánicos?"
+   },
+   {
+    "h": 1,
+    "x": "Europa se fragmentó en reinos independientes"
+   },
+   {
+    "x": "Tras la caída del Imperio romano de Occidente, Europa se dividió en reinos independientes formados por pueblos germánicos."
+   },
+   {
+    "x": "Los visigodos se extendieron por el sur de la Galia y por Hispania, y los suevos, por la actual Galicia. Los francos se establecieron en el norte de la Galia, y los burgundios ocuparon el este."
+   },
+   {
+    "x": "Los alamanes ocuparon la zona del Rin; los anglosajones, Britania; y los ostrogodos, la actual Italia. Los vándalos, después de atravesar Hispania, se instalaron en el norte de África."
+   },
+   {
+    "x": "En estos reinos, el latín continuó siendo la lengua oficial, se adoptaron muchas leyes romanas y el cristianismo se impuso como religión oficial."
+   },
+   {
+    "h": 1,
+    "x": "Y la sociedad se transformó"
+   },
+   {
+    "x": "Aunque muchos ciudadanos romanos conservaron sus tierras y propiedades, los germanos se convirtieron en la nueva élite dominante, que se impuso sobre la población."
+   },
+   {
+    "x": "La cultura era un lujo. Como la mayoría de la población no recibía instrucción, la lectura y la escritura quedaron reducidas a grupos de clérigos y monjes, que crearon monasterios para dedicarse plenamente a la cultura y a la oración."
+   },
+   {
+    "h": 1,
+    "x": "Uno. Formación del reino visigodo"
+   },
+   {
+    "x": "El pueblo germánico de los visigodos se instaló en el sur de la Galia, la zona de la actual Francia, y formó el reino de Tolosa."
+   },
+   {
+    "x": "En el año 507, los francos derrotaron a los visigodos en la batalla de Vouillé y los expulsaron hacia Hispania, al sur de los Pirineos. Allí fundaron el reino visigodo, con capital en Toledo."
+   },
+   {
+    "x": "Este reino se creó en el año 554 y terminó en el 711, con la llegada de los musulmanes."
+   },
+   {
+    "h": 1,
+    "x": "Dos. Organización del reino visigodo"
+   },
+   {
+    "x": "Era una monarquía fuerte y hereditaria. El rey se apoyaba en dos asambleas: el Aula Regia y los Concilios de Toledo."
+   },
+   {
+    "x": "Los Concilios de Toledo eran asambleas de obispos convocadas por el rey. En ellos se decidían asuntos religiosos y también civiles, relacionados con el gobierno del reino."
+   },
+   {
+    "x": "Los visigodos tuvieron un buen control del territorio peninsular."
+   },
+   {
+    "x": "Además, buscaron la igualdad entre hispanorromanos y visigodos. En la religión, el rey Recaredo se convirtió al catolicismo. En las leyes, el rey Recesvinto promulgó el Liber Iudiciorum, un libro de leyes común para todos."
+   },
+   {
+    "h": 1,
+    "x": "Tres. El reino de los francos"
+   },
+   {
+    "x": "Un noble franco, Carlos Martel, dirigió el ejército contra los musulmanes que intentaban avanzar sobre Francia, y los derrotó en la batalla de Poitiers, en el año 732."
+   },
+   {
+    "x": "Su hijo, Pipino el Breve, se convirtió en rey de los francos y fundó la dinastía carolingia."
+   },
+   {
+    "h": 1,
+    "x": "El Imperio carolingio"
+   },
+   {
+    "x": "El hijo y sucesor de Pipino fue Carlos, llamado el Grande: Carlomagno."
+   },
+   {
+    "x": "Carlomagno convirtió al cristianismo a todos los pueblos que estaban bajo su autoridad."
+   },
+   {
+    "x": "Quiso reconstruir la antigua unidad del Imperio romano de Occidente. Por eso, en el año 800, fue coronado por el papa León tercero como nuevo emperador de las tierras de Occidente. Estableció su corte en Aquisgrán."
+   },
+   {
+    "h": 1,
+    "x": "La administración del imperio"
+   },
+   {
+    "x": "Carlomagno ideó una nueva forma de gobernar. Dividió el imperio en condados, con condes al frente que ejercían el poder en su nombre."
+   },
+   {
+    "x": "Los territorios fronterizos, llamados marcas, tenían numerosas tropas, dirigidas cada una por un jefe militar: el marqués."
+   },
+   {
+    "x": "Para supervisar que se cumplían sus mandatos, creó una especie de inspectores: los missi dominici, que significa enviados del señor. Llevaban sus órdenes y vigilaban a los condes y a los marqueses."
+   },
+   {
+    "h": 1,
+    "x": "Muerte de Carlomagno y fin del imperio"
+   },
+   {
+    "x": "Luis el Piadoso, hijo de Carlomagno, dividió los territorios del imperio entre sus tres hijos: Lotario, Luis y Carlos."
+   },
+   {
+    "x": "Lotario, por ser el primogénito, recibió el título de emperador e intentó imponer su autoridad. Pero sus hermanos Luis y Carlos se rebelaron, le vencieron y le obligaron a firmar el Tratado de Verdún, en el año 843. Con este tratado, cada territorio se convirtió en un reino independiente."
+   },
+   {
+    "h": 1,
+    "x": "El arte bizantino"
+   },
+   {
+    "x": "En el arte bizantino predominó el arte religioso."
+   },
+   {
+    "x": "Se construyeron grandes templos, con materiales lujosos como el mármol y con planta de cruz griega o basilical. Destaca la basílica de Santa Sofía, en Estambul."
+   },
+   {
+    "x": "Los mosaicos cubrían las paredes y los ábsides de las iglesias. Se hacían con pequeñas piezas de colores vivos, llamadas teselas, y representaban escenas."
+   },
+   {
+    "x": "Los iconos eran imágenes religiosas pintadas en paneles de madera. Suelen representar a la Virgen con el Niño en brazos, a Cristo en majestad o escenas bíblicas."
+   },
+   {
+    "h": 1,
+    "x": "El arte visigodo"
+   },
+   {
+    "x": "En el arte visigodo también predominó el arte religioso. Se construyeron pequeñas iglesias rurales, de escasa altura, con muros gruesos, pocas ventanas y arcos de herradura."
+   },
+   {
+    "x": "La orfebrería, influida por las técnicas y los gustos germánicos, adquirió mucha importancia. Los artesanos trabajaban metales nobles y también bronce y hierro, y utilizaban diversas técnicas: fundición, repujado y grabado, dorado al fuego, soldadura e incrustaciones."
+   }
+  ],
+  "gh-andalusi": [
+   {
+    "h": 1,
+    "x": "La huella andalusí"
+   },
+   {
+    "h": 1,
+    "x": "El origen del islam"
+   },
+   {
+    "x": "Mahoma era un caravanero, es decir, un comerciante, que vivía en La Meca. Un día, mientras meditaba en una cueva, se le apareció el arcángel Gabriel para anunciarle que era el profeta elegido por Alá para predicar una nueva religión monoteísta: el islam."
+   },
+   {
+    "x": "En el año 622 después de Cristo tuvo lugar la Hégira. El mensaje de Mahoma no fue muy aceptado y fue perseguido, así que tuvo que huir de La Meca a Medina. La Hégira se considera el comienzo de la era musulmana."
+   },
+   {
+    "x": "En el año 632 murió Mahoma. Para entonces, la mayoría de los árabes ya eran musulmanes y creían en el islam."
+   },
+   {
+    "h": 1,
+    "x": "El islam"
+   },
+   {
+    "x": "El islam es una religión monoteísta: cree en un solo Dios, Alá."
+   },
+   {
+    "x": "Su libro sagrado es el Corán, dividido en 114 suras, que son sus capítulos."
+   },
+   {
+    "x": "El que dirige la oración es el imán. Los intérpretes de los textos sagrados son los ulemas, y los jueces son los cadíes."
+   },
+   {
+    "h": 1,
+    "x": "Normas de comportamiento"
+   },
+   {
+    "x": "El islam prohíbe las bebidas alcohólicas, la carne de cerdo y los juegos de azar."
+   },
+   {
+    "h": 1,
+    "x": "Los cinco pilares básicos del islam"
+   },
+   {
+    "x": "Primero, la fe: creer que Alá es Dios y Mahoma su profeta."
+   },
+   {
+    "x": "Segundo, la oración: rezar cinco veces al día mirando hacia La Meca."
+   },
+   {
+    "x": "Tercero, la caridad, llamada zakat: dar limosna a los pobres."
+   },
+   {
+    "x": "Cuarto, el ayuno durante el mes de Ramadán."
+   },
+   {
+    "x": "Y quinto, la peregrinación: ir a La Meca al menos una vez en la vida."
+   },
+   {
+    "h": 1,
+    "x": "El lugar de culto: la mezquita"
+   },
+   {
+    "x": "El lugar de culto de los musulmanes es la mezquita. Allí se celebra la oración, dirigida por un imán. Es también un centro de reunión y de estudio de los textos del Corán."
+   },
+   {
+    "x": "Estas son las partes de una mezquita. El patio es un espacio abierto, con árboles y una fuente. La fuente sirve para las abluciones, es decir, para lavarse antes de rezar."
+   },
+   {
+    "x": "La sala de oraciones está dividida en naves por columnas y arcos. La quibla es el muro que está orientado hacia La Meca. En ese muro está el mihrab, que es un nicho."
+   },
+   {
+    "x": "El minbar es el púlpito desde el que el imán dirige la oración. Y el minarete es la torre desde la que se llama a la oración."
+   },
+   {
+    "h": 1,
+    "x": "¿Cómo se expandió el islam?"
+   },
+   {
+    "h": 1,
+    "x": "Un gran imperio islámico"
+   },
+   {
+    "x": "Durante la Edad Media, el imperio islámico estuvo gobernado por grandes familias y pasó por diferentes etapas."
+   },
+   {
+    "x": "Etapa uno, del año 632 al 661: los cuatro primeros califas. Fueron elegidos entre los parientes y compañeros de Mahoma. En esta etapa surgieron dos ramas enfrentadas, los chiíes y los suníes, que se disputaban la sucesión de Mahoma."
+   },
+   {
+    "x": "Etapa dos, del 661 al 750: la dinastía omeya. Procedía de Siria y se hizo con el poder en el año 661. Su capital fue Damasco. Protagonizó la mayor etapa de expansión territorial del islam."
+   },
+   {
+    "x": "Etapa tres, del 750 al 1258: la dinastía abasí. Llegó al poder tras derrotar a los omeyas y trasladó la capital a Bagdad. Fue el periodo de mayor esplendor económico y cultural, pero se frenó la expansión territorial, y algunas provincias, como al-Ándalus o Egipto, se declararon independientes."
+   },
+   {
+    "x": "Etapa cuatro, desde el siglo trece: el ascenso de los otomanos. El imperio quedó en manos de los turcos, en el llamado Imperio otomano, que conquistó Constantinopla en el año 1453."
+   },
+   {
+    "h": 1,
+    "x": "¿Cómo se originó al-Ándalus?"
+   },
+   {
+    "x": "Al-Ándalus fue el estado musulmán que se creó en la península ibérica en el siglo octavo. La extensión de su territorio y la forma en que se gobernaba fueron cambiando a lo largo de los siglos."
+   },
+   {
+    "h": 1,
+    "x": "La conquista del reino visigodo, del 711 al 718"
+   },
+   {
+    "x": "La causa, en el año 710, fue una guerra civil entre los partidarios de Ágila y el rey Rodrigo, tras la muerte de Witiza. Los seguidores de Ágila pidieron ayuda a los musulmanes del norte de África."
+   },
+   {
+    "x": "La invasión empezó en el año 711. Tariq cruzó el estrecho de Gibraltar con un ejército bereber y derrotó a Rodrigo en la batalla de Guadalete."
+   },
+   {
+    "x": "Después vino una rápida expansión, hasta el año 722. Los musulmanes aprovecharon la debilidad de los visigodos, que sufrían una crisis económica y luchas internas, y ocuparon casi toda la península sin apenas resistencia."
+   },
+   {
+    "x": "Solo quedó libre una franja montañosa en el norte, que fue el núcleo de resistencia hispanovisigoda."
    }
   ]
  }
